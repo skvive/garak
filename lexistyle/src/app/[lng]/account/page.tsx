@@ -3,7 +3,6 @@ import Link from "next/link";
 import {
   Package,
   Heart,
-  ScanFace,
   Shirt,
   Crown,
   Star,
@@ -22,7 +21,7 @@ import { getAccountRewards } from "@/lib/account/orders";
 import { presentTier } from "@/lib/account/presentation";
 
 export const dynamic = "force-dynamic";
-export const metadata = { title: "My LEXI" };
+export const metadata = { title: "마이 | 가락한상" };
 
 export default async function AccountPage() {
   const session = await requireSession();
@@ -33,26 +32,25 @@ export default async function AccountPage() {
   const MENU = [
     { icon: Package, label: "주문 / 배송 추적", href: "/account/orders", meta: user ? undefined : "로그인 권장" },
     { icon: Heart, label: "위시리스트", href: "/account/wishlist" },
-    { icon: ScanFace, label: "내 아바타", href: "/account/avatar" },
-    { icon: Shirt, label: "룩보드", href: "/looks" },
-    { icon: Crown, label: "LEXI Rewards", href: "/account/rewards", meta: rewards ? presentTier(rewards.tier) : undefined },
+    { icon: Shirt, label: "복합 한 상", href: "/category/fashion" },
+    { icon: Crown, label: "한상 리워드", href: "/account/rewards", meta: rewards ? presentTier(rewards.tier) : undefined },
     { icon: Star, label: "내 리뷰", href: "/account/reviews", meta: "주문 후 작성" },
     { icon: Bell, label: "알림", href: "/account/notifications" },
     { icon: Headset, label: "고객센터", href: "/support" },
-    { icon: Globe, label: "언어 · 통화", href: "/account/language" },
+    { icon: Globe, label: "언어", href: "/account/language" },
     { icon: Settings, label: "계정 설정", href: "/account/settings" },
   ];
 
-  /** §S-029 혜택 리스트 행 패턴 — LEXI 실제 서비스 정책만 채용(허위 혜택 없음) */
+  /** 가락한상 신뢰 혜택 3종 — 실제 운영 정책만 채용 */
   const BENEFITS = [
-    { icon: Truck, title: "관세 포함 최종가", desc: "결제 후 추가 청구 없음" },
-    { icon: RotateCcw, title: "구매 전 확인", desc: "상품 하자 외 반품 시 구매자 부담" },
-    { icon: Percent, title: "해외 직배송", desc: "LEXI 큐레이션 셀렉션" },
+    { icon: Truck, title: "당일 3시간 배송", desc: "오후 3시 주문 → 저녁 6시 도착" },
+    { icon: RotateCcw, title: "살수율 보증", desc: "미달 시 100% 환불" },
+    { icon: Percent, title: "캠 캡처 인증", desc: "저울 계량 사진으로 중량 고지" },
   ];
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-8">
-      <h1 className="font-display text-[30px] font-semibold">My LEXI</h1>
+      <h1 className="font-display text-[30px] font-semibold">마이</h1>
       <AccountSessionCard initialUser={user} />
 
       {admin && (
@@ -62,7 +60,7 @@ export default async function AccountPage() {
         >
           <div>
             <p className="text-[11px] font-bold uppercase tracking-wider text-dim">Admin</p>
-            <p className="text-[15px] font-bold">LEXI HQ · 홈</p>
+            <p className="text-[15px] font-bold">가락한상 HQ · 홈</p>
           </div>
           <ChevronRight className="size-5" />
         </Link>
@@ -82,7 +80,7 @@ export default async function AccountPage() {
       </ul>
 
       <div className="mt-6 rounded-2xl bg-fog p-4">
-        <p className="mb-3 text-[12px] font-bold text-dim">LEXI 쇼핑 혜택</p>
+        <p className="mb-3 text-[12px] font-bold text-dim">가락한상 쇼핑 혜택</p>
         <ul className="space-y-3">
           {BENEFITS.map((b) => (
             <li key={b.title} className="flex items-center gap-3">

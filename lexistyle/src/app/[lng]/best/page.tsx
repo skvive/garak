@@ -32,11 +32,11 @@ export default async function BestPage({
         <h1 className="font-display text-[24px] font-semibold">
           오늘의 시세 급락
           <span className="ml-2 text-[13px] font-normal text-dim">
-            {result.total > 0 ? `${result.total.toLocaleString()}개 · PDP 진열` : "큐레이션"}
+            {result.total > 0 ? `${result.total.toLocaleString()}개 · 리뷰순` : "큐레이션"}
           </span>
         </h1>
         <p className="mt-1 text-[12px] leading-relaxed text-dim">
-          SAMPLE3 상품페이지가 준비된 LEXI Curated 셀렉션
+          리뷰·판매가 많은 가락한상 인기 상품 — 전일 대비 시세 하락분을 반영해 매일 갱신
         </p>
       </div>
 

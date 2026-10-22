@@ -13,7 +13,7 @@ import {
 } from "@/lib/catalog";
 import type { Product } from "@/lib/dummy-data";
 
-export const metadata = { title: "Search" };
+export const metadata = { title: "검색 | 가락한상" };
 export const dynamic = "force-dynamic";
 
 function deriveExtras(p: Product) {
