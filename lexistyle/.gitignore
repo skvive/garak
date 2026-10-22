@@ -1,0 +1,50 @@
+# deps
+node_modules/
+services/remotion/.render-tmp/
+
+# next.js
+.next/
+out/
+next-env.d.ts
+
+# env
+.env
+.env.*
+!.env.example
+
+# vercel
+.vercel
+
+# drizzle
+drizzle/
+
+# misc
+*.log
+.DS_Store
+tsconfig.tsbuildinfo
+
+# local docker / file assets
+.data/
+pgdata/
+.env*
+tmp-alta-ios/
+
+scripts/.sample-pdp-preview.html
+scripts/out/
+scripts/*.log
+scripts/tmp-*.json
+scripts/pdp-previews/
+
+# internal docs (never commit)
+docs/team-db-server-guide.md
+
+# AMBA local junctions (clone: E:/cursor_HS/kcci/SITE/ambassador-ai-site)
+amba/source/
+amba/models/
+
+
+# regenerated locally; committed catalog for ambas.rpcow.com
+# (faces included for static deploy)
+
+# pdp live preview state
+tmp/pdp-live.json

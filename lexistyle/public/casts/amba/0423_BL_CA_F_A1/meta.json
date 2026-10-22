@@ -1,0 +1,24 @@
+{
+  "id": "0423",
+  "name": "오드리 마르탱 · Audrey Martin",
+  "gender": "여성",
+  "nationality": "캐나다",
+  "interests": [
+    "아웃도어",
+    "여행",
+    "자연광"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0423",
+    "eth": "BL",
+    "nat": "CA",
+    "sex": "F",
+    "age": "A1",
+    "style": "OUT",
+    "file": "0423_BL_CA_F_A1_OUT.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

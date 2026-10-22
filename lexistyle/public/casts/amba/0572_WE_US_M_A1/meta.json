@@ -1,0 +1,24 @@
+{
+  "id": "0572",
+  "name": "이선 카터 · Ethan Carter",
+  "gender": "남성",
+  "nationality": "미국",
+  "interests": [
+    "스트리트",
+    "스니커즈",
+    "시티 산책"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0572",
+    "eth": "WE",
+    "nat": "US",
+    "sex": "M",
+    "age": "A1",
+    "style": "STR",
+    "file": "0572_WE_US_M_A1_STR.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

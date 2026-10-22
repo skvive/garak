@@ -1,0 +1,27 @@
+{
+  "id": "0293",
+  "name": "윤재하 · Yoon Jaeha",
+  "gender": "남성",
+  "nationality": "대한민국",
+  "interests": [
+    "스트리트",
+    "스니커즈",
+    "시티 산책"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0293",
+    "eth": "EA",
+    "nat": "KR",
+    "sex": "M",
+    "age": "A0",
+    "style": "STR",
+    "file": "generated/0293",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+    "generated": true
+  },
+  "replacedAt": "2026-09-04T23:24:18.270Z",
+  "replaceSource": "generated:0293.png"
+}

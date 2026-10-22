@@ -1,0 +1,27 @@
+{
+  "id": "0548",
+  "name": "레히나 토레스 · Regina Torres",
+  "gender": "여성",
+  "nationality": "멕시코",
+  "interests": [
+    "포멀 룩",
+    "시티 워킹",
+    "갤러리"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0548",
+    "eth": "LT",
+    "nat": "MX",
+    "sex": "F",
+    "age": "A1",
+    "style": "FML",
+    "file": "generated/0548",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+    "generated": true
+  },
+  "replacedAt": "2026-09-04T23:24:19.574Z",
+  "replaceSource": "generated:0548.png"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "0402",
+  "name": "아다에제 오코로 · Adaeze Okoro",
+  "gender": "여성",
+  "nationality": "나이지리아",
+  "interests": [
+    "액티브웨어",
+    "러닝",
+    "헬시 루틴"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0402",
+    "eth": "BL",
+    "nat": "NG",
+    "sex": "F",
+    "age": "A1",
+    "style": "SPO",
+    "file": "0402_BL_NG_F_A1_SPO.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "mockId": "mock-beauty-beauty-5d-lash-extension-with-volume-boost--9162",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "category": "beauty",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face (or product focus)",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS table only",
+    "titleMarketing": "short regenerated external name"
+  },
+  "catalog": {
+    "id": "306",
+    "externalId": "2608250214591629000",
+    "titleInternal": "5D Lash Extension With Volume Boost And Barbie-Look Curl",
+    "titleMarketing": {
+      "ko": "5D 볼륨 래쉬",
+      "en": "5D Lash Extension With Volume Boost And Barbie-Look Curl"
+    },
+    "categoryPath": [
+      "False Eyelashes"
+    ],
+    "costUsd": 3.69,
+    "sellUsd": 30.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0382",
+    "name": "수아 · Sua",
+    "gender": "여성",
+    "nationality": "대한민국",
+    "interests": [
+      "하이패션",
+      "에디토리얼",
+      "런웨이"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0382_EA_KR_F_A1/face.webp"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-beauty-beauty-5d-lash-extension-with-volume-boost--9162/"
+}

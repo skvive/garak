@@ -1,0 +1,48 @@
+{
+  "mockId": "mock-womens-outdoor-casual-commuter-dress-51624700",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS only",
+    "titleMarketing": "short regenerated"
+  },
+  "catalog": {
+    "externalId": "2608250840151624700",
+    "titleInternal": "Womens Outdoor Casual Commuter Dress",
+    "titleMarketing": {
+      "ko": "데일리 원피스",
+      "en": "Womens Outdoor Casual Commuter Dress"
+    },
+    "categoryPath": [
+      "Lady Dresses"
+    ],
+    "costUsd": 6.94,
+    "sellUsd": 35.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0431",
+    "name": "디야 · Diya",
+    "gender": "여성",
+    "nationality": "미국",
+    "interests": [
+      "포멀 룩",
+      "시티 워킹",
+      "갤러리"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0431_MX_US_F_A1/face.webp",
+    "castFolder": "0431_MX_US_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-womens-outdoor-casual-commuter-dress-51624700/"
+}

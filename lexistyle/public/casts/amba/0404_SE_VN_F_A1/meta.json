@@ -1,0 +1,24 @@
+{
+  "id": "0404",
+  "name": "응우옌민안 · Nguyễn Minh Anh",
+  "gender": "여성",
+  "nationality": "베트남",
+  "interests": [
+    "포멀 룩",
+    "시티 워킹",
+    "갤러리"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0404",
+    "eth": "SE",
+    "nat": "VN",
+    "sex": "F",
+    "age": "A1",
+    "style": "FML",
+    "file": "0404_SE_VN_F_A1_FML.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

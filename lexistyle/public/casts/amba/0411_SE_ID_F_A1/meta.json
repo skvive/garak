@@ -1,0 +1,24 @@
+{
+  "id": "0411",
+  "name": "푸트리 아유 · Putri Ayu",
+  "gender": "여성",
+  "nationality": "인도네시아",
+  "interests": [
+    "액티브웨어",
+    "러닝",
+    "헬시 루틴"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0411",
+    "eth": "SE",
+    "nat": "ID",
+    "sex": "F",
+    "age": "A1",
+    "style": "SPO",
+    "file": "0411_SE_ID_F_A1_SPO.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

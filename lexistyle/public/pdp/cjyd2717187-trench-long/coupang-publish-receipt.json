@@ -1,0 +1,31 @@
+{
+  "externalRef": "16406104949",
+  "title": "LEXI 여성 롱 스웨이드 트렌치코트",
+  "productSku": "CJYD2717187",
+  "variants": 25,
+  "sellPriceUsd": 46.9,
+  "salePriceKrw": 65140,
+  "status": "ID_GEN",
+  "displayCategoryCode": 69212,
+  "optionSample": [
+    {
+      "itemName": "다크브라운 / S",
+      "externalVendorSku": "2601070947381620100",
+      "salePrice": 65140,
+      "attributes": []
+    },
+    {
+      "itemName": "다크브라운 / M",
+      "externalVendorSku": "2601070947381620200",
+      "salePrice": 65140,
+      "attributes": []
+    },
+    {
+      "itemName": "다크브라운 / L",
+      "externalVendorSku": "2601070947381620400",
+      "salePrice": 65140,
+      "attributes": []
+    }
+  ],
+  "createdAt": "2026-10-07T03:11:54.348Z"
+}

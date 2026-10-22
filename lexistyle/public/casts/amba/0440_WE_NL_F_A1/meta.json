@@ -1,0 +1,24 @@
+{
+  "id": "0440",
+  "name": "리서 판다이크 · Lise van Dijk",
+  "gender": "여성",
+  "nationality": "네덜란드",
+  "interests": [
+    "포멀 룩",
+    "시티 워킹",
+    "갤러리"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0440",
+    "eth": "WE",
+    "nat": "NL",
+    "sex": "F",
+    "age": "A1",
+    "style": "FML",
+    "file": "0440_WE_NL_F_A1_FML.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "mockId": "mock-beauty-beauty-naturally-shaping-long-wearing-eyebr-0162",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "category": "beauty",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face (or product focus)",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS table only",
+    "titleMarketing": "short regenerated external name"
+  },
+  "catalog": {
+    "id": "195",
+    "externalId": "2608250504501621200",
+    "titleInternal": "Naturally Shaping Long-wearing Eyebrow Tint That Resists Fading",
+    "titleMarketing": {
+      "ko": "롱래스팅 아이브로우 틴트",
+      "en": "Naturally Shaping Long-wearing Eyebrow Tint That Resists Fading"
+    },
+    "categoryPath": [
+      "Eyebrow Pencil"
+    ],
+    "costUsd": 2.85,
+    "sellUsd": 29.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0482",
+    "name": "클라라 · Clara",
+    "gender": "여성",
+    "nationality": "대한민국",
+    "interests": [
+      "스트리트",
+      "스니커즈",
+      "시티 산책"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0482_EA_KR_F_A1/face.webp"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-beauty-beauty-naturally-shaping-long-wearing-eyebr-0162/"
+}

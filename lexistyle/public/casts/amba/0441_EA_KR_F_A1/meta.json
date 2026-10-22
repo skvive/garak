@@ -1,0 +1,24 @@
+{
+  "id": "0441",
+  "name": "정수아 · Jung Sua",
+  "gender": "여성",
+  "nationality": "대한민국",
+  "interests": [
+    "아웃도어",
+    "여행",
+    "자연광"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0441",
+    "eth": "EA",
+    "nat": "KR",
+    "sex": "F",
+    "age": "A1",
+    "style": "OUT",
+    "file": "0441_EA_KR_F_A1_OUT.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

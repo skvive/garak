@@ -1,0 +1,49 @@
+{
+  "mockId": "mock-satin-button-up-blouse-k-blouse",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS table only",
+    "titleMarketing": "short regenerated external name"
+  },
+  "catalog": {
+    "externalId": "wc-silk-blouse",
+    "titleInternal": "Satin Button-Up Blouse",
+    "titleMarketing": {
+      "ko": "새틴 버튼업 블라우스",
+      "en": "Satin Button-Up Blouse"
+    },
+    "categoryPath": [
+      "women-clothing",
+      "women-clothing/dresses"
+    ],
+    "costUsd": 38.9,
+    "sellUsd": 76.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0443",
+    "name": "샬롯 · Charlotte",
+    "gender": "여성",
+    "nationality": "대한민국",
+    "interests": [
+      "스튜디오 라이트",
+      "미니멀 스타일",
+      "필름"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0443_EA_KR_F_A1/face.webp",
+    "castFolder": "0443_EA_KR_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-satin-button-up-blouse-k-blouse/"
+}

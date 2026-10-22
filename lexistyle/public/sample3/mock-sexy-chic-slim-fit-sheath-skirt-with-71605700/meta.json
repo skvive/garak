@@ -1,0 +1,48 @@
+{
+  "mockId": "mock-sexy-chic-slim-fit-sheath-skirt-with-71605700",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS only",
+    "titleMarketing": "short regenerated"
+  },
+  "catalog": {
+    "externalId": "2608250830371605700",
+    "titleInternal": "Sexy Chic Slim-fit Sheath Skirt With A Designer Touch Beaded Cut-out Halter-neck Mini Dress",
+    "titleMarketing": {
+      "ko": "미니 홀터넥 슬림핏 원피스",
+      "en": "Sexy Chic Slim-fit Sheath Skirt With A Designer Touch Beaded Cut-out Halter-neck Mini Dress"
+    },
+    "categoryPath": [
+      "Lady Dresses"
+    ],
+    "costUsd": 13.54,
+    "sellUsd": 43.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0393",
+    "name": "보람 · Boram",
+    "gender": "여성",
+    "nationality": "프랑스",
+    "interests": [
+      "액티브웨어",
+      "러닝",
+      "헬시 루틴"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0393_MX_FR_F_A1/face.webp",
+    "castFolder": "0393_MX_FR_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-sexy-chic-slim-fit-sheath-skirt-with-71605700/"
+}

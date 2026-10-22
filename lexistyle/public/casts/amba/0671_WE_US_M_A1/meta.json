@@ -1,0 +1,27 @@
+{
+  "id": "0671",
+  "name": "메이슨 리드 · Mason Reed",
+  "gender": "남성",
+  "nationality": "미국",
+  "interests": [
+    "스트리트",
+    "스니커즈",
+    "시티 산책"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0671",
+    "eth": "WE",
+    "nat": "US",
+    "sex": "M",
+    "age": "A1",
+    "style": "STR",
+    "file": "generated/0671",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+    "generated": true
+  },
+  "replacedAt": "2026-09-04T23:24:19.755Z",
+  "replaceSource": "generated:0671.png"
+}

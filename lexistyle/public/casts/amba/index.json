@@ -1,0 +1,2977 @@
+{
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "sourceRepo": "https://github.com/shinkangteam/ambassador-ai-site",
+  "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+  "generatedAt": "2026-09-11T01:30:46.665Z",
+  "count": 101,
+  "missing": 0,
+  "casts": [
+    {
+      "id": "0181",
+      "name": "아나 루이자 · Ana Luiza",
+      "gender": "여성",
+      "nationality": "브라질",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0181",
+        "eth": "LT",
+        "nat": "BR",
+        "sex": "F",
+        "age": "A0",
+        "style": "STU",
+        "file": "0181_LT_BR_F_A0_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0181_LT_BR_F_A0",
+      "publicPath": "/casts/amba/0181_LT_BR_F_A0/face.webp",
+      "metaPath": "/casts/amba/0181_LT_BR_F_A0/meta.json",
+      "faceBytes": 36382,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0182",
+      "name": "소피아 에르난데스 · Sofía Hernández",
+      "gender": "여성",
+      "nationality": "멕시코",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0182",
+        "eth": "LT",
+        "nat": "MX",
+        "sex": "F",
+        "age": "A0",
+        "style": "STU",
+        "file": "0417_LT_CO_F_A1_BTY.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "replacedFromLookbookId": "0417"
+      },
+      "folder": "0182_LT_MX_F_A0",
+      "publicPath": "/casts/amba/0182_LT_MX_F_A0/face.webp",
+      "metaPath": "/casts/amba/0182_LT_MX_F_A0/meta.json",
+      "faceBytes": 33858,
+      "faceSize": "800x1200",
+      "replaceSource": "lookbook:0417_LT_CO_F_A1_BTY.webp"
+    },
+    {
+      "id": "0268",
+      "name": "왕하오 · Wang Hao",
+      "gender": "남성",
+      "nationality": "중국",
+      "interests": [
+        "뷰티 케어",
+        "스킨 글로우",
+        "매크로 디테일"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0268",
+        "eth": "EA",
+        "nat": "CN",
+        "sex": "M",
+        "age": "A0",
+        "style": "BTY",
+        "file": "0268_EA_CN_M_A0_BTY.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0268_EA_CN_M_A0",
+      "publicPath": "/casts/amba/0268_EA_CN_M_A0/face.webp",
+      "metaPath": "/casts/amba/0268_EA_CN_M_A0/meta.json",
+      "faceBytes": 66326,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0293",
+      "name": "윤재하 · Yoon Jaeha",
+      "gender": "남성",
+      "nationality": "대한민국",
+      "interests": [
+        "스트리트",
+        "스니커즈",
+        "시티 산책"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0293",
+        "eth": "EA",
+        "nat": "KR",
+        "sex": "M",
+        "age": "A0",
+        "style": "STR",
+        "file": "generated/0293",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "generated": true
+      },
+      "folder": "0293_EA_KR_M_A0",
+      "publicPath": "/casts/amba/0293_EA_KR_M_A0/face.webp",
+      "metaPath": "/casts/amba/0293_EA_KR_M_A0/meta.json",
+      "faceBytes": 33818,
+      "faceSize": "800x1200",
+      "replaceSource": "generated:0293.png"
+    },
+    {
+      "id": "0381",
+      "name": "클라라 뒤부아 · Clara Dubois",
+      "gender": "여성",
+      "nationality": "프랑스",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0381",
+        "eth": "BL",
+        "nat": "FR",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0381_BL_FR_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0381_BL_FR_F_A1",
+      "publicPath": "/casts/amba/0381_BL_FR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0381_BL_FR_F_A1/meta.json",
+      "faceBytes": 22720,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0382",
+      "name": "김서윤 · Kim Seoyun",
+      "gender": "여성",
+      "nationality": "대한민국",
+      "interests": [
+        "하이패션",
+        "에디토리얼",
+        "런웨이"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0382",
+        "eth": "EA",
+        "nat": "KR",
+        "sex": "F",
+        "age": "A1",
+        "style": "HIG",
+        "file": "0382_EA_KR_F_A1_HIG.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0382_EA_KR_F_A1",
+      "publicPath": "/casts/amba/0382_EA_KR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0382_EA_KR_F_A1/meta.json",
+      "faceBytes": 31606,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0383",
+      "name": "올리비아 베넷 · Olivia Bennett",
+      "gender": "여성",
+      "nationality": "영국",
+      "interests": [
+        "스트리트",
+        "스니커즈",
+        "시티 산책"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0383",
+        "eth": "WE",
+        "nat": "GB",
+        "sex": "F",
+        "age": "A1",
+        "style": "STR",
+        "file": "0383_WE_GB_F_A1_STR.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0383_WE_GB_F_A1",
+      "publicPath": "/casts/amba/0383_WE_GB_F_A1/face.webp",
+      "metaPath": "/casts/amba/0383_WE_GB_F_A1/meta.json",
+      "faceBytes": 50352,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0384",
+      "name": "이하린 · Lee Harin",
+      "gender": "여성",
+      "nationality": "대한민국",
+      "interests": [
+        "액티브웨어",
+        "러닝",
+        "헬시 루틴"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0384",
+        "eth": "EA",
+        "nat": "KR",
+        "sex": "F",
+        "age": "A1",
+        "style": "SPO",
+        "file": "0384_EA_KR_F_A1_SPO.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0384_EA_KR_F_A1",
+      "publicPath": "/casts/amba/0384_EA_KR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0384_EA_KR_F_A1/meta.json",
+      "faceBytes": 19910,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0385",
+      "name": "핌차녹 수완 · Pimchanok Suwan",
+      "gender": "여성",
+      "nationality": "태국",
+      "interests": [
+        "뷰티 케어",
+        "스킨 글로우",
+        "매크로 디테일"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0385",
+        "eth": "SE",
+        "nat": "TH",
+        "sex": "F",
+        "age": "A1",
+        "style": "BTY",
+        "file": "0385_SE_TH_F_A1_BTY.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0385_SE_TH_F_A1",
+      "publicPath": "/casts/amba/0385_SE_TH_F_A1/face.webp",
+      "metaPath": "/casts/amba/0385_SE_TH_F_A1/meta.json",
+      "faceBytes": 25000,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0386",
+      "name": "에이버리 브룩스 · Avery Brooks",
+      "gender": "여성",
+      "nationality": "미국",
+      "interests": [
+        "포멀 룩",
+        "시티 워킹",
+        "갤러리"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0386",
+        "eth": "MX",
+        "nat": "US",
+        "sex": "F",
+        "age": "A1",
+        "style": "FML",
+        "file": "0386_MX_US_F_A1_FML.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0386_MX_US_F_A1",
+      "publicPath": "/casts/amba/0386_MX_US_F_A1/face.webp",
+      "metaPath": "/casts/amba/0386_MX_US_F_A1/meta.json",
+      "faceBytes": 18212,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0387",
+      "name": "아마라 완지쿠 · Amara Wanjiku",
+      "gender": "여성",
+      "nationality": "케냐",
+      "interests": [
+        "아웃도어",
+        "여행",
+        "자연광"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0387",
+        "eth": "BL",
+        "nat": "KE",
+        "sex": "F",
+        "age": "A1",
+        "style": "OUT",
+        "file": "0387_BL_KE_F_A1_OUT.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0387_BL_KE_F_A1",
+      "publicPath": "/casts/amba/0387_BL_KE_F_A1/face.webp",
+      "metaPath": "/casts/amba/0387_BL_KE_F_A1/meta.json",
+      "faceBytes": 72278,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0388",
+      "name": "린웨이 · Lin Wei",
+      "gender": "여성",
+      "nationality": "중국",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0388",
+        "eth": "EA",
+        "nat": "CN",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0388_EA_CN_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0388_EA_CN_F_A1",
+      "publicPath": "/casts/amba/0388_EA_CN_F_A1/face.webp",
+      "metaPath": "/casts/amba/0388_EA_CN_F_A1/meta.json",
+      "faceBytes": 20216,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0389",
+      "name": "루시아 가르시아 · Lucía García",
+      "gender": "여성",
+      "nationality": "스페인",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0389",
+        "eth": "WE",
+        "nat": "ES",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0389_WE_ES_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0389_WE_ES_F_A1",
+      "publicPath": "/casts/amba/0389_WE_ES_F_A1/face.webp",
+      "metaPath": "/casts/amba/0389_WE_ES_F_A1/meta.json",
+      "faceBytes": 24870,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0390",
+      "name": "펨커 더브리스 · Femke de Vries",
+      "gender": "여성",
+      "nationality": "네덜란드",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0390",
+        "eth": "WE",
+        "nat": "NL",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0390_WE_NL_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0390_WE_NL_F_A1",
+      "publicPath": "/casts/amba/0390_WE_NL_F_A1/face.webp",
+      "metaPath": "/casts/amba/0390_WE_NL_F_A1/meta.json",
+      "faceBytes": 23184,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0391",
+      "name": "마야 존슨 · Maya Johnson",
+      "gender": "여성",
+      "nationality": "미국",
+      "interests": [
+        "하이패션",
+        "에디토리얼",
+        "런웨이"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0391",
+        "eth": "WE",
+        "nat": "US",
+        "sex": "F",
+        "age": "A1",
+        "style": "HIG",
+        "file": "0391_WE_US_F_A1_HIG.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0391_WE_US_F_A1",
+      "publicPath": "/casts/amba/0391_WE_US_F_A1/face.webp",
+      "metaPath": "/casts/amba/0391_WE_US_F_A1/meta.json",
+      "faceBytes": 22892,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0392",
+      "name": "발렌티나 로메로 · Valentina Romero",
+      "gender": "여성",
+      "nationality": "멕시코",
+      "interests": [
+        "스트리트",
+        "스니커즈",
+        "시티 산책"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0392",
+        "eth": "LT",
+        "nat": "MX",
+        "sex": "F",
+        "age": "A1",
+        "style": "STR",
+        "file": "0392_LT_MX_F_A1_STR.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0392_LT_MX_F_A1",
+      "publicPath": "/casts/amba/0392_LT_MX_F_A1/face.webp",
+      "metaPath": "/casts/amba/0392_LT_MX_F_A1/meta.json",
+      "faceBytes": 58940,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0393",
+      "name": "아멜리 로랑 · Amélie Laurent",
+      "gender": "여성",
+      "nationality": "프랑스",
+      "interests": [
+        "액티브웨어",
+        "러닝",
+        "헬시 루틴"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0393",
+        "eth": "MX",
+        "nat": "FR",
+        "sex": "F",
+        "age": "A1",
+        "style": "SPO",
+        "file": "0393_MX_FR_F_A1_SPO.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0393_MX_FR_F_A1",
+      "publicPath": "/casts/amba/0393_MX_FR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0393_MX_FR_F_A1/meta.json",
+      "faceBytes": 22096,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0394",
+      "name": "마리아 산토스 · Maria Santos",
+      "gender": "여성",
+      "nationality": "필리핀",
+      "interests": [
+        "뷰티 케어",
+        "스킨 글로우",
+        "매크로 디테일"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0394",
+        "eth": "SE",
+        "nat": "PH",
+        "sex": "F",
+        "age": "A1",
+        "style": "BTY",
+        "file": "0394_SE_PH_F_A1_BTY.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0394_SE_PH_F_A1",
+      "publicPath": "/casts/amba/0394_SE_PH_F_A1/face.webp",
+      "metaPath": "/casts/amba/0394_SE_PH_F_A1/meta.json",
+      "faceBytes": 23924,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0395",
+      "name": "줄리아 로시 · Giulia Rossi",
+      "gender": "여성",
+      "nationality": "이탈리아",
+      "interests": [
+        "포멀 룩",
+        "시티 워킹",
+        "갤러리"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0395",
+        "eth": "WE",
+        "nat": "IT",
+        "sex": "F",
+        "age": "A1",
+        "style": "FML",
+        "file": "0395_WE_IT_F_A1_FML.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0395_WE_IT_F_A1",
+      "publicPath": "/casts/amba/0395_WE_IT_F_A1/face.webp",
+      "metaPath": "/casts/amba/0395_WE_IT_F_A1/meta.json",
+      "faceBytes": 19684,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0396",
+      "name": "레아 슈미트 · Lea Schmidt",
+      "gender": "여성",
+      "nationality": "독일",
+      "interests": [
+        "아웃도어",
+        "여행",
+        "자연광"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0396",
+        "eth": "WE",
+        "nat": "DE",
+        "sex": "F",
+        "age": "A1",
+        "style": "OUT",
+        "file": "0396_WE_DE_F_A1_OUT.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0396_WE_DE_F_A1",
+      "publicPath": "/casts/amba/0396_WE_DE_F_A1/face.webp",
+      "metaPath": "/casts/amba/0396_WE_DE_F_A1/meta.json",
+      "faceBytes": 51418,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0397",
+      "name": "마틸다 윌슨 · Matilda Wilson",
+      "gender": "여성",
+      "nationality": "호주",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0397",
+        "eth": "WE",
+        "nat": "AU",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0397_WE_AU_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0397_WE_AU_F_A1",
+      "publicPath": "/casts/amba/0397_WE_AU_F_A1/face.webp",
+      "metaPath": "/casts/amba/0397_WE_AU_F_A1/meta.json",
+      "faceBytes": 18800,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0398",
+      "name": "샬럿 트렘블레이 · Charlotte Tremblay",
+      "gender": "여성",
+      "nationality": "캐나다",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0398",
+        "eth": "WE",
+        "nat": "CA",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0398_WE_CA_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0398_WE_CA_F_A1",
+      "publicPath": "/casts/amba/0398_WE_CA_F_A1/face.webp",
+      "metaPath": "/casts/amba/0398_WE_CA_F_A1/meta.json",
+      "faceBytes": 23984,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0399",
+      "name": "누라 알하르비 · Noura Alharbi",
+      "gender": "여성",
+      "nationality": "사우디아라비아",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0399",
+        "eth": "ME",
+        "nat": "SA",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0399_ME_SA_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0399_ME_SA_F_A1",
+      "publicPath": "/casts/amba/0399_ME_SA_F_A1/face.webp",
+      "metaPath": "/casts/amba/0399_ME_SA_F_A1/meta.json",
+      "faceBytes": 25692,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0400",
+      "name": "알테아 레예스 · Althea Reyes",
+      "gender": "여성",
+      "nationality": "필리핀",
+      "interests": [
+        "하이패션",
+        "에디토리얼",
+        "런웨이"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0400",
+        "eth": "SE",
+        "nat": "PH",
+        "sex": "F",
+        "age": "A1",
+        "style": "HIG",
+        "file": "0400_SE_PH_F_A1_HIG.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0400_SE_PH_F_A1",
+      "publicPath": "/casts/amba/0400_SE_PH_F_A1/face.webp",
+      "metaPath": "/casts/amba/0400_SE_PH_F_A1/meta.json",
+      "faceBytes": 18996,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0401",
+      "name": "클로이 카터 · Chloe Carter",
+      "gender": "여성",
+      "nationality": "미국",
+      "interests": [
+        "스트리트",
+        "스니커즈",
+        "시티 산책"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0401",
+        "eth": "WE",
+        "nat": "US",
+        "sex": "F",
+        "age": "A1",
+        "style": "STR",
+        "file": "0401_WE_US_F_A1_STR.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0401_WE_US_F_A1",
+      "publicPath": "/casts/amba/0401_WE_US_F_A1/face.webp",
+      "metaPath": "/casts/amba/0401_WE_US_F_A1/meta.json",
+      "faceBytes": 22858,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0402",
+      "name": "아다에제 오코로 · Adaeze Okoro",
+      "gender": "여성",
+      "nationality": "나이지리아",
+      "interests": [
+        "액티브웨어",
+        "러닝",
+        "헬시 루틴"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0402",
+        "eth": "BL",
+        "nat": "NG",
+        "sex": "F",
+        "age": "A1",
+        "style": "SPO",
+        "file": "0402_BL_NG_F_A1_SPO.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0402_BL_NG_F_A1",
+      "publicPath": "/casts/amba/0402_BL_NG_F_A1/face.webp",
+      "metaPath": "/casts/amba/0402_BL_NG_F_A1/meta.json",
+      "faceBytes": 22738,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0403",
+      "name": "아멜리아 클라크 · Amelia Clarke",
+      "gender": "여성",
+      "nationality": "영국",
+      "interests": [
+        "뷰티 케어",
+        "스킨 글로우",
+        "매크로 디테일"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0403",
+        "eth": "WE",
+        "nat": "GB",
+        "sex": "F",
+        "age": "A1",
+        "style": "BTY",
+        "file": "0403_WE_GB_F_A1_BTY.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0403_WE_GB_F_A1",
+      "publicPath": "/casts/amba/0403_WE_GB_F_A1/face.webp",
+      "metaPath": "/casts/amba/0403_WE_GB_F_A1/meta.json",
+      "faceBytes": 29340,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0404",
+      "name": "응우옌민안 · Nguyễn Minh Anh",
+      "gender": "여성",
+      "nationality": "베트남",
+      "interests": [
+        "포멀 룩",
+        "시티 워킹",
+        "갤러리"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0404",
+        "eth": "SE",
+        "nat": "VN",
+        "sex": "F",
+        "age": "A1",
+        "style": "FML",
+        "file": "0404_SE_VN_F_A1_FML.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0404_SE_VN_F_A1",
+      "publicPath": "/casts/amba/0404_SE_VN_F_A1/face.webp",
+      "metaPath": "/casts/amba/0404_SE_VN_F_A1/meta.json",
+      "faceBytes": 25734,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0405",
+      "name": "사토 아오이 · Sato Aoi",
+      "gender": "여성",
+      "nationality": "일본",
+      "interests": [
+        "아웃도어",
+        "여행",
+        "자연광"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0405",
+        "eth": "EA",
+        "nat": "JP",
+        "sex": "F",
+        "age": "A1",
+        "style": "OUT",
+        "file": "0405_EA_JP_F_A1_OUT.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0405_EA_JP_F_A1",
+      "publicPath": "/casts/amba/0405_EA_JP_F_A1/face.webp",
+      "metaPath": "/casts/amba/0405_EA_JP_F_A1/meta.json",
+      "faceBytes": 53622,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0406",
+      "name": "안나 베커 · Anna Becker",
+      "gender": "여성",
+      "nationality": "독일",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0406",
+        "eth": "WE",
+        "nat": "DE",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0406_WE_DE_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0406_WE_DE_F_A1",
+      "publicPath": "/casts/amba/0406_WE_DE_F_A1/face.webp",
+      "metaPath": "/casts/amba/0406_WE_DE_F_A1/meta.json",
+      "faceBytes": 18666,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0407",
+      "name": "에밀리 로이 · Émilie Roy",
+      "gender": "여성",
+      "nationality": "캐나다",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0407",
+        "eth": "BL",
+        "nat": "CA",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0407_BL_CA_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0407_BL_CA_F_A1",
+      "publicPath": "/casts/amba/0407_BL_CA_F_A1/face.webp",
+      "metaPath": "/casts/amba/0407_BL_CA_F_A1/meta.json",
+      "faceBytes": 105302,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0408",
+      "name": "마르티나 루이스 · Martina Ruiz",
+      "gender": "여성",
+      "nationality": "스페인",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0408",
+        "eth": "LT",
+        "nat": "ES",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0408_LT_ES_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0408_LT_ES_F_A1",
+      "publicPath": "/casts/amba/0408_LT_ES_F_A1/face.webp",
+      "metaPath": "/casts/amba/0408_LT_ES_F_A1/meta.json",
+      "faceBytes": 26606,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0409",
+      "name": "알바 모레노 · Alba Moreno",
+      "gender": "여성",
+      "nationality": "스페인",
+      "interests": [
+        "하이패션",
+        "에디토리얼",
+        "런웨이"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0409",
+        "eth": "WE",
+        "nat": "ES",
+        "sex": "F",
+        "age": "A1",
+        "style": "HIG",
+        "file": "0409_WE_ES_F_A1_HIG.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0409_WE_ES_F_A1",
+      "publicPath": "/casts/amba/0409_WE_ES_F_A1/face.webp",
+      "metaPath": "/casts/amba/0409_WE_ES_F_A1/meta.json",
+      "faceBytes": 23822,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0410",
+      "name": "아마라 은와수 · Amara Nwosu",
+      "gender": "여성",
+      "nationality": "나이지리아",
+      "interests": [
+        "스트리트",
+        "스니커즈",
+        "시티 산책"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0410",
+        "eth": "BL",
+        "nat": "NG",
+        "sex": "F",
+        "age": "A1",
+        "style": "STR",
+        "file": "0410_BL_NG_F_A1_STR.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0410_BL_NG_F_A1",
+      "publicPath": "/casts/amba/0410_BL_NG_F_A1/face.webp",
+      "metaPath": "/casts/amba/0410_BL_NG_F_A1/meta.json",
+      "faceBytes": 26822,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0411",
+      "name": "푸트리 아유 · Putri Ayu",
+      "gender": "여성",
+      "nationality": "인도네시아",
+      "interests": [
+        "액티브웨어",
+        "러닝",
+        "헬시 루틴"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0411",
+        "eth": "SE",
+        "nat": "ID",
+        "sex": "F",
+        "age": "A1",
+        "style": "SPO",
+        "file": "0411_SE_ID_F_A1_SPO.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0411_SE_ID_F_A1",
+      "publicPath": "/casts/amba/0411_SE_ID_F_A1/face.webp",
+      "metaPath": "/casts/amba/0411_SE_ID_F_A1/meta.json",
+      "faceBytes": 21278,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0412",
+      "name": "엘리프 일마즈 · Elif Yılmaz",
+      "gender": "여성",
+      "nationality": "TR",
+      "interests": [
+        "뷰티 케어",
+        "스킨 글로우",
+        "매크로 디테일"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0412",
+        "eth": "ME",
+        "nat": "TR",
+        "sex": "F",
+        "age": "A1",
+        "style": "BTY",
+        "file": "0412_ME_TR_F_A1_BTY.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0412_ME_TR_F_A1",
+      "publicPath": "/casts/amba/0412_ME_TR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0412_ME_TR_F_A1/meta.json",
+      "faceBytes": 22786,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0413",
+      "name": "플로렌스 테일러 · Florence Taylor",
+      "gender": "여성",
+      "nationality": "영국",
+      "interests": [
+        "포멀 룩",
+        "시티 워킹",
+        "갤러리"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0413",
+        "eth": "WE",
+        "nat": "GB",
+        "sex": "F",
+        "age": "A1",
+        "style": "FML",
+        "file": "0413_WE_GB_F_A1_FML.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0413_WE_GB_F_A1",
+      "publicPath": "/casts/amba/0413_WE_GB_F_A1/face.webp",
+      "metaPath": "/casts/amba/0413_WE_GB_F_A1/meta.json",
+      "faceBytes": 40114,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0414",
+      "name": "날레디 몰레페 · Naledi Molefe",
+      "gender": "여성",
+      "nationality": "남아프리카공화국",
+      "interests": [
+        "아웃도어",
+        "여행",
+        "자연광"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0414",
+        "eth": "BL",
+        "nat": "ZA",
+        "sex": "F",
+        "age": "A1",
+        "style": "OUT",
+        "file": "0414_BL_ZA_F_A1_OUT.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0414_BL_ZA_F_A1",
+      "publicPath": "/casts/amba/0414_BL_ZA_F_A1/face.webp",
+      "metaPath": "/casts/amba/0414_BL_ZA_F_A1/meta.json",
+      "faceBytes": 68068,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0415",
+      "name": "다나카 린 · Tanaka Rin",
+      "gender": "여성",
+      "nationality": "일본",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0415",
+        "eth": "EA",
+        "nat": "JP",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0415_EA_JP_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0415_EA_JP_F_A1",
+      "publicPath": "/casts/amba/0415_EA_JP_F_A1/face.webp",
+      "metaPath": "/casts/amba/0415_EA_JP_F_A1/meta.json",
+      "faceBytes": 18784,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0416",
+      "name": "클라라 바그너 · Klara Wagner",
+      "gender": "여성",
+      "nationality": "독일",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0416",
+        "eth": "WE",
+        "nat": "DE",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0416_WE_DE_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0416_WE_DE_F_A1",
+      "publicPath": "/casts/amba/0416_WE_DE_F_A1/face.webp",
+      "metaPath": "/casts/amba/0416_WE_DE_F_A1/meta.json",
+      "faceBytes": 23774,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0417",
+      "name": "루비 캠벨 · Ruby Campbell",
+      "gender": "여성",
+      "nationality": "호주",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0417",
+        "eth": "WE",
+        "nat": "AU",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0417_WE_AU_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0417_WE_AU_F_A1",
+      "publicPath": "/casts/amba/0417_WE_AU_F_A1/face.webp",
+      "metaPath": "/casts/amba/0417_WE_AU_F_A1/meta.json",
+      "faceBytes": 21862,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0418",
+      "name": "클레어 맥도널드 · Claire MacDonald",
+      "gender": "여성",
+      "nationality": "캐나다",
+      "interests": [
+        "하이패션",
+        "에디토리얼",
+        "런웨이"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0418",
+        "eth": "WE",
+        "nat": "CA",
+        "sex": "F",
+        "age": "A1",
+        "style": "HIG",
+        "file": "0418_WE_CA_F_A1_HIG.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0418_WE_CA_F_A1",
+      "publicPath": "/casts/amba/0418_WE_CA_F_A1/face.webp",
+      "metaPath": "/casts/amba/0418_WE_CA_F_A1/meta.json",
+      "faceBytes": 30104,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0419",
+      "name": "카르멘 비달 · Carmen Vidal",
+      "gender": "여성",
+      "nationality": "스페인",
+      "interests": [
+        "스트리트",
+        "스니커즈",
+        "시티 산책"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0419",
+        "eth": "WE",
+        "nat": "ES",
+        "sex": "F",
+        "age": "A1",
+        "style": "STR",
+        "file": "0419_WE_ES_F_A1_STR.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0419_WE_ES_F_A1",
+      "publicPath": "/casts/amba/0419_WE_ES_F_A1/face.webp",
+      "metaPath": "/casts/amba/0419_WE_ES_F_A1/meta.json",
+      "faceBytes": 38828,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0420",
+      "name": "린위팅 · Lin Yuting",
+      "gender": "여성",
+      "nationality": "TW",
+      "interests": [
+        "액티브웨어",
+        "러닝",
+        "헬시 루틴"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0420",
+        "eth": "EA",
+        "nat": "TW",
+        "sex": "F",
+        "age": "A1",
+        "style": "SPO",
+        "file": "0420_EA_TW_F_A1_SPO.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0420_EA_TW_F_A1",
+      "publicPath": "/casts/amba/0420_EA_TW_F_A1/face.webp",
+      "metaPath": "/casts/amba/0420_EA_TW_F_A1/meta.json",
+      "faceBytes": 21896,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0421",
+      "name": "박지우 · Park Jiwoo",
+      "gender": "여성",
+      "nationality": "대한민국",
+      "interests": [
+        "뷰티 케어",
+        "스킨 글로우",
+        "매크로 디테일"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0421",
+        "eth": "EA",
+        "nat": "KR",
+        "sex": "F",
+        "age": "A1",
+        "style": "BTY",
+        "file": "0421_EA_KR_F_A1_BTY.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0421_EA_KR_F_A1",
+      "publicPath": "/casts/amba/0421_EA_KR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0421_EA_KR_F_A1/meta.json",
+      "faceBytes": 17866,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0422",
+      "name": "데니즈 카야 · Deniz Kaya",
+      "gender": "여성",
+      "nationality": "TR",
+      "interests": [
+        "포멀 룩",
+        "시티 워킹",
+        "갤러리"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0422",
+        "eth": "ME",
+        "nat": "TR",
+        "sex": "F",
+        "age": "A1",
+        "style": "FML",
+        "file": "0422_ME_TR_F_A1_FML.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0422_ME_TR_F_A1",
+      "publicPath": "/casts/amba/0422_ME_TR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0422_ME_TR_F_A1/meta.json",
+      "faceBytes": 61166,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0423",
+      "name": "오드리 마르탱 · Audrey Martin",
+      "gender": "여성",
+      "nationality": "캐나다",
+      "interests": [
+        "아웃도어",
+        "여행",
+        "자연광"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0423",
+        "eth": "BL",
+        "nat": "CA",
+        "sex": "F",
+        "age": "A1",
+        "style": "OUT",
+        "file": "0423_BL_CA_F_A1_OUT.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0423_BL_CA_F_A1",
+      "publicPath": "/casts/amba/0423_BL_CA_F_A1/face.webp",
+      "metaPath": "/casts/amba/0423_BL_CA_F_A1/meta.json",
+      "faceBytes": 57340,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0424",
+      "name": "마르티나 페르난데스 · Martina Fernández",
+      "gender": "여성",
+      "nationality": "아르헨티나",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0424",
+        "eth": "LT",
+        "nat": "AR",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0424_LT_AR_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0424_LT_AR_F_A1",
+      "publicPath": "/casts/amba/0424_LT_AR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0424_LT_AR_F_A1/meta.json",
+      "faceBytes": 22386,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0425",
+      "name": "누스라트 자한 · Nusrat Jahan",
+      "gender": "여성",
+      "nationality": "BD",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0425",
+        "eth": "SA",
+        "nat": "BD",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0425_SA_BD_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0425_SA_BD_F_A1",
+      "publicPath": "/casts/amba/0425_SA_BD_F_A1/face.webp",
+      "metaPath": "/casts/amba/0425_SA_BD_F_A1/meta.json",
+      "faceBytes": 56270,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0426",
+      "name": "아누키 페레라 · Anuki Perera",
+      "gender": "여성",
+      "nationality": "스리랑카",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0426",
+        "eth": "SA",
+        "nat": "LK",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0426_SA_LK_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0426_SA_LK_F_A1",
+      "publicPath": "/casts/amba/0426_SA_LK_F_A1/face.webp",
+      "metaPath": "/casts/amba/0426_SA_LK_F_A1/meta.json",
+      "faceBytes": 19052,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0427",
+      "name": "조지아 에번스 · Georgia Evans",
+      "gender": "여성",
+      "nationality": "호주",
+      "interests": [
+        "하이패션",
+        "에디토리얼",
+        "런웨이"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0427",
+        "eth": "WE",
+        "nat": "AU",
+        "sex": "F",
+        "age": "A1",
+        "style": "HIG",
+        "file": "0427_WE_AU_F_A1_HIG.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0427_WE_AU_F_A1",
+      "publicPath": "/casts/amba/0427_WE_AU_F_A1/face.webp",
+      "metaPath": "/casts/amba/0427_WE_AU_F_A1/meta.json",
+      "faceBytes": 22256,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0428",
+      "name": "이모젠 라이트 · Imogen Wright",
+      "gender": "여성",
+      "nationality": "영국",
+      "interests": [
+        "스트리트",
+        "스니커즈",
+        "시티 산책"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0428",
+        "eth": "BL",
+        "nat": "GB",
+        "sex": "F",
+        "age": "A1",
+        "style": "STR",
+        "file": "0428_BL_GB_F_A1_STR.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0428_BL_GB_F_A1",
+      "publicPath": "/casts/amba/0428_BL_GB_F_A1/face.webp",
+      "metaPath": "/casts/amba/0428_BL_GB_F_A1/meta.json",
+      "faceBytes": 32478,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0429",
+      "name": "발레리아 고메스 · Valeria Gómez",
+      "gender": "여성",
+      "nationality": "CO",
+      "interests": [
+        "액티브웨어",
+        "러닝",
+        "헬시 루틴"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0429",
+        "eth": "LT",
+        "nat": "CO",
+        "sex": "F",
+        "age": "A1",
+        "style": "SPO",
+        "file": "0429_LT_CO_F_A1_SPO.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0429_LT_CO_F_A1",
+      "publicPath": "/casts/amba/0429_LT_CO_F_A1/face.webp",
+      "metaPath": "/casts/amba/0429_LT_CO_F_A1/meta.json",
+      "faceBytes": 20394,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0430",
+      "name": "마히라 칸 · Mahira Khan",
+      "gender": "여성",
+      "nationality": "PK",
+      "interests": [
+        "뷰티 케어",
+        "스킨 글로우",
+        "매크로 디테일"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0430",
+        "eth": "SA",
+        "nat": "PK",
+        "sex": "F",
+        "age": "A1",
+        "style": "BTY",
+        "file": "0430_SA_PK_F_A1_BTY.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0430_SA_PK_F_A1",
+      "publicPath": "/casts/amba/0430_SA_PK_F_A1/face.webp",
+      "metaPath": "/casts/amba/0430_SA_PK_F_A1/meta.json",
+      "faceBytes": 17494,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0431",
+      "name": "하퍼 윌슨 · Harper Wilson",
+      "gender": "여성",
+      "nationality": "미국",
+      "interests": [
+        "포멀 룩",
+        "시티 워킹",
+        "갤러리"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0431",
+        "eth": "MX",
+        "nat": "US",
+        "sex": "F",
+        "age": "A1",
+        "style": "FML",
+        "file": "0431_MX_US_F_A1_FML.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0431_MX_US_F_A1",
+      "publicPath": "/casts/amba/0431_MX_US_F_A1/face.webp",
+      "metaPath": "/casts/amba/0431_MX_US_F_A1/meta.json",
+      "faceBytes": 21884,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0432",
+      "name": "조이 파커 · Zoe Parker",
+      "gender": "여성",
+      "nationality": "미국",
+      "interests": [
+        "아웃도어",
+        "여행",
+        "자연광"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0432",
+        "eth": "WE",
+        "nat": "US",
+        "sex": "F",
+        "age": "A1",
+        "style": "OUT",
+        "file": "0432_WE_US_F_A1_OUT.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0432_WE_US_F_A1",
+      "publicPath": "/casts/amba/0432_WE_US_F_A1/face.webp",
+      "metaPath": "/casts/amba/0432_WE_US_F_A1/meta.json",
+      "faceBytes": 39240,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0433",
+      "name": "나오미 리드 · Naomi Reed",
+      "gender": "여성",
+      "nationality": "미국",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0433",
+        "eth": "BL",
+        "nat": "US",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0433_BL_US_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0433_BL_US_F_A1",
+      "publicPath": "/casts/amba/0433_BL_US_F_A1/face.webp",
+      "metaPath": "/casts/amba/0433_BL_US_F_A1/meta.json",
+      "faceBytes": 22320,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0434",
+      "name": "최유나 · Choi Yuna",
+      "gender": "여성",
+      "nationality": "대한민국",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0434",
+        "eth": "EA",
+        "nat": "KR",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0434_EA_KR_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0434_EA_KR_F_A1",
+      "publicPath": "/casts/amba/0434_EA_KR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0434_EA_KR_F_A1/meta.json",
+      "faceBytes": 25312,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0435",
+      "name": "키아라 로마노 · Chiara Romano",
+      "gender": "여성",
+      "nationality": "이탈리아",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0435",
+        "eth": "WE",
+        "nat": "IT",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0435_WE_IT_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0435_WE_IT_F_A1",
+      "publicPath": "/casts/amba/0435_WE_IT_F_A1/face.webp",
+      "metaPath": "/casts/amba/0435_WE_IT_F_A1/meta.json",
+      "faceBytes": 22460,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0436",
+      "name": "소피아 알바레스 · Sofía Álvarez",
+      "gender": "여성",
+      "nationality": "아르헨티나",
+      "interests": [
+        "하이패션",
+        "에디토리얼",
+        "런웨이"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0436",
+        "eth": "LT",
+        "nat": "AR",
+        "sex": "F",
+        "age": "A1",
+        "style": "HIG",
+        "file": "0436_LT_AR_F_A1_HIG.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0436_LT_AR_F_A1",
+      "publicPath": "/casts/amba/0436_LT_AR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0436_LT_AR_F_A1/meta.json",
+      "faceBytes": 24446,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0437",
+      "name": "아일라 머피 · Isla Murphy",
+      "gender": "여성",
+      "nationality": "호주",
+      "interests": [
+        "스트리트",
+        "스니커즈",
+        "시티 산책"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0437",
+        "eth": "WE",
+        "nat": "AU",
+        "sex": "F",
+        "age": "A1",
+        "style": "STR",
+        "file": "0437_WE_AU_F_A1_STR.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0437_WE_AU_F_A1",
+      "publicPath": "/casts/amba/0437_WE_AU_F_A1/face.webp",
+      "metaPath": "/casts/amba/0437_WE_AU_F_A1/meta.json",
+      "faceBytes": 28844,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0438",
+      "name": "리우신 · Liu Xin",
+      "gender": "여성",
+      "nationality": "중국",
+      "interests": [
+        "액티브웨어",
+        "러닝",
+        "헬시 루틴"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0438",
+        "eth": "EA",
+        "nat": "CN",
+        "sex": "F",
+        "age": "A1",
+        "style": "SPO",
+        "file": "0438_EA_CN_F_A1_SPO.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0438_EA_CN_F_A1",
+      "publicPath": "/casts/amba/0438_EA_CN_F_A1/face.webp",
+      "metaPath": "/casts/amba/0438_EA_CN_F_A1/meta.json",
+      "faceBytes": 16322,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0439",
+      "name": "차니다 웡 · Chanida Wong",
+      "gender": "여성",
+      "nationality": "태국",
+      "interests": [
+        "뷰티 케어",
+        "스킨 글로우",
+        "매크로 디테일"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0439",
+        "eth": "SE",
+        "nat": "TH",
+        "sex": "F",
+        "age": "A1",
+        "style": "BTY",
+        "file": "0439_SE_TH_F_A1_BTY.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0439_SE_TH_F_A1",
+      "publicPath": "/casts/amba/0439_SE_TH_F_A1/face.webp",
+      "metaPath": "/casts/amba/0439_SE_TH_F_A1/meta.json",
+      "faceBytes": 22744,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0440",
+      "name": "리서 판다이크 · Lise van Dijk",
+      "gender": "여성",
+      "nationality": "네덜란드",
+      "interests": [
+        "포멀 룩",
+        "시티 워킹",
+        "갤러리"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0440",
+        "eth": "WE",
+        "nat": "NL",
+        "sex": "F",
+        "age": "A1",
+        "style": "FML",
+        "file": "0440_WE_NL_F_A1_FML.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0440_WE_NL_F_A1",
+      "publicPath": "/casts/amba/0440_WE_NL_F_A1/face.webp",
+      "metaPath": "/casts/amba/0440_WE_NL_F_A1/meta.json",
+      "faceBytes": 25654,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0441",
+      "name": "정수아 · Jung Sua",
+      "gender": "여성",
+      "nationality": "대한민국",
+      "interests": [
+        "아웃도어",
+        "여행",
+        "자연광"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0441",
+        "eth": "EA",
+        "nat": "KR",
+        "sex": "F",
+        "age": "A1",
+        "style": "OUT",
+        "file": "0441_EA_KR_F_A1_OUT.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0441_EA_KR_F_A1",
+      "publicPath": "/casts/amba/0441_EA_KR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0441_EA_KR_F_A1/meta.json",
+      "faceBytes": 50350,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0442",
+      "name": "비앙카 크루즈 · Bianca Cruz",
+      "gender": "여성",
+      "nationality": "필리핀",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0442",
+        "eth": "SE",
+        "nat": "PH",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0442_SE_PH_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0442_SE_PH_F_A1",
+      "publicPath": "/casts/amba/0442_SE_PH_F_A1/face.webp",
+      "metaPath": "/casts/amba/0442_SE_PH_F_A1/meta.json",
+      "faceBytes": 25828,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0443",
+      "name": "강민서 · Kang Minseo",
+      "gender": "여성",
+      "nationality": "대한민국",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0443",
+        "eth": "EA",
+        "nat": "KR",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0415_SA_IN_F_A1_OUT.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "replacedFromLookbookId": "0415"
+      },
+      "folder": "0443_EA_KR_F_A1",
+      "publicPath": "/casts/amba/0443_EA_KR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0443_EA_KR_F_A1/meta.json",
+      "faceBytes": 103064,
+      "faceSize": "800x1200",
+      "replaceSource": "lookbook:0415_SA_IN_F_A1_OUT.webp"
+    },
+    {
+      "id": "0444",
+      "name": "라나 알카타니 · Lana Alqahtani",
+      "gender": "여성",
+      "nationality": "사우디아라비아",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0444",
+        "eth": "ME",
+        "nat": "SA",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0429_ME_AE_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "replacedFromLookbookId": "0429"
+      },
+      "folder": "0444_ME_SA_F_A1",
+      "publicPath": "/casts/amba/0444_ME_SA_F_A1/face.webp",
+      "metaPath": "/casts/amba/0444_ME_SA_F_A1/meta.json",
+      "faceBytes": 18844,
+      "faceSize": "800x1200",
+      "replaceSource": "lookbook:0429_ME_AE_F_A1_STU.webp"
+    },
+    {
+      "id": "0445",
+      "name": "비토리아 콘티 · Vittoria Conti",
+      "gender": "여성",
+      "nationality": "이탈리아",
+      "interests": [
+        "하이패션",
+        "에디토리얼",
+        "런웨이"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0445",
+        "eth": "WE",
+        "nat": "IT",
+        "sex": "F",
+        "age": "A1",
+        "style": "HIG",
+        "file": "0445_WE_IT_F_A1_HIG.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0445_WE_IT_F_A1",
+      "publicPath": "/casts/amba/0445_WE_IT_F_A1/face.webp",
+      "metaPath": "/casts/amba/0445_WE_IT_F_A1/meta.json",
+      "faceBytes": 30230,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0446",
+      "name": "스즈키 하나 · Suzuki Hana",
+      "gender": "여성",
+      "nationality": "일본",
+      "interests": [
+        "스트리트",
+        "스니커즈",
+        "시티 산책"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0446",
+        "eth": "EA",
+        "nat": "JP",
+        "sex": "F",
+        "age": "A1",
+        "style": "STR",
+        "file": "0446_EA_JP_F_A1_STR.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0446_EA_JP_F_A1",
+      "publicPath": "/casts/amba/0446_EA_JP_F_A1/face.webp",
+      "metaPath": "/casts/amba/0446_EA_JP_F_A1/meta.json",
+      "faceBytes": 27380,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0447",
+      "name": "테일라 워드 · Tayla Ward",
+      "gender": "여성",
+      "nationality": "호주",
+      "interests": [
+        "액티브웨어",
+        "러닝",
+        "헬시 루틴"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0447",
+        "eth": "WE",
+        "nat": "AU",
+        "sex": "F",
+        "age": "A1",
+        "style": "SPO",
+        "file": "0447_WE_AU_F_A1_SPO.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0447_WE_AU_F_A1",
+      "publicPath": "/casts/amba/0447_WE_AU_F_A1/face.webp",
+      "metaPath": "/casts/amba/0447_WE_AU_F_A1/meta.json",
+      "faceBytes": 23332,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0451",
+      "name": "윤채원 · Yoon Chaewon",
+      "gender": "여성",
+      "nationality": "대한민국",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0451",
+        "eth": "EA",
+        "nat": "KR",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0451_EA_KR_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0451_EA_KR_F_A1",
+      "publicPath": "/casts/amba/0451_EA_KR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0451_EA_KR_F_A1/meta.json",
+      "faceBytes": 20206,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0452",
+      "name": "아나야 샤르마 · Anaya Sharma",
+      "gender": "여성",
+      "nationality": "인도",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0452",
+        "eth": "SA",
+        "nat": "IN",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0452_SA_IN_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0452_SA_IN_F_A1",
+      "publicPath": "/casts/amba/0452_SA_IN_F_A1/face.webp",
+      "metaPath": "/casts/amba/0452_SA_IN_F_A1/meta.json",
+      "faceBytes": 34788,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0456",
+      "name": "탄메이린 · Tan Mei Lin",
+      "gender": "여성",
+      "nationality": "싱가포르",
+      "interests": [
+        "액티브웨어",
+        "러닝",
+        "헬시 루틴"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0456",
+        "eth": "SE",
+        "nat": "SG",
+        "sex": "F",
+        "age": "A1",
+        "style": "SPO",
+        "file": "0456_SE_SG_F_A1_SPO.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0456_SE_SG_F_A1",
+      "publicPath": "/casts/amba/0456_SE_SG_F_A1/face.webp",
+      "metaPath": "/casts/amba/0456_SE_SG_F_A1/meta.json",
+      "faceBytes": 20588,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0461",
+      "name": "릴리 모건 · Lily Morgan",
+      "gender": "여성",
+      "nationality": "미국",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0461",
+        "eth": "WE",
+        "nat": "US",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0461_WE_US_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0461_WE_US_F_A1",
+      "publicPath": "/casts/amba/0461_WE_US_F_A1/face.webp",
+      "metaPath": "/casts/amba/0461_WE_US_F_A1/meta.json",
+      "faceBytes": 20260,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0462",
+      "name": "한예린 · Han Yerin",
+      "gender": "여성",
+      "nationality": "대한민국",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0462",
+        "eth": "EA",
+        "nat": "KR",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0423_SA_IN_F_A1_STR.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "replacedFromLookbookId": "0423"
+      },
+      "folder": "0462_EA_KR_F_A1",
+      "publicPath": "/casts/amba/0462_EA_KR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0462_EA_KR_F_A1/meta.json",
+      "faceBytes": 63026,
+      "faceSize": "800x1200",
+      "replaceSource": "lookbook:0423_SA_IN_F_A1_STR.webp"
+    },
+    {
+      "id": "0464",
+      "name": "송다인 · Song Dain",
+      "gender": "여성",
+      "nationality": "대한민국",
+      "interests": [
+        "스트리트",
+        "스니커즈",
+        "시티 산책"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0464",
+        "eth": "EA",
+        "nat": "KR",
+        "sex": "F",
+        "age": "A1",
+        "style": "STR",
+        "file": "0464_EA_KR_F_A1_STR.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0464_EA_KR_F_A1",
+      "publicPath": "/casts/amba/0464_EA_KR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0464_EA_KR_F_A1/meta.json",
+      "faceBytes": 17606,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0466",
+      "name": "미카 델라로사 · Mika Dela Rosa",
+      "gender": "여성",
+      "nationality": "필리핀",
+      "interests": [
+        "뷰티 케어",
+        "스킨 글로우",
+        "매크로 디테일"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0466",
+        "eth": "SE",
+        "nat": "PH",
+        "sex": "F",
+        "age": "A1",
+        "style": "BTY",
+        "file": "0466_SE_PH_F_A1_BTY.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0466_SE_PH_F_A1",
+      "publicPath": "/casts/amba/0466_SE_PH_F_A1/face.webp",
+      "metaPath": "/casts/amba/0466_SE_PH_F_A1/meta.json",
+      "faceBytes": 30004,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0470",
+      "name": "이샤 메흐타 · Isha Mehta",
+      "gender": "여성",
+      "nationality": "인도",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0470",
+        "eth": "SA",
+        "nat": "IN",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "generated/0470",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "generated": true
+      },
+      "folder": "0470_SA_IN_F_A1",
+      "publicPath": "/casts/amba/0470_SA_IN_F_A1/face.webp",
+      "metaPath": "/casts/amba/0470_SA_IN_F_A1/meta.json",
+      "faceBytes": 60074,
+      "faceSize": "800x1200",
+      "replaceSource": "generated:0470.png"
+    },
+    {
+      "id": "0479",
+      "name": "달리아 알오타이비 · Dalia Alotaibi",
+      "gender": "여성",
+      "nationality": "사우디아라비아",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0479",
+        "eth": "ME",
+        "nat": "SA",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "0479_ME_SA_F_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0479_ME_SA_F_A1",
+      "publicPath": "/casts/amba/0479_ME_SA_F_A1/face.webp",
+      "metaPath": "/casts/amba/0479_ME_SA_F_A1/meta.json",
+      "faceBytes": 31160,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0481",
+      "name": "아리아 콜린스 · Aria Collins",
+      "gender": "여성",
+      "nationality": "미국",
+      "interests": [
+        "하이패션",
+        "에디토리얼",
+        "런웨이"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0481",
+        "eth": "BL",
+        "nat": "US",
+        "sex": "F",
+        "age": "A1",
+        "style": "HIG",
+        "file": "0481_BL_US_F_A1_HIG.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0481_BL_US_F_A1",
+      "publicPath": "/casts/amba/0481_BL_US_F_A1/face.webp",
+      "metaPath": "/casts/amba/0481_BL_US_F_A1/meta.json",
+      "faceBytes": 26060,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0482",
+      "name": "임소율 · Lim Soyul",
+      "gender": "여성",
+      "nationality": "대한민국",
+      "interests": [
+        "스트리트",
+        "스니커즈",
+        "시티 산책"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0482",
+        "eth": "EA",
+        "nat": "KR",
+        "sex": "F",
+        "age": "A1",
+        "style": "STR",
+        "file": "generated/0482",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "generated": true
+      },
+      "folder": "0482_EA_KR_F_A1",
+      "publicPath": "/casts/amba/0482_EA_KR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0482_EA_KR_F_A1/meta.json",
+      "faceBytes": 51836,
+      "faceSize": "800x1200",
+      "replaceSource": "generated:0482.png"
+    },
+    {
+      "id": "0484",
+      "name": "마농 르페브르 · Manon Lefèvre",
+      "gender": "여성",
+      "nationality": "프랑스",
+      "interests": [
+        "뷰티 케어",
+        "스킨 글로우",
+        "매크로 디테일"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0484",
+        "eth": "WE",
+        "nat": "FR",
+        "sex": "F",
+        "age": "A1",
+        "style": "BTY",
+        "file": "0484_WE_FR_F_A1_BTY.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0484_WE_FR_F_A1",
+      "publicPath": "/casts/amba/0484_WE_FR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0484_WE_FR_F_A1/meta.json",
+      "faceBytes": 22038,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0489",
+      "name": "리마 알사우드 · Reema Alsaud",
+      "gender": "여성",
+      "nationality": "사우디아라비아",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0489",
+        "eth": "ME",
+        "nat": "SA",
+        "sex": "F",
+        "age": "A1",
+        "style": "STU",
+        "file": "generated/0489",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "generated": true
+      },
+      "folder": "0489_ME_SA_F_A1",
+      "publicPath": "/casts/amba/0489_ME_SA_F_A1/face.webp",
+      "metaPath": "/casts/amba/0489_ME_SA_F_A1/meta.json",
+      "faceBytes": 46162,
+      "faceSize": "800x1200",
+      "replaceSource": "generated:0489.png"
+    },
+    {
+      "id": "0493",
+      "name": "나라 차이야 · Nara Chaiya",
+      "gender": "여성",
+      "nationality": "태국",
+      "interests": [
+        "뷰티 케어",
+        "스킨 글로우",
+        "매크로 디테일"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0493",
+        "eth": "SE",
+        "nat": "TH",
+        "sex": "F",
+        "age": "A1",
+        "style": "BTY",
+        "file": "0427_BL_US_F_A1_HIG.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "replacedFromLookbookId": "0427"
+      },
+      "folder": "0493_SE_TH_F_A1",
+      "publicPath": "/casts/amba/0493_SE_TH_F_A1/face.webp",
+      "metaPath": "/casts/amba/0493_SE_TH_F_A1/meta.json",
+      "faceBytes": 26350,
+      "faceSize": "800x1200",
+      "replaceSource": "lookbook:0427_BL_US_F_A1_HIG.webp"
+    },
+    {
+      "id": "0512",
+      "name": "그레이스 터너 · Grace Turner",
+      "gender": "여성",
+      "nationality": "미국",
+      "interests": [
+        "포멀 룩",
+        "시티 워킹",
+        "갤러리"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0512",
+        "eth": "WE",
+        "nat": "US",
+        "sex": "F",
+        "age": "A1",
+        "style": "FML",
+        "file": "0512_WE_US_F_A1_FML.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0512_WE_US_F_A1",
+      "publicPath": "/casts/amba/0512_WE_US_F_A1/face.webp",
+      "metaPath": "/casts/amba/0512_WE_US_F_A1/meta.json",
+      "faceBytes": 19792,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0528",
+      "name": "천위팅 · Chen Yuting",
+      "gender": "여성",
+      "nationality": "중국",
+      "interests": [
+        "액티브웨어",
+        "러닝",
+        "헬시 루틴"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0528",
+        "eth": "EA",
+        "nat": "CN",
+        "sex": "F",
+        "age": "A1",
+        "style": "SPO",
+        "file": "0428_MX_US_F_A1_SPO.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "replacedFromLookbookId": "0428"
+      },
+      "folder": "0528_EA_CN_F_A1",
+      "publicPath": "/casts/amba/0528_EA_CN_F_A1/face.webp",
+      "metaPath": "/casts/amba/0528_EA_CN_F_A1/meta.json",
+      "faceBytes": 21514,
+      "faceSize": "800x1200",
+      "replaceSource": "lookbook:0428_MX_US_F_A1_SPO.webp"
+    },
+    {
+      "id": "0530",
+      "name": "카밀라 나바로 · Camila Navarro",
+      "gender": "여성",
+      "nationality": "멕시코",
+      "interests": [
+        "포멀 룩",
+        "시티 워킹",
+        "갤러리"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0530",
+        "eth": "LT",
+        "nat": "MX",
+        "sex": "F",
+        "age": "A1",
+        "style": "FML",
+        "file": "0530_LT_MX_F_A1_FML.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0530_LT_MX_F_A1",
+      "publicPath": "/casts/amba/0530_LT_MX_F_A1/face.webp",
+      "metaPath": "/casts/amba/0530_LT_MX_F_A1/meta.json",
+      "faceBytes": 21772,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0548",
+      "name": "레히나 토레스 · Regina Torres",
+      "gender": "여성",
+      "nationality": "멕시코",
+      "interests": [
+        "포멀 룩",
+        "시티 워킹",
+        "갤러리"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0548",
+        "eth": "LT",
+        "nat": "MX",
+        "sex": "F",
+        "age": "A1",
+        "style": "FML",
+        "file": "generated/0548",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "generated": true
+      },
+      "folder": "0548_LT_MX_F_A1",
+      "publicPath": "/casts/amba/0548_LT_MX_F_A1/face.webp",
+      "metaPath": "/casts/amba/0548_LT_MX_F_A1/meta.json",
+      "faceBytes": 49642,
+      "faceSize": "800x1200",
+      "replaceSource": "generated:0548.png"
+    },
+    {
+      "id": "0554",
+      "name": "쥘리에트 모로 · Juliette Moreau",
+      "gender": "여성",
+      "nationality": "프랑스",
+      "interests": [
+        "스트리트",
+        "스니커즈",
+        "시티 산책"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0554",
+        "eth": "WE",
+        "nat": "FR",
+        "sex": "F",
+        "age": "A1",
+        "style": "STR",
+        "file": "0554_WE_FR_F_A1_STR.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0554_WE_FR_F_A1",
+      "publicPath": "/casts/amba/0554_WE_FR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0554_WE_FR_F_A1/meta.json",
+      "faceBytes": 25660,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0563",
+      "name": "배나연 · Bae Nayeon",
+      "gender": "여성",
+      "nationality": "대한민국",
+      "interests": [
+        "스트리트",
+        "스니커즈",
+        "시티 산책"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0563",
+        "eth": "EA",
+        "nat": "KR",
+        "sex": "F",
+        "age": "A1",
+        "style": "STR",
+        "file": "generated/0563",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "generated": true
+      },
+      "folder": "0563_EA_KR_F_A1",
+      "publicPath": "/casts/amba/0563_EA_KR_F_A1/face.webp",
+      "metaPath": "/casts/amba/0563_EA_KR_F_A1/meta.json",
+      "faceBytes": 48066,
+      "faceSize": "800x1200",
+      "replaceSource": "generated:0563.png"
+    },
+    {
+      "id": "0572",
+      "name": "이선 카터 · Ethan Carter",
+      "gender": "남성",
+      "nationality": "미국",
+      "interests": [
+        "스트리트",
+        "스니커즈",
+        "시티 산책"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0572",
+        "eth": "WE",
+        "nat": "US",
+        "sex": "M",
+        "age": "A1",
+        "style": "STR",
+        "file": "0572_WE_US_M_A1_STR.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0572_WE_US_M_A1",
+      "publicPath": "/casts/amba/0572_WE_US_M_A1/face.webp",
+      "metaPath": "/casts/amba/0572_WE_US_M_A1/meta.json",
+      "faceBytes": 22890,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0576",
+      "name": "카빈두 페레라 · Kavindu Perera",
+      "gender": "남성",
+      "nationality": "스리랑카",
+      "interests": [
+        "아웃도어",
+        "여행",
+        "자연광"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0576",
+        "eth": "SA",
+        "nat": "LK",
+        "sex": "M",
+        "age": "A1",
+        "style": "OUT",
+        "file": "0576_SA_LK_M_A1_OUT.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0576_SA_LK_M_A1",
+      "publicPath": "/casts/amba/0576_SA_LK_M_A1/face.webp",
+      "metaPath": "/casts/amba/0576_SA_LK_M_A1/meta.json",
+      "faceBytes": 23118,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0586",
+      "name": "티아고 로메로 · Thiago Romero",
+      "gender": "남성",
+      "nationality": "아르헨티나",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0586",
+        "eth": "LT",
+        "nat": "AR",
+        "sex": "M",
+        "age": "A1",
+        "style": "STU",
+        "file": "0586_LT_AR_M_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0586_LT_AR_M_A1",
+      "publicPath": "/casts/amba/0586_LT_AR_M_A1/face.webp",
+      "metaPath": "/casts/amba/0586_LT_AR_M_A1/meta.json",
+      "faceBytes": 18364,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0611",
+      "name": "노아 브룩스 · Noah Brooks",
+      "gender": "남성",
+      "nationality": "미국",
+      "interests": [
+        "포멀 룩",
+        "시티 워킹",
+        "갤러리"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0611",
+        "eth": "LT",
+        "nat": "US",
+        "sex": "M",
+        "age": "A1",
+        "style": "FML",
+        "file": "generated/0611",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "generated": true
+      },
+      "folder": "0611_LT_US_M_A1",
+      "publicPath": "/casts/amba/0611_LT_US_M_A1/face.webp",
+      "metaPath": "/casts/amba/0611_LT_US_M_A1/meta.json",
+      "faceBytes": 41916,
+      "faceSize": "800x1200",
+      "replaceSource": "generated:0611.png"
+    },
+    {
+      "id": "0632",
+      "name": "박서준 · Park Seojun",
+      "gender": "남성",
+      "nationality": "대한민국",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0632",
+        "eth": "EA",
+        "nat": "KR",
+        "sex": "M",
+        "age": "A1",
+        "style": "STU",
+        "file": "0632_EA_KR_M_A1_STU.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0632_EA_KR_M_A1",
+      "publicPath": "/casts/amba/0632_EA_KR_M_A1/face.webp",
+      "metaPath": "/casts/amba/0632_EA_KR_M_A1/meta.json",
+      "faceBytes": 23184,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0671",
+      "name": "메이슨 리드 · Mason Reed",
+      "gender": "남성",
+      "nationality": "미국",
+      "interests": [
+        "스트리트",
+        "스니커즈",
+        "시티 산책"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0671",
+        "eth": "WE",
+        "nat": "US",
+        "sex": "M",
+        "age": "A1",
+        "style": "STR",
+        "file": "generated/0671",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "generated": true
+      },
+      "folder": "0671_WE_US_M_A1",
+      "publicPath": "/casts/amba/0671_WE_US_M_A1/face.webp",
+      "metaPath": "/casts/amba/0671_WE_US_M_A1/meta.json",
+      "faceBytes": 40392,
+      "faceSize": "800x1200",
+      "replaceSource": "generated:0671.png"
+    },
+    {
+      "id": "0690",
+      "name": "딜란 실바 · Dilan Silva",
+      "gender": "남성",
+      "nationality": "스리랑카",
+      "interests": [
+        "액티브웨어",
+        "러닝",
+        "헬시 루틴"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0690",
+        "eth": "SA",
+        "nat": "LK",
+        "sex": "M",
+        "age": "A1",
+        "style": "SPO",
+        "file": "generated/0690",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "generated": true
+      },
+      "folder": "0690_SA_LK_M_A1",
+      "publicPath": "/casts/amba/0690_SA_LK_M_A1/face.webp",
+      "metaPath": "/casts/amba/0690_SA_LK_M_A1/meta.json",
+      "faceBytes": 51680,
+      "faceSize": "800x1200",
+      "replaceSource": "generated:0690.png"
+    },
+    {
+      "id": "0694",
+      "name": "오시온 · Oh Sion",
+      "gender": "남성",
+      "nationality": "대한민국",
+      "interests": [
+        "스튜디오 라이트",
+        "미니멀 스타일",
+        "필름"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0694",
+        "eth": "EA",
+        "nat": "KR",
+        "sex": "M",
+        "age": "A1",
+        "style": "STU",
+        "file": "generated/0694",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "generated": true
+      },
+      "folder": "0694_EA_KR_M_A1",
+      "publicPath": "/casts/amba/0694_EA_KR_M_A1/face.webp",
+      "metaPath": "/casts/amba/0694_EA_KR_M_A1/meta.json",
+      "faceBytes": 56194,
+      "faceSize": "800x1200",
+      "replaceSource": "generated:0694.png"
+    },
+    {
+      "id": "0818",
+      "name": "치네두 오카포르 · Chinedu Okafor",
+      "gender": "남성",
+      "nationality": "나이지리아",
+      "interests": [
+        "포멀 룩",
+        "시티 워킹",
+        "갤러리"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0818",
+        "eth": "BL",
+        "nat": "NG",
+        "sex": "M",
+        "age": "M0",
+        "style": "FML",
+        "file": "0818_BL_NG_M_M0_FML.webp",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+      },
+      "folder": "0818_BL_NG_M_M0",
+      "publicPath": "/casts/amba/0818_BL_NG_M_M0/face.webp",
+      "metaPath": "/casts/amba/0818_BL_NG_M_M0/meta.json",
+      "faceBytes": 24610,
+      "faceSize": "800x1200"
+    },
+    {
+      "id": "0845",
+      "name": "루이 마르탱 · Louis Martin",
+      "gender": "남성",
+      "nationality": "프랑스",
+      "interests": [
+        "포멀 룩",
+        "시티 워킹",
+        "갤러리"
+      ],
+      "agency": "AMBA",
+      "agencyFull": "AI Ambassador",
+      "faceSeed": "./face.webp",
+      "source": {
+        "lookbookId": "0845",
+        "eth": "BL",
+        "nat": "FR",
+        "sex": "M",
+        "age": "M0",
+        "style": "FML",
+        "file": "generated/0845",
+        "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+        "generated": true
+      },
+      "folder": "0845_BL_FR_M_M0",
+      "publicPath": "/casts/amba/0845_BL_FR_M_M0/face.webp",
+      "metaPath": "/casts/amba/0845_BL_FR_M_M0/meta.json",
+      "faceBytes": 28838,
+      "faceSize": "800x1200",
+      "replaceSource": "generated:0845.png"
+    }
+  ],
+  "dedupedAt": "2026-09-04T23:24:21.184Z",
+  "uniqueFaces": 101,
+  "stillDuplicateGroups": []
+}

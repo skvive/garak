@@ -1,0 +1,24 @@
+{
+  "id": "0396",
+  "name": "레아 슈미트 · Lea Schmidt",
+  "gender": "여성",
+  "nationality": "독일",
+  "interests": [
+    "아웃도어",
+    "여행",
+    "자연광"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0396",
+    "eth": "WE",
+    "nat": "DE",
+    "sex": "F",
+    "age": "A1",
+    "style": "OUT",
+    "file": "0396_WE_DE_F_A1_OUT.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

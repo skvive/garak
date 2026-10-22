@@ -1,0 +1,24 @@
+{
+  "id": "0406",
+  "name": "안나 베커 · Anna Becker",
+  "gender": "여성",
+  "nationality": "독일",
+  "interests": [
+    "스튜디오 라이트",
+    "미니멀 스타일",
+    "필름"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0406",
+    "eth": "WE",
+    "nat": "DE",
+    "sex": "F",
+    "age": "A1",
+    "style": "STU",
+    "file": "0406_WE_DE_F_A1_STU.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

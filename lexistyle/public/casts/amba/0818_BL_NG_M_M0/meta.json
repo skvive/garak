@@ -1,0 +1,24 @@
+{
+  "id": "0818",
+  "name": "치네두 오카포르 · Chinedu Okafor",
+  "gender": "남성",
+  "nationality": "나이지리아",
+  "interests": [
+    "포멀 룩",
+    "시티 워킹",
+    "갤러리"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0818",
+    "eth": "BL",
+    "nat": "NG",
+    "sex": "M",
+    "age": "M0",
+    "style": "FML",
+    "file": "0818_BL_NG_M_M0_FML.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

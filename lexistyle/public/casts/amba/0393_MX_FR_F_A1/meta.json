@@ -1,0 +1,24 @@
+{
+  "id": "0393",
+  "name": "아멜리 로랑 · Amélie Laurent",
+  "gender": "여성",
+  "nationality": "프랑스",
+  "interests": [
+    "액티브웨어",
+    "러닝",
+    "헬시 루틴"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0393",
+    "eth": "MX",
+    "nat": "FR",
+    "sex": "F",
+    "age": "A1",
+    "style": "SPO",
+    "file": "0393_MX_FR_F_A1_SPO.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

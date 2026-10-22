@@ -1,0 +1,19 @@
+{
+  "sellerProductId": "16405322832",
+  "productId": 9767104900,
+  "putResult": 16405322832,
+  "statusAfter": "승인완료",
+  "imagesAfter": [
+    "vendor_inventory/40e2/9eb46af11ae8f20430a0f211cf5b0073b87d045c2d786a004e945ff5981d.jpg",
+    "vendor_inventory/af78/57c602649fe73f9b99f3fcf625145c47dc72537fec8740b9f627206c7833.jpg",
+    "vendor_inventory/cff3/466acc4a5ddc815e309adb93de6343ccc5dc622b3a20df10491c752c7994.jpg",
+    "vendor_inventory/0043/7111892924a7865fb7442a4f557394a6c3aed3ddd7b505747f562f36e80b.jpg",
+    "vendor_inventory/6e02/d4d64518093628bed4b0a5945402c803a8e0dc200a5817977a978f9a847b.jpg",
+    "vendor_inventory/8bbe/818f767135cba871640095dad367dcb981936aedf5814b698a34329f7c7f.jpg",
+    "vendor_inventory/9b11/35a9e87073a29110c6cf664bd6b0f242e56487848b36c9ce16e504bfd1b5.jpg",
+    "vendor_inventory/ccee/5e7817185f3ffbe78d69b2f95dfc8f9ce4f943e2a11f743d50c13e78766a.jpg"
+  ],
+  "galleryStillHasLook": false,
+  "contentStillHasLook": false,
+  "updatedAt": "2026-10-07T04:58:29.423Z"
+}

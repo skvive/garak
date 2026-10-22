@@ -1,0 +1,24 @@
+{
+  "id": "0430",
+  "name": "마히라 칸 · Mahira Khan",
+  "gender": "여성",
+  "nationality": "PK",
+  "interests": [
+    "뷰티 케어",
+    "스킨 글로우",
+    "매크로 디테일"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0430",
+    "eth": "SA",
+    "nat": "PK",
+    "sex": "F",
+    "age": "A1",
+    "style": "BTY",
+    "file": "0430_SA_PK_F_A1_BTY.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

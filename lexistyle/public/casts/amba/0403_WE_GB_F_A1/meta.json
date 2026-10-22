@@ -1,0 +1,24 @@
+{
+  "id": "0403",
+  "name": "아멜리아 클라크 · Amelia Clarke",
+  "gender": "여성",
+  "nationality": "영국",
+  "interests": [
+    "뷰티 케어",
+    "스킨 글로우",
+    "매크로 디테일"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0403",
+    "eth": "WE",
+    "nat": "GB",
+    "sex": "F",
+    "age": "A1",
+    "style": "BTY",
+    "file": "0403_WE_GB_F_A1_BTY.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

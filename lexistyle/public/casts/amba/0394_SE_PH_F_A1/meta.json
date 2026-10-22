@@ -1,0 +1,24 @@
+{
+  "id": "0394",
+  "name": "마리아 산토스 · Maria Santos",
+  "gender": "여성",
+  "nationality": "필리핀",
+  "interests": [
+    "뷰티 케어",
+    "스킨 글로우",
+    "매크로 디테일"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0394",
+    "eth": "SE",
+    "nat": "PH",
+    "sex": "F",
+    "age": "A1",
+    "style": "BTY",
+    "file": "0394_SE_PH_F_A1_BTY.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

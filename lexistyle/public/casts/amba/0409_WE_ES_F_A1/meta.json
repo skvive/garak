@@ -1,0 +1,24 @@
+{
+  "id": "0409",
+  "name": "알바 모레노 · Alba Moreno",
+  "gender": "여성",
+  "nationality": "스페인",
+  "interests": [
+    "하이패션",
+    "에디토리얼",
+    "런웨이"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0409",
+    "eth": "WE",
+    "nat": "ES",
+    "sex": "F",
+    "age": "A1",
+    "style": "HIG",
+    "file": "0409_WE_ES_F_A1_HIG.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

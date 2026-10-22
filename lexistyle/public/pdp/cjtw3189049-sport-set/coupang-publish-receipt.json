@@ -1,0 +1,75 @@
+{
+  "externalRef": "16406053508",
+  "title": "LEXI 남성 플리스 후드·조거 투피스 세트",
+  "productSku": "CJTW3189049",
+  "variants": 18,
+  "sellPriceUsd": 31.9,
+  "salePriceKrw": 44310,
+  "status": "승인완료",
+  "displayCategoryCode": 69540,
+  "optionSample": [
+    {
+      "itemName": "브라운 / S",
+      "externalVendorSku": "2609230315121638900",
+      "salePrice": 44310,
+      "vendorItemId": 96155386848,
+      "attributes": [
+        {
+          "attributeTypeName": "색상",
+          "attributeValueName": "브라운",
+          "exposed": "EXPOSED",
+          "editable": true
+        },
+        {
+          "attributeTypeName": "패션의류/잡화 사이즈",
+          "attributeValueName": "S",
+          "exposed": "EXPOSED",
+          "editable": true
+        }
+      ]
+    },
+    {
+      "itemName": "브라운 / M",
+      "externalVendorSku": "2609230315121638901",
+      "salePrice": 44310,
+      "vendorItemId": 96155386850,
+      "attributes": [
+        {
+          "attributeTypeName": "색상",
+          "attributeValueName": "브라운",
+          "exposed": "EXPOSED",
+          "editable": true
+        },
+        {
+          "attributeTypeName": "패션의류/잡화 사이즈",
+          "attributeValueName": "M",
+          "exposed": "EXPOSED",
+          "editable": true
+        }
+      ]
+    },
+    {
+      "itemName": "브라운 / L",
+      "externalVendorSku": "2609230315121638902",
+      "salePrice": 44310,
+      "vendorItemId": 96155386856,
+      "attributes": [
+        {
+          "attributeTypeName": "색상",
+          "attributeValueName": "브라운",
+          "exposed": "EXPOSED",
+          "editable": true
+        },
+        {
+          "attributeTypeName": "패션의류/잡화 사이즈",
+          "attributeValueName": "L",
+          "exposed": "EXPOSED",
+          "editable": true
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-10-07T02:12:21.675Z",
+  "productId": 9767907820,
+  "approvedAt": "2026-10-07T02:23:17.986Z"
+}

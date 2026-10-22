@@ -1,0 +1,22 @@
+{
+  "mockups": [
+    {
+      "id": "a",
+      "label": "Minimal wordmark",
+      "url": "https://dashscope-463f.oss-accelerate.aliyuncs.com/1d/a4/20260821/10739b93/1787301919_6a0781b5.png?Expires=1787388319&OSSAccessKeyId=LTAI5tRcsWJEymQaTsKbKqGf&Signature=XF5KDrl3tuVInhhIG06PP3SGYwk%3D",
+      "file": "brand-mock-a.png"
+    },
+    {
+      "id": "b",
+      "label": "Stacked LEXI + heart",
+      "url": "https://dashscope-463f.oss-accelerate.aliyuncs.com/1d/a7/20260821/10739b93/1787301928_6fe64986.png?Expires=1787388328&OSSAccessKeyId=LTAI5tRcsWJEymQaTsKbKqGf&Signature=%2BJkPd8SQxgw%2FgwITjK69fsRIWcI%3D",
+      "file": "brand-mock-b.png"
+    },
+    {
+      "id": "c",
+      "label": "Soft tonal LEXI",
+      "url": "https://dashscope-463f.oss-accelerate.aliyuncs.com/1d/52/20260821/10739b93/1787301938_39c8b2ba.png?Expires=1787388338&OSSAccessKeyId=LTAI5tRcsWJEymQaTsKbKqGf&Signature=epqLgoQuy59PSvTdmn1fKIqHe1s%3D",
+      "file": "brand-mock-c.png"
+    }
+  ]
+}

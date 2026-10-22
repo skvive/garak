@@ -1,0 +1,24 @@
+{
+  "id": "0405",
+  "name": "사토 아오이 · Sato Aoi",
+  "gender": "여성",
+  "nationality": "일본",
+  "interests": [
+    "아웃도어",
+    "여행",
+    "자연광"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0405",
+    "eth": "EA",
+    "nat": "JP",
+    "sex": "F",
+    "age": "A1",
+    "style": "OUT",
+    "file": "0405_EA_JP_F_A1_OUT.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

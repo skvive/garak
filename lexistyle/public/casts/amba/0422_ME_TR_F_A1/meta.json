@@ -1,0 +1,24 @@
+{
+  "id": "0422",
+  "name": "데니즈 카야 · Deniz Kaya",
+  "gender": "여성",
+  "nationality": "TR",
+  "interests": [
+    "포멀 룩",
+    "시티 워킹",
+    "갤러리"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0422",
+    "eth": "ME",
+    "nat": "TR",
+    "sex": "F",
+    "age": "A1",
+    "style": "FML",
+    "file": "0422_ME_TR_F_A1_FML.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

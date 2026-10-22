@@ -1,0 +1,48 @@
+{
+  "mockId": "mock-women-s-dress-61634800",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS table only",
+    "titleMarketing": "short regenerated external name"
+  },
+  "catalog": {
+    "externalId": "2608250927361634800",
+    "titleInternal": "Women's Dress",
+    "titleMarketing": {
+      "ko": "Women's Dress",
+      "en": "Women's Dress"
+    },
+    "categoryPath": [
+      "Lady Dresses"
+    ],
+    "costUsd": 6.94,
+    "sellUsd": 35.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0388",
+    "name": "지민 · Jimin",
+    "gender": "여성",
+    "nationality": "중국",
+    "interests": [
+      "스튜디오 라이트",
+      "미니멀 스타일",
+      "필름"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0388_EA_CN_F_A1/face.webp",
+    "castFolder": "0388_EA_CN_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-women-s-dress-61634800/"
+}

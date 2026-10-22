@@ -1,0 +1,24 @@
+{
+  "id": "0512",
+  "name": "그레이스 터너 · Grace Turner",
+  "gender": "여성",
+  "nationality": "미국",
+  "interests": [
+    "포멀 룩",
+    "시티 워킹",
+    "갤러리"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0512",
+    "eth": "WE",
+    "nat": "US",
+    "sex": "F",
+    "age": "A1",
+    "style": "FML",
+    "file": "0512_WE_US_F_A1_FML.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

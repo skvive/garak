@@ -1,0 +1,49 @@
+{
+  "mockId": "mock-beauty-beauty-ice-matte-long-wearing-mirror-finish-6162",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "category": "beauty",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face (or product focus)",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS table only",
+    "titleMarketing": "short regenerated external name"
+  },
+  "catalog": {
+    "id": "236",
+    "externalId": "2608250322361623000",
+    "titleInternal": "Ice-matte Long-wearing Mirror-finish Lipstick",
+    "titleMarketing": {
+      "ko": "매트 립스틱",
+      "en": "Ice-matte Long-wearing Mirror-finish Lipstick"
+    },
+    "categoryPath": [
+      "Lipstick"
+    ],
+    "costUsd": 2.76,
+    "sellUsd": 29.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0388",
+    "name": "지민 · Jimin",
+    "gender": "여성",
+    "nationality": "중국",
+    "interests": [
+      "스튜디오 라이트",
+      "미니멀 스타일",
+      "필름"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0388_EA_CN_F_A1/face.webp"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-beauty-beauty-ice-matte-long-wearing-mirror-finish-6162/"
+}

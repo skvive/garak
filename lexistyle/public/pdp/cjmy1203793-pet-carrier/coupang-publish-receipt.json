@@ -1,0 +1,47 @@
+{
+  "externalRef": "16406147202",
+  "title": "LEXI 확장형 소프트 펫 캐리어",
+  "productSku": "CJMY1203793",
+  "variants": 4,
+  "sellPriceUsd": 42.9,
+  "salePriceKrw": 59580,
+  "status": "ID_GEN",
+  "statusName": "임시저장중",
+  "productId": null,
+  "displayCategoryCode": 66001,
+  "optionSample": [
+    {
+      "itemName": "블랙 / 46x28x28cm",
+      "externalVendorSku": "1412346334391963648",
+      "salePrice": 59580,
+      "vendorItemId": null,
+      "itemId": null,
+      "attributes": []
+    },
+    {
+      "itemName": "그레이 / 46x28x28cm",
+      "externalVendorSku": "1412346334404546560",
+      "salePrice": 59580,
+      "vendorItemId": null,
+      "itemId": null,
+      "attributes": []
+    },
+    {
+      "itemName": "그린 / 46x28x28cm",
+      "externalVendorSku": "1542867199097057280",
+      "salePrice": 59580,
+      "vendorItemId": null,
+      "itemId": null,
+      "attributes": []
+    },
+    {
+      "itemName": "오렌지 / 46x28x28cm",
+      "externalVendorSku": "2501250404521601300",
+      "salePrice": 56810,
+      "vendorItemId": null,
+      "itemId": null,
+      "attributes": []
+    }
+  ],
+  "createdAt": "2026-10-07T04:05:31.548Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "0384",
+  "name": "이하린 · Lee Harin",
+  "gender": "여성",
+  "nationality": "대한민국",
+  "interests": [
+    "액티브웨어",
+    "러닝",
+    "헬시 루틴"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0384",
+    "eth": "EA",
+    "nat": "KR",
+    "sex": "F",
+    "age": "A1",
+    "style": "SPO",
+    "file": "0384_EA_KR_F_A1_SPO.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

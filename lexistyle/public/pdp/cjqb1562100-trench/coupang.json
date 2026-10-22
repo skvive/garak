@@ -1,0 +1,24 @@
+{
+  "sku": "CJQB1562100",
+  "selectedVariantSku": "CJQB156210006FU",
+  "title": "여성 루즈핏 미디 트렌치 코트",
+  "internalName": "New Women's Loose Mid-length Trench Coat",
+  "colors": ["그레이", "블랙", "카키"],
+  "sizes": ["S", "M", "L"],
+  "sizeChartCm": {
+    "S": { "length": 107, "sleeve": 52.8, "cuff": 31.8, "bust": 108.6 },
+    "M": { "length": 108, "sleeve": 53.8, "cuff": 33.8, "bust": 112.6 },
+    "L": { "length": 109, "sleeve": 54.8, "cuff": 35.8, "bust": 116.6 }
+  },
+  "variants": [
+    { "sku": "CJQB156210001AZ", "color": "그레이", "size": "S", "stock": 14858 },
+    { "sku": "CJQB156210002BY", "color": "그레이", "size": "M", "stock": 12108 },
+    { "sku": "CJQB156210003CX", "color": "그레이", "size": "L", "stock": 14402 },
+    { "sku": "CJQB156210004DW", "color": "블랙", "size": "S", "stock": 14252 },
+    { "sku": "CJQB156210005EV", "color": "블랙", "size": "M", "stock": 13815 },
+    { "sku": "CJQB156210006FU", "color": "블랙", "size": "L", "stock": 11101 },
+    { "sku": "CJQB156210007GT", "color": "카키", "size": "S", "stock": 13911 },
+    { "sku": "CJQB156210008HS", "color": "카키", "size": "M", "stock": 11426 },
+    { "sku": "CJQB156210009IR", "color": "카키", "size": "L", "stock": 14628 }
+  ]
+}

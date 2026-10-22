@@ -1,0 +1,48 @@
+{
+  "mockId": "mock-womens-plus-size-casual-floral-shirt-91627000",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS only",
+    "titleMarketing": "short regenerated"
+  },
+  "catalog": {
+    "externalId": "2608250802291627000",
+    "titleInternal": "Womens Plus-Size Casual Floral Shirt",
+    "titleMarketing": {
+      "ko": "플라워 데일리 블라우스",
+      "en": "Womens Plus-Size Casual Floral Shirt"
+    },
+    "categoryPath": [
+      "Blouses & Shirts"
+    ],
+    "costUsd": 6.08,
+    "sellUsd": 33.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0437",
+    "name": "누르 · Noor",
+    "gender": "여성",
+    "nationality": "호주",
+    "interests": [
+      "스트리트",
+      "스니커즈",
+      "시티 산책"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0437_WE_AU_F_A1/face.webp",
+    "castFolder": "0437_WE_AU_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-womens-plus-size-casual-floral-shirt-91627000/"
+}

@@ -1,0 +1,38 @@
+{
+  "sellerProductId": "16406147202",
+  "productId": 9768009295,
+  "statusName": "승인완료",
+  "coupangUrl": "https://www.coupang.com/vp/products/9768009295",
+  "coupangUrlDeep": "https://www.coupang.com/vp/products/9768009295?itemId=29236991105&vendorItemId=96155708024&sourceType=sdp_all_products&searchId=",
+  "options": [
+    {
+      "itemName": "블랙 / 46x28x28cm",
+      "externalVendorSku": "1412346334391963648",
+      "salePrice": 59580,
+      "vendorItemId": 96155708024,
+      "itemId": 29236991105
+    },
+    {
+      "itemName": "그레이 / 46x28x28cm",
+      "externalVendorSku": "1412346334404546560",
+      "salePrice": 59580,
+      "vendorItemId": 96155708025,
+      "itemId": 29236991102
+    },
+    {
+      "itemName": "그린 / 46x28x28cm",
+      "externalVendorSku": "1542867199097057280",
+      "salePrice": 59580,
+      "vendorItemId": 96155708023,
+      "itemId": 29236991099
+    },
+    {
+      "itemName": "오렌지 / 46x28x28cm",
+      "externalVendorSku": "2501250404521601300",
+      "salePrice": 56810,
+      "vendorItemId": 96155708022,
+      "itemId": 29236991097
+    }
+  ],
+  "polledAt": "2026-10-07T04:07:06.751Z"
+}

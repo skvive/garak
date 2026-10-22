@@ -1,0 +1,24 @@
+{
+  "id": "0268",
+  "name": "왕하오 · Wang Hao",
+  "gender": "남성",
+  "nationality": "중국",
+  "interests": [
+    "뷰티 케어",
+    "스킨 글로우",
+    "매크로 디테일"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0268",
+    "eth": "EA",
+    "nat": "CN",
+    "sex": "M",
+    "age": "A0",
+    "style": "BTY",
+    "file": "0268_EA_CN_M_A0_BTY.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

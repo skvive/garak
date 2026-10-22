@@ -1,0 +1,48 @@
+{
+  "mockId": "mock-backless-lace-panel-sexy-slim-fit-so-11611100",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS only",
+    "titleMarketing": "short regenerated"
+  },
+  "catalog": {
+    "externalId": "2608250842111611100",
+    "titleInternal": "Backless Lace-Panel Sexy Slim-Fit Solid-Color Strap Long Dress",
+    "titleMarketing": {
+      "ko": "백리스 레이스 패널 슬림핏 원피스",
+      "en": "Backless Lace-Panel Sexy Slim-Fit Solid-Color Strap Long Dress"
+    },
+    "categoryPath": [
+      "Lady Dresses"
+    ],
+    "costUsd": 8.65,
+    "sellUsd": 37.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0422",
+    "name": "소피아 · Sofia",
+    "gender": "여성",
+    "nationality": "TR",
+    "interests": [
+      "포멀 룩",
+      "시티 워킹",
+      "갤러리"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0422_ME_TR_F_A1/face.webp",
+    "castFolder": "0422_ME_TR_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-backless-lace-panel-sexy-slim-fit-so-11611100/"
+}

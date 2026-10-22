@@ -1,0 +1,24 @@
+{
+  "id": "0418",
+  "name": "클레어 맥도널드 · Claire MacDonald",
+  "gender": "여성",
+  "nationality": "캐나다",
+  "interests": [
+    "하이패션",
+    "에디토리얼",
+    "런웨이"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0418",
+    "eth": "WE",
+    "nat": "CA",
+    "sex": "F",
+    "age": "A1",
+    "style": "HIG",
+    "file": "0418_WE_CA_F_A1_HIG.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

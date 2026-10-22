@@ -1,0 +1,24 @@
+{
+  "id": "0386",
+  "name": "에이버리 브룩스 · Avery Brooks",
+  "gender": "여성",
+  "nationality": "미국",
+  "interests": [
+    "포멀 룩",
+    "시티 워킹",
+    "갤러리"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0386",
+    "eth": "MX",
+    "nat": "US",
+    "sex": "F",
+    "age": "A1",
+    "style": "FML",
+    "file": "0386_MX_US_F_A1_FML.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

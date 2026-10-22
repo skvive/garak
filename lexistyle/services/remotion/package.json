@@ -1,0 +1,26 @@
+{
+  "name": "lexi-remotion",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "LEXI 숏폼 렌더 (스토리보드 JSON → MP4) + CommerceShorts 렌더 워커",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render StoryboardVideo out/video.mp4",
+    "worker": "node worker.mjs",
+    "worker:once": "node worker.mjs --once"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.532",
+    "@remotion/cli": "4.0.532",
+    "@remotion/renderer": "4.0.532",
+    "@vercel/blob": "^2.6.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.532"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "product": {
+    "id": "853",
+    "supplierCode": "cjdropshipping",
+    "externalId": "2092140723069558785",
+    "title": "Backpack Mini Clear Color Multi Color Backpack Fashion Corduroy Backpack Simple Casual Men's And Women's Small Back-Backpack-0021 Corduroy Purple",
+    "titleKo": null,
+    "categoryPath": [
+      "Boys Bags"
+    ],
+    "minPrice": "3.41",
+    "maxPrice": "3.41",
+    "currency": "USD",
+    "stock": 0,
+    "primaryThumbUrl": "https://oss-cf.cjdropshipping.com/supplier/2026/08/25/05/e1def772-96d1-455f-a489-2f899321f439.jpg",
+    "sellerName": "LEXI",
+    "sourceUrl": null,
+    "searchableText": "backpack mini clear color multi color backpack fashion corduroy backpack simple casual men's and women's small back-backpack-0021 corduroy purple boys bags cjdropshipping",
+    "contentHash": "h1fpwe1x",
+    "sourceStatus": "active",
+    "importState": "imported",
+    "productId": null,
+    "documentId": 114,
+    "rawMeta": {
+      "categoryPath": [
+        "Boys Bags"
+      ]
+    },
+    "indexedAt": "2026-08-26T00:03:32.180Z",
+    "updatedAt": "2026-09-02T19:22:14.923Z"
+  },
+  "engine": "template",
+  "imageMock": false,
+  "imageError": null,
+  "providerChain": "mock",
+  "heroBytes": 32064,
+  "heroDimensions": {
+    "width": 960,
+    "height": 960
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "headline": "Backpack Mini Clear Color Multi Color Backpack Fashion Corduroy Backpack Simple ",
+      "sub": "From the Boys Bags edit",
+      "assetIndex": 0
+    },
+    {
+      "type": "gallery",
+      "assetIndexes": [
+        1
+      ]
+    },
+    {
+      "type": "usp",
+      "items": [
+        "Curated boys bags pick — quality-checked before shipment",
+        "Duty-calculated checkout: the price you see is the landed cost",
+        "In-stock sourcing with tracked dispatch"
+      ]
+    },
+    {
+      "type": "story",
+      "html": "<p>Backpack Mini Clear Color Multi Color Backpack Fashion Corduroy Backpack Simple Casual Men's And Women's Small Back-Backpack-0021 Corduroy Purple — redesigned for LEXI with duty-aware pricing and curated presentation.</p>"
+    },
+    {
+      "type": "spec-table",
+      "rows": [
+        [
+          "Brand",
+          "LEXI"
+        ],
+        [
+          "Ruleset",
+          "lexi-pdp-ruleset-v1"
+        ]
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Who handles returns?",
+          "a": "Supplier A/S center handles returns; LEXI opens and tracks the ticket."
+        },
+        {
+          "q": "Are duties included?",
+          "a": "Checkout totals include estimated duties for your destination."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Add to bag"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+# ── 빌드·런타임 산출물 ──
+lexistyle/node_modules/
+lexistyle/.next/
+lexistyle/garak-build*.log
+lexistyle/dev-server*.log
+lexistyle/npm-install*.log
+docs/_docx_staging/
+docs/screenshots/verify-report.txt
+
+# ── 클론 원본의 에이전트·도구 폴더 (신규 저장소에서 제외) ──
+lexistyle/.cursor/
+lexistyle/.claude/
+lexistyle/.clinerules/
+lexistyle/.codex/
+lexistyle/.linker/
+lexistyle/.agents/
+lexistyle/.github/
+lexistyle/AGENTS.md
+lexistyle/CLAUDE.md
+lexistyle/HUMAN_QUEUE.md
+lexistyle/skills-lock.json
+lexistyle/.mcp.json
+lexistyle/.tsc-out.txt
+
+# ── 클론 원본의 임시·스크랩 파일 ──
+lexistyle/_preview_fashion.html
+lexistyle/_prod_check.html
+lexistyle/_prod_fashion.html
+lexistyle/_prod_fashion2.html
+lexistyle/_cats.sql
+lexistyle/_neon_check.mjs
+lexistyle/outputs/
+lexistyle/amba/
+lexistyle/ambas-site/
+lexistyle/pdp-site/
+lexistyle/cursor-grok-sample3-handoff/

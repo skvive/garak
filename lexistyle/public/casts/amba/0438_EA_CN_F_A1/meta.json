@@ -1,0 +1,24 @@
+{
+  "id": "0438",
+  "name": "리우신 · Liu Xin",
+  "gender": "여성",
+  "nationality": "중국",
+  "interests": [
+    "액티브웨어",
+    "러닝",
+    "헬시 루틴"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0438",
+    "eth": "EA",
+    "nat": "CN",
+    "sex": "F",
+    "age": "A1",
+    "style": "SPO",
+    "file": "0438_EA_CN_F_A1_SPO.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "0383",
+  "name": "올리비아 베넷 · Olivia Bennett",
+  "gender": "여성",
+  "nationality": "영국",
+  "interests": [
+    "스트리트",
+    "스니커즈",
+    "시티 산책"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0383",
+    "eth": "WE",
+    "nat": "GB",
+    "sex": "F",
+    "age": "A1",
+    "style": "STR",
+    "file": "0383_WE_GB_F_A1_STR.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

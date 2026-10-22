@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-17",
+  "entries": [
+    {
+      "id": "hub",
+      "title": "Cafe24 개발문서 허브",
+      "keywords": ["cafe24", "문서", "index", "공식링크", "검색"],
+      "path": "docs/cafe24/README.md"
+    },
+    {
+      "id": "account",
+      "title": "LEXI Cafe24 계정·연결 프로필",
+      "keywords": ["partnersc88", "shop_no", "lexi0", "client_id", "환경변수", "vercel"],
+      "path": "docs/cafe24/account-profile.md"
+    },
+    {
+      "id": "oauth",
+      "title": "OAuth 2.0 인증·토큰",
+      "keywords": ["oauth", "authorize", "access_token", "refresh_token", "revoke", "redirect_uri", "state"],
+      "path": "docs/cafe24/platform-guide.md",
+      "anchor": "oauth-20-흐름"
+    },
+    {
+      "id": "scope",
+      "title": "Scope·invalid_scope",
+      "keywords": ["scope", "invalid_scope", "mall.read_product", "403", "권한"],
+      "path": "docs/cafe24/platform-guide.md",
+      "anchor": "scope-원칙"
+    },
+    {
+      "id": "rate-limit",
+      "title": "Cafe24 API 호출 제한",
+      "keywords": ["429", "leaky bucket", "X-Api-Call-Limit", "X-Cafe24-Call-Usage", "Remain", "throttle"],
+      "path": "docs/cafe24/platform-guide.md",
+      "anchor": "호출-제한"
+    },
+    {
+      "id": "status-code",
+      "title": "상태 코드·오류 진단",
+      "keywords": ["400", "401", "403", "404", "409", "422", "429", "500", "503", "504"],
+      "path": "docs/cafe24/platform-guide.md",
+      "anchor": "상태-코드-진단"
+    },
+    {
+      "id": "products",
+      "title": "상품·품목·재고·이미지·SEO",
+      "keywords": ["products", "variants", "inventories", "images", "additionalimages", "seo", "tags", "상품"],
+      "path": "docs/cafe24/lexi-endpoint-map.md",
+      "anchor": "상품"
+    },
+    {
+      "id": "orders",
+      "title": "주문·결제·취소·환불·배송",
+      "keywords": ["orders", "payments", "cancellation", "refunds", "return", "exchange", "shipments", "주문"],
+      "path": "docs/cafe24/lexi-endpoint-map.md",
+      "anchor": "주문"
+    },
+    {
+      "id": "pdp-publish",
+      "title": "PDP·상품 콘텐츠 게시",
+      "keywords": ["pdp", "description", "product update", "publish", "rollback", "상세페이지"],
+      "path": "docs/cafe24/lexi-endpoint-map.md",
+      "anchor": "pdp상품-콘텐츠-게시"
+    },
+    {
+      "id": "design",
+      "title": "테마·페이지·스크립트 태그",
+      "keywords": ["themes", "themes pages", "skin", "scripttags", "design", "디자인"],
+      "path": "docs/cafe24/lexi-endpoint-map.md",
+      "anchor": "디자인"
+    },
+    {
+      "id": "operator-permissions",
+      "title": "대표·부·공급사 운영자 상세권한",
+      "keywords": ["operator", "MENU_LIST", "FUNCTION_LIST", "users", "suppliers users", "운영자", "부운영자"],
+      "path": "docs/cafe24/account-profile.md",
+      "anchor": "운영자-권한확인-uri"
+    },
+    {
+      "id": "resources",
+      "title": "전체 도메인·리소스 인덱스",
+      "keywords": ["store", "product", "order", "customer", "community", "promotion", "application", "shipping", "translation"],
+      "path": "docs/cafe24/api-resource-index.json"
+    },
+    {
+      "id": "architecture",
+      "title": "Cafe24와 LEXI 시스템 소유권",
+      "keywords": ["architecture", "system of record", "studio", "commerce", "소유권", "원장"],
+      "path": "docs/lexi-cafe24-studio-master-spec.md"
+    }
+  ]
+}

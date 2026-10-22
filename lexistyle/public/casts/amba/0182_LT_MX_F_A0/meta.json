@@ -1,0 +1,27 @@
+{
+  "id": "0182",
+  "name": "소피아 에르난데스 · Sofía Hernández",
+  "gender": "여성",
+  "nationality": "멕시코",
+  "interests": [
+    "스튜디오 라이트",
+    "미니멀 스타일",
+    "필름"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0182",
+    "eth": "LT",
+    "nat": "MX",
+    "sex": "F",
+    "age": "A0",
+    "style": "STU",
+    "file": "0417_LT_CO_F_A1_BTY.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+    "replacedFromLookbookId": "0417"
+  },
+  "replacedAt": "2026-09-04T23:18:27.897Z",
+  "replaceSource": "lookbook:0417_LT_CO_F_A1_BTY.webp"
+}

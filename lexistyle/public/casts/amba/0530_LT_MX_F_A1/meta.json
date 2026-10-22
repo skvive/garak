@@ -1,0 +1,24 @@
+{
+  "id": "0530",
+  "name": "카밀라 나바로 · Camila Navarro",
+  "gender": "여성",
+  "nationality": "멕시코",
+  "interests": [
+    "포멀 룩",
+    "시티 워킹",
+    "갤러리"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0530",
+    "eth": "LT",
+    "nat": "MX",
+    "sex": "F",
+    "age": "A1",
+    "style": "FML",
+    "file": "0530_LT_MX_F_A1_FML.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

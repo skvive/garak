@@ -1,0 +1,37 @@
+{
+  "version": "sample3",
+  "slug": "solid-color-lapel-thickened-woolen-belted-double-breasted-coat-2609150102251619000",
+  "brand": "LEXI",
+  "titleMarketing": "크림슨 벨티드 더블 코트",
+  "titleInternal": "Solid Color Lapel Thickened Woolen Belted Double-breasted Coat",
+  "amba": {
+    "name": "Seo Arin",
+    "nameKo": "서아린",
+    "gender": "Female",
+    "nationality": "Korean",
+    "interests": ["Contemporary Fashion", "Winter City Walking", "Photography"],
+    "affiliation": "AMBA (AI Ambassador)"
+  },
+  "hero": { "src": "/pdp/crimson-belted-double-breasted-coat/s1-hero.webp", "alt": "Crimson belted double-breasted coat editorial" },
+  "gallery": [
+    { "src": "/pdp/crimson-belted-double-breasted-coat/s2-detail.webp", "alt": "Coat lapel and belt detail" },
+    { "src": "/pdp/crimson-belted-double-breasted-coat/s3-desire.webp", "alt": "Coat silhouette editorial" }
+  ],
+  "colorThumbnails": {
+    "gray": "/pdp/crimson-belted-double-breasted-coat/colors/gray.webp",
+    "black": "/pdp/crimson-belted-double-breasted-coat/colors/black.webp",
+    "red": "/pdp/crimson-belted-double-breasted-coat/colors/red.webp",
+    "khaki": "/pdp/crimson-belted-double-breasted-coat/colors/khaki.webp",
+    "darkBrown": "/pdp/crimson-belted-double-breasted-coat/colors/dark-brown.webp",
+    "darkGray": "/pdp/crimson-belted-double-breasted-coat/colors/dark-gray.webp"
+  },
+  "og": { "src": "/pdp/crimson-belted-double-breasted-coat/og.webp", "title": "Crimson Belted Double Coat" },
+  "details": [
+    { "label": "Brand", "value": "LEXI" },
+    { "label": "Product", "value": "크림슨 벨티드 더블 코트" },
+    { "label": "Fit", "value": "레귤러 핏 · 더블브레스티드 · 벨티드 롱 코트" },
+    { "label": "Color", "value": "그레이 · 블랙 · 레드 · 카키 · 다크 브라운 · 다크 그레이" },
+    { "label": "Season", "value": "가을·겨울" }
+  ],
+  "brandNote": { "title": "LEXI IS RPCOW.", "body": "Radiant Presence, Captivating Outfit for your Wardrobe." }
+}

@@ -1,0 +1,25 @@
+{
+  "version": "sample3",
+  "slug": "plaid-vintage-woolen-skirt-for-women-2609141039331621900",
+  "brand": "LEXI",
+  "titleMarketing": "브라운 체크 A라인 미디 스커트",
+  "titleInternal": "Plaid Vintage Woolen Skirt For Women",
+  "amba": {
+    "name": "Seo Arin",
+    "nameKo": "서아린",
+    "gender": "Female",
+    "nationality": "Korean",
+    "interests": ["Contemporary Fashion", "Photography", "City Travel"],
+    "affiliation": "AMBA (AI Ambassador)"
+  },
+  "hero": { "src": "/pdp/plaid-vintage-woolen-skirt/hero-v1.webp" },
+  "gallery": [
+    "/pdp/plaid-vintage-woolen-skirt/detail-v1.webp",
+    "/pdp/plaid-vintage-woolen-skirt/silhouette-v1.webp"
+  ],
+  "og": { "src": "/pdp/plaid-vintage-woolen-skirt/og-v1.webp", "title": "BROWN PLAID MIDI SKIRT" },
+  "brandNote": {
+    "title": "LEXI IS RPCOW.",
+    "body": "Radiant Presence, Captivating Outfit for your Wardrobe."
+  }
+}

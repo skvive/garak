@@ -1,0 +1,24 @@
+{
+  "id": "0437",
+  "name": "아일라 머피 · Isla Murphy",
+  "gender": "여성",
+  "nationality": "호주",
+  "interests": [
+    "스트리트",
+    "스니커즈",
+    "시티 산책"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0437",
+    "eth": "WE",
+    "nat": "AU",
+    "sex": "F",
+    "age": "A1",
+    "style": "STR",
+    "file": "0437_WE_AU_F_A1_STR.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "mockId": "mock-tailored-sleeveless-vest-wc-vest",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS table only",
+    "titleMarketing": "short regenerated external name"
+  },
+  "catalog": {
+    "externalId": "wc-vest",
+    "titleInternal": "Tailored Sleeveless Vest",
+    "titleMarketing": {
+      "ko": "테일러드 슬리브리스 베스트",
+      "en": "Tailored Sleeveless Vest"
+    },
+    "categoryPath": [
+      "women-clothing",
+      "women-clothing/dresses"
+    ],
+    "costUsd": 32,
+    "sellUsd": 67.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0563",
+    "name": "자이라 · Zaira",
+    "gender": "여성",
+    "nationality": "대한민국",
+    "interests": [
+      "스트리트",
+      "스니커즈",
+      "시티 산책"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0563_EA_KR_F_A1/face.webp",
+    "castFolder": "0563_EA_KR_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-tailored-sleeveless-vest-wc-vest/"
+}

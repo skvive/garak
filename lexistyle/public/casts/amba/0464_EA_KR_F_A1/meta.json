@@ -1,0 +1,24 @@
+{
+  "id": "0464",
+  "name": "송다인 · Song Dain",
+  "gender": "여성",
+  "nationality": "대한민국",
+  "interests": [
+    "스트리트",
+    "스니커즈",
+    "시티 산책"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0464",
+    "eth": "EA",
+    "nat": "KR",
+    "sex": "F",
+    "age": "A1",
+    "style": "STR",
+    "file": "0464_EA_KR_F_A1_STR.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "mockId": "mock-womens-short-a-line-dress-with-long--01609000",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS only",
+    "titleMarketing": "short regenerated"
+  },
+  "catalog": {
+    "externalId": "2608250833301609000",
+    "titleInternal": "Womens Short A-Line Dress With Long Sleeves And A Mandarin Collar",
+    "titleMarketing": {
+      "ko": "에이라인 원피스",
+      "en": "Womens Short A-Line Dress With Long Sleeves And A Mandarin Collar"
+    },
+    "categoryPath": [
+      "Lady Dresses"
+    ],
+    "costUsd": 7.29,
+    "sellUsd": 35.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0384",
+    "name": "유나 · Yuna",
+    "gender": "여성",
+    "nationality": "대한민국",
+    "interests": [
+      "액티브웨어",
+      "러닝",
+      "헬시 루틴"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0384_EA_KR_F_A1/face.webp",
+    "castFolder": "0384_EA_KR_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-womens-short-a-line-dress-with-long--01609000/"
+}

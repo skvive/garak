@@ -1,0 +1,48 @@
+{
+  "mockId": "mock-fashionable-and-sexy-sequined-halter-51617700",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS only",
+    "titleMarketing": "short regenerated"
+  },
+  "catalog": {
+    "externalId": "2608250851251617700",
+    "titleInternal": "Fashionable And Sexy Sequined Halter-neck Womens Dress",
+    "titleMarketing": {
+      "ko": "시퀀 홀터넥 패션 원피스",
+      "en": "Fashionable And Sexy Sequined Halter-neck Womens Dress"
+    },
+    "categoryPath": [
+      "Lady Dresses"
+    ],
+    "costUsd": 14.76,
+    "sellUsd": 45.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0445",
+    "name": "이자벨라 · Isabella",
+    "gender": "여성",
+    "nationality": "이탈리아",
+    "interests": [
+      "하이패션",
+      "에디토리얼",
+      "런웨이"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0445_WE_IT_F_A1/face.webp",
+    "castFolder": "0445_WE_IT_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-fashionable-and-sexy-sequined-halter-51617700/"
+}

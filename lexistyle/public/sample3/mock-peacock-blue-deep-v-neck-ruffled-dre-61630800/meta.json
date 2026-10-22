@@ -1,0 +1,48 @@
+{
+  "mockId": "mock-peacock-blue-deep-v-neck-ruffled-dre-61630800",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS only",
+    "titleMarketing": "short regenerated"
+  },
+  "catalog": {
+    "externalId": "2608250726261630800",
+    "titleInternal": "Peacock Blue Deep V-Neck Ruffled Dress",
+    "titleMarketing": {
+      "ko": "브이넥 러플 피콕 그린 원피스",
+      "en": "Peacock Blue Deep V-Neck Ruffled Dress"
+    },
+    "categoryPath": [
+      "Lady Dresses"
+    ],
+    "costUsd": 13.37,
+    "sellUsd": 43.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0408",
+    "name": "미오 · Mio",
+    "gender": "여성",
+    "nationality": "스페인",
+    "interests": [
+      "스튜디오 라이트",
+      "미니멀 스타일",
+      "필름"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0408_LT_ES_F_A1/face.webp",
+    "castFolder": "0408_LT_ES_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-peacock-blue-deep-v-neck-ruffled-dre-61630800/"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "0385",
+  "name": "핌차녹 수완 · Pimchanok Suwan",
+  "gender": "여성",
+  "nationality": "태국",
+  "interests": [
+    "뷰티 케어",
+    "스킨 글로우",
+    "매크로 디테일"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0385",
+    "eth": "SE",
+    "nat": "TH",
+    "sex": "F",
+    "age": "A1",
+    "style": "BTY",
+    "file": "0385_SE_TH_F_A1_BTY.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

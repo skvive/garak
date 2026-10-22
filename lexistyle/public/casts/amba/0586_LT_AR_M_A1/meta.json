@@ -1,0 +1,24 @@
+{
+  "id": "0586",
+  "name": "티아고 로메로 · Thiago Romero",
+  "gender": "남성",
+  "nationality": "아르헨티나",
+  "interests": [
+    "스튜디오 라이트",
+    "미니멀 스타일",
+    "필름"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0586",
+    "eth": "LT",
+    "nat": "AR",
+    "sex": "M",
+    "age": "A1",
+    "style": "STU",
+    "file": "0586_LT_AR_M_A1_STU.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

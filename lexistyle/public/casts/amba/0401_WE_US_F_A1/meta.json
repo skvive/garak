@@ -1,0 +1,24 @@
+{
+  "id": "0401",
+  "name": "클로이 카터 · Chloe Carter",
+  "gender": "여성",
+  "nationality": "미국",
+  "interests": [
+    "스트리트",
+    "스니커즈",
+    "시티 산책"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0401",
+    "eth": "WE",
+    "nat": "US",
+    "sex": "F",
+    "age": "A1",
+    "style": "STR",
+    "file": "0401_WE_US_F_A1_STR.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

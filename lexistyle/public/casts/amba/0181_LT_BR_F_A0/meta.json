@@ -1,0 +1,24 @@
+{
+  "id": "0181",
+  "name": "아나 루이자 · Ana Luiza",
+  "gender": "여성",
+  "nationality": "브라질",
+  "interests": [
+    "스튜디오 라이트",
+    "미니멀 스타일",
+    "필름"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0181",
+    "eth": "LT",
+    "nat": "BR",
+    "sex": "F",
+    "age": "A0",
+    "style": "STU",
+    "file": "0181_LT_BR_F_A0_STU.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

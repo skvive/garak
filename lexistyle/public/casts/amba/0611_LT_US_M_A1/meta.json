@@ -1,0 +1,27 @@
+{
+  "id": "0611",
+  "name": "노아 브룩스 · Noah Brooks",
+  "gender": "남성",
+  "nationality": "미국",
+  "interests": [
+    "포멀 룩",
+    "시티 워킹",
+    "갤러리"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0611",
+    "eth": "LT",
+    "nat": "US",
+    "sex": "M",
+    "age": "A1",
+    "style": "FML",
+    "file": "generated/0611",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+    "generated": true
+  },
+  "replacedAt": "2026-09-04T23:24:20.167Z",
+  "replaceSource": "generated:0611.png"
+}

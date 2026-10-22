@@ -1,0 +1,24 @@
+{
+  "id": "0414",
+  "name": "날레디 몰레페 · Naledi Molefe",
+  "gender": "여성",
+  "nationality": "남아프리카공화국",
+  "interests": [
+    "아웃도어",
+    "여행",
+    "자연광"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0414",
+    "eth": "BL",
+    "nat": "ZA",
+    "sex": "F",
+    "age": "A1",
+    "style": "OUT",
+    "file": "0414_BL_ZA_F_A1_OUT.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

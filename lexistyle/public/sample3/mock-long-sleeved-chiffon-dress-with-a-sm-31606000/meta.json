@@ -1,0 +1,48 @@
+{
+  "mockId": "mock-long-sleeved-chiffon-dress-with-a-sm-31606000",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS table only",
+    "titleMarketing": "short regenerated external name"
+  },
+  "catalog": {
+    "externalId": "2608250904531606000",
+    "titleInternal": "Long-sleeved Chiffon Dress With A Small Floral Print",
+    "titleMarketing": {
+      "ko": "Long-sleeved Chiffon Dress With A Small Floral P",
+      "en": "Long-sleeved Chiffon Dress With A Small Floral Print"
+    },
+    "categoryPath": [
+      "Lady Dresses"
+    ],
+    "costUsd": 7.29,
+    "sellUsd": 35.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0446",
+    "name": "하퍼 · Harper",
+    "gender": "여성",
+    "nationality": "일본",
+    "interests": [
+      "스트리트",
+      "스니커즈",
+      "시티 산책"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0446_EA_JP_F_A1/face.webp",
+    "castFolder": "0446_EA_JP_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-long-sleeved-chiffon-dress-with-a-sm-31606000/"
+}

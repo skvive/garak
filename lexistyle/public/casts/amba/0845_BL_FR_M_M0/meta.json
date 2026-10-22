@@ -1,0 +1,27 @@
+{
+  "id": "0845",
+  "name": "루이 마르탱 · Louis Martin",
+  "gender": "남성",
+  "nationality": "프랑스",
+  "interests": [
+    "포멀 룩",
+    "시티 워킹",
+    "갤러리"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0845",
+    "eth": "BL",
+    "nat": "FR",
+    "sex": "M",
+    "age": "M0",
+    "style": "FML",
+    "file": "generated/0845",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+    "generated": true
+  },
+  "replacedAt": "2026-09-04T23:24:21.100Z",
+  "replaceSource": "generated:0845.png"
+}

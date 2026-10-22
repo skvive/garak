@@ -1,0 +1,24 @@
+{
+  "id": "0395",
+  "name": "줄리아 로시 · Giulia Rossi",
+  "gender": "여성",
+  "nationality": "이탈리아",
+  "interests": [
+    "포멀 룩",
+    "시티 워킹",
+    "갤러리"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0395",
+    "eth": "WE",
+    "nat": "IT",
+    "sex": "F",
+    "age": "A1",
+    "style": "FML",
+    "file": "0395_WE_IT_F_A1_FML.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

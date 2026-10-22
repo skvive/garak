@@ -1,0 +1,24 @@
+{
+  "id": "0484",
+  "name": "마농 르페브르 · Manon Lefèvre",
+  "gender": "여성",
+  "nationality": "프랑스",
+  "interests": [
+    "뷰티 케어",
+    "스킨 글로우",
+    "매크로 디테일"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0484",
+    "eth": "WE",
+    "nat": "FR",
+    "sex": "F",
+    "age": "A1",
+    "style": "BTY",
+    "file": "0484_WE_FR_F_A1_BTY.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

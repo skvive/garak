@@ -1,0 +1,24 @@
+{
+  "id": "0413",
+  "name": "플로렌스 테일러 · Florence Taylor",
+  "gender": "여성",
+  "nationality": "영국",
+  "interests": [
+    "포멀 룩",
+    "시티 워킹",
+    "갤러리"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0413",
+    "eth": "WE",
+    "nat": "GB",
+    "sex": "F",
+    "age": "A1",
+    "style": "FML",
+    "file": "0413_WE_GB_F_A1_FML.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

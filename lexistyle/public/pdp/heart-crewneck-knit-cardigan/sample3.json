@@ -1,0 +1,12 @@
+{
+  "version": "sample3",
+  "slug": "loving-heart-crew-neck-laid-back-loose-knit-cardigan-2608300318341624800",
+  "brand": "LEXI",
+  "titleMarketing": "하트 모티프 크루넥 니트 가디건",
+  "titleInternal": "Loving Heart Crew Neck Laid-back Loose Knit Cardigan",
+  "amba": { "name": "Seo Arin", "nameKo": "서아린", "gender": "Female", "nationality": "Korean", "interests": ["Contemporary Fashion", "Photography", "City Travel"], "affiliation": "AMBA (AI Ambassador)" },
+  "hero": { "src": "/pdp/heart-crewneck-knit-cardigan/hero-v1.webp" },
+  "gallery": ["/pdp/heart-crewneck-knit-cardigan/detail-v1.webp", "/pdp/heart-crewneck-knit-cardigan/silhouette-v1.webp"],
+  "og": { "src": "/pdp/heart-crewneck-knit-cardigan/og-v1.webp", "title": "HEART MOTIF KNIT CARDIGAN" },
+  "brandNote": { "title": "LEXI IS RPCOW.", "body": "Radiant Presence, Captivating Outfit for your Wardrobe." }
+}

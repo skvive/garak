@@ -1,0 +1,27 @@
+{
+  "id": "0528",
+  "name": "천위팅 · Chen Yuting",
+  "gender": "여성",
+  "nationality": "중국",
+  "interests": [
+    "액티브웨어",
+    "러닝",
+    "헬시 루틴"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0528",
+    "eth": "EA",
+    "nat": "CN",
+    "sex": "F",
+    "age": "A1",
+    "style": "SPO",
+    "file": "0428_MX_US_F_A1_SPO.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+    "replacedFromLookbookId": "0428"
+  },
+  "replacedAt": "2026-09-04T23:18:28.633Z",
+  "replaceSource": "lookbook:0428_MX_US_F_A1_SPO.webp"
+}

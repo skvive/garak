@@ -1,0 +1,1997 @@
+{
+ "Pumps": {
+  "slug": "cj-pumps",
+  "ko": "펌프스",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Women's Shoes"
+ },
+ "Event & Party Supplies": {
+  "slug": "cj-event-and-party-supplies",
+  "ko": "파티·이벤트용품",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Festive & Party Supplies"
+ },
+ "Woman Socks": {
+  "slug": "cj-woman-socks",
+  "ko": "여성 양말",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Accessories"
+ },
+ "Lady Dresses": {
+  "slug": "cj-lady-dresses",
+  "ko": "원피스",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Tops & Sets"
+ },
+ "Bras": {
+  "slug": "cj-bras",
+  "ko": "브라",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Underwear"
+ },
+ "Women's Cargo Pants": {
+  "slug": "cj-womens-cargo-pants",
+  "ko": "여성 카고팬츠",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Bottoms"
+ },
+ "Bedding Sets": {
+  "slug": "cj-bedding-sets",
+  "ko": "침구세트",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Home Textiles"
+ },
+ "Men's Clothing": {
+  "slug": "cj-mens-clothing",
+  "ko": "남성 의류",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Men's Clothing"
+ },
+ "Blouses & Shirts": {
+  "slug": "cj-blouses-and-shirts",
+  "ko": "블라우스·셔츠",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Tops & Sets"
+ },
+ "Boys Bags": {
+  "slug": "cj-boys-bags",
+  "ko": "백팩·가방",
+  "dept": "fashion",
+  "first": "Toys, Kids & Babies",
+  "second": "Baby & Mother"
+ },
+ "Home Office Storage": {
+  "slug": "cj-home-office-storage",
+  "ko": "홈오피스 수납",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Home Storage"
+ },
+ "Rings": {
+  "slug": "cj-rings",
+  "ko": "반지",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Fashion Jewelry"
+ },
+ "Casual Shoes": {
+  "slug": "cj-casual-shoes",
+  "ko": "캐주얼화",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Men's Shoes"
+ },
+ "Watch Accessories": {
+  "slug": "cj-watch-accessories",
+  "ko": "시계 액세서리",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Women's Watches"
+ },
+ "Bracelets & Bangles": {
+  "slug": "cj-bracelets-and-bangles",
+  "ko": "팔찌·뱅글",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Fashion Jewelry"
+ },
+ "Necklace & Pendants": {
+  "slug": "cj-necklace-and-pendants",
+  "ko": "목걸이·펜던트",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Fashion Jewelry"
+ },
+ "Casual Pants": {
+  "slug": "cj-casual-pants",
+  "ko": "캐주얼 팬츠",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Bottoms"
+ },
+ "Women's Camis": {
+  "slug": "cj-womens-camis",
+  "ko": "여성 캐미솔",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Tops & Sets"
+ },
+ "Skirts": {
+  "slug": "cj-skirts",
+  "ko": "스커트",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Bottoms"
+ },
+ "Woman Hats & Caps": {
+  "slug": "cj-woman-hats-and-caps",
+  "ko": "여성 모자",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Accessories"
+ },
+ "Clutches": {
+  "slug": "cj-clutches",
+  "ko": "클러치",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Women's Luggage & Bags"
+ },
+ "Rompers": {
+  "slug": "cj-rompers",
+  "ko": "롬퍼",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Tops & Sets"
+ },
+ "Women's Short-Sleeved Shirts": {
+  "slug": "cj-womens-short-sleeved-shirts",
+  "ko": "여성 반팔 셔츠",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Tops & Sets"
+ },
+ "Women's Tube Tops": {
+  "slug": "cj-womens-tube-tops",
+  "ko": "여성 튜브탑",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Tops & Sets"
+ },
+ "Suits & Sets": {
+  "slug": "cj-suits-and-sets",
+  "ko": "수트·세트",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Tops & Sets"
+ },
+ "Wide Leg Pants": {
+  "slug": "cj-wide-leg-pants",
+  "ko": "와이드팬츠",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Bottoms"
+ },
+ "Woman Hoodies & Sweatshirts": {
+  "slug": "cj-woman-hoodies-and-sweatshirts",
+  "ko": "여성 후드·맨투맨",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Tops & Sets"
+ },
+ "Sweaters": {
+  "slug": "cj-sweaters",
+  "ko": "니트·스웨터",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Tops & Sets"
+ },
+ "Men's Sweaters": {
+  "slug": "cj-mens-sweaters",
+  "ko": "남성 니트",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Outerwear & Jackets"
+ },
+ "Men's Shirts": {
+  "slug": "cj-mens-shirts",
+  "ko": "남성 셔츠",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Outerwear & Jackets"
+ },
+ "Men's Suits": {
+  "slug": "cj-mens-suits",
+  "ko": "남성 수트",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Outerwear & Jackets"
+ },
+ "Men's Long-Sleeved": {
+  "slug": "cj-mens-long-sleeved",
+  "ko": "남성 긴팔",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "T-Shirts"
+ },
+ "Sports Accessories": {
+  "slug": "cj-sports-accessories",
+  "ko": "스포츠 액세서리",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Sportswear"
+ },
+ "Running Shoes": {
+  "slug": "cj-running-shoes",
+  "ko": "러닝화",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Sneakers"
+ },
+ "Basketball Shoes": {
+  "slug": "cj-basketball-shoes",
+  "ko": "농구화",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Sneakers"
+ },
+ "Soccer Shoes": {
+  "slug": "cj-soccer-shoes",
+  "ko": "축구화",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Sneakers"
+ },
+ "Health Care Products": {
+  "slug": "cj-health-care-products",
+  "ko": "헬스케어",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Food & Health"
+ },
+ "Women's Crossbody Bags": {
+  "slug": "cj-womens-crossbody-bags",
+  "ko": "여성 크로스백",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Women's Luggage & Bags"
+ },
+ "Cables": {
+  "slug": "cj-cables",
+  "ko": "케이블",
+  "dept": "digital",
+  "first": "Phones & Accessories",
+  "second": "Mobile Phone Accessories"
+ },
+ "Evening Bags": {
+  "slug": "cj-evening-bags",
+  "ko": "이브닝백",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Women's Luggage & Bags"
+ },
+ "Woman Boots": {
+  "slug": "cj-woman-boots",
+  "ko": "여성 부츠",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Women's Shoes"
+ },
+ "Fashion Jewelry Sets": {
+  "slug": "cj-fashion-jewelry-sets",
+  "ko": "패션 주얼리 세트",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Fashion Jewelry"
+ },
+ "925 Silver Jewelry": {
+  "slug": "cj-925-silver-jewelry",
+  "ko": "925 실버 주얼리",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Fine Jewelry"
+ },
+ "Belts & Cummerbunds": {
+  "slug": "cj-belts-and-cummerbunds",
+  "ko": "벨트·커머번드",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Accessories"
+ },
+ "Bridal Jewelry Sets": {
+  "slug": "cj-bridal-jewelry-sets",
+  "ko": "브라이덜 주얼리 세트",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Wedding & Engagement"
+ },
+ "Eyewear & Accessories": {
+  "slug": "cj-eyewear-and-accessories",
+  "ko": "아이웨어·액세서리",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Accessories"
+ },
+ "Earrings": {
+  "slug": "cj-earrings",
+  "ko": "이어링",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Fashion Jewelry"
+ },
+ "Computer Tablet Accessories": {
+  "slug": "cj-computer-tablet-accessories",
+  "ko": "태블릿 액세서리",
+  "dept": "digital",
+  "first": "Computer & Office",
+  "second": "Office Electronics"
+ },
+ "Woman Shorts": {
+  "slug": "cj-woman-shorts",
+  "ko": "여성 반바지",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Bottoms"
+ },
+ "Holders & Stands": {
+  "slug": "cj-holders-and-stands",
+  "ko": "거치대",
+  "dept": "digital",
+  "first": "Phones & Accessories",
+  "second": "Mobile Phone Accessories"
+ },
+ "Totes": {
+  "slug": "cj-totes",
+  "ko": "토트백",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Women's Luggage & Bags"
+ },
+ "Man Wallets": {
+  "slug": "cj-man-wallets",
+  "ko": "남성 지갑",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Men's Luggage & Bags"
+ },
+ "Men's Backpacks": {
+  "slug": "cj-mens-backpacks",
+  "ko": "남성 백팩",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Men's Luggage & Bags"
+ },
+ "Crossbody Bags": {
+  "slug": "cj-crossbody-bags",
+  "ko": "크로스백",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Men's Luggage & Bags"
+ },
+ "Luggage & Travel Bags": {
+  "slug": "cj-luggage-and-travel-bags",
+  "ko": "여행가방",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Men's Luggage & Bags"
+ },
+ "Waist Bags": {
+  "slug": "cj-waist-bags",
+  "ko": "웨이스트백",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Men's Luggage & Bags"
+ },
+ "Backpacks & Carriers": {
+  "slug": "cj-backpacks-and-carriers",
+  "ko": "백팩·캐리어",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Baby & Mother"
+ },
+ "Shoulder Bags": {
+  "slug": "cj-shoulder-bags",
+  "ko": "숄더백",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Women's Luggage & Bags"
+ },
+ "Woman Slippers": {
+  "slug": "cj-woman-slippers",
+  "ko": "여성 슬리퍼",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Women's Shoes"
+ },
+ "Man Boots": {
+  "slug": "cj-man-boots",
+  "ko": "남성 부츠",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Men's Shoes"
+ },
+ "Hiking Shoes": {
+  "slug": "cj-hiking-shoes",
+  "ko": "등산화",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Sneakers"
+ },
+ "Skateboarding Shoes": {
+  "slug": "cj-skateboarding-shoes",
+  "ko": "스케이트화",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Sneakers"
+ },
+ "Flats": {
+  "slug": "cj-flats",
+  "ko": "플랫슈즈",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Women's Shoes"
+ },
+ "Dance Shoes": {
+  "slug": "cj-dance-shoes",
+  "ko": "댄스화",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Sneakers"
+ },
+ "Pet Shoes & Socks": {
+  "slug": "cj-pet-shoes-and-socks",
+  "ko": "반려동물 신발·양말",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Apparels"
+ },
+ "Panties": {
+  "slug": "cj-panties",
+  "ko": "팬티",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Underwear"
+ },
+ "Leggings": {
+  "slug": "cj-leggings",
+  "ko": "레깅스",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Bottoms"
+ },
+ "Bikini Sets": {
+  "slug": "cj-bikini-sets",
+  "ko": "수영복·비치웨어",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Swimming"
+ },
+ "Blazers": {
+  "slug": "cj-blazers",
+  "ko": "블레이저",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Outerwear & Jackets"
+ },
+ "Man Hoodies & Sweatshirts": {
+  "slug": "cj-man-hoodies-and-sweatshirts",
+  "ko": "남성 후드·맨투맨",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Outerwear & Jackets"
+ },
+ "Men's Sleep & Lounge": {
+  "slug": "cj-mens-sleep-and-lounge",
+  "ko": "남성 파자마·라운지",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Underwear & Loungewear"
+ },
+ "Man Pajama Sets": {
+  "slug": "cj-man-pajama-sets",
+  "ko": "남성 파자마 세트",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Underwear & Loungewear"
+ },
+ "Tops & Tees": {
+  "slug": "cj-tops-and-tees",
+  "ko": "상의·티셔츠",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Girls Clothing"
+ },
+ "Man Jeans": {
+  "slug": "cj-man-jeans",
+  "ko": "남성 청바지",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Bottoms"
+ },
+ "Men's Hats & Caps": {
+  "slug": "cj-mens-hats-and-caps",
+  "ko": "남성 모자",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Accessories"
+ },
+ "Brooches": {
+  "slug": "cj-brooches",
+  "ko": "브로치",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Fashion Jewelry"
+ },
+ "Woman Sandals": {
+  "slug": "cj-woman-sandals",
+  "ko": "여성 샌들",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Women's Shoes"
+ },
+ "Pillows": {
+  "slug": "cj-pillows",
+  "ko": "베개",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Home Textiles"
+ },
+ "Stationeries": {
+  "slug": "cj-stationeries",
+  "ko": "문구",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Home Storage"
+ },
+ "Drinkware": {
+  "slug": "cj-drinkware",
+  "ko": "컵·텀블러",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Kitchen, Dining & Bar"
+ },
+ "Kitchen Storage": {
+  "slug": "cj-kitchen-storage",
+  "ko": "주방 수납",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Home Storage"
+ },
+ "Women's Long-Sleeved Shirts": {
+  "slug": "cj-womens-long-sleeved-shirts",
+  "ko": "여성 긴팔 셔츠",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Tops & Sets"
+ },
+ "Pet Bags": {
+  "slug": "cj-pet-bags",
+  "ko": "반려동물 가방",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Outdoor Supplies"
+ },
+ "Women's Outerwear": {
+  "slug": "cj-womens-outerwear",
+  "ko": "여성 아우터",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Outerwear & Jackets"
+ },
+ "Apparel Sewing & Fabric": {
+  "slug": "cj-apparel-sewing-and-fabric",
+  "ko": "의류 재봉·원단",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Arts, Crafts & Sewing"
+ },
+ "Women's Vests": {
+  "slug": "cj-womens-vests",
+  "ko": "여성 조끼",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Tops & Sets"
+ },
+ "Women's Sleeveless Tops": {
+  "slug": "cj-womens-sleeveless-tops",
+  "ko": "여성 민소매 상의",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Tops & Sets"
+ },
+ "Body Jewelry": {
+  "slug": "cj-body-jewelry",
+  "ko": "바디 주얼리",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Fashion Jewelry"
+ },
+ "Women's Bracelet Watches": {
+  "slug": "cj-womens-bracelet-watches",
+  "ko": "여성 팔찌시계",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Women's Watches"
+ },
+ "Adult Wellness": {
+  "slug": "cj-adult-wellness",
+  "ko": "성인 웰니스",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Home Storage"
+ },
+ "Face Skin Care Tools": {
+  "slug": "cj-face-skin-care-tools",
+  "ko": "피부관리 도구",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Beauty Tools"
+ },
+ "Pet Mats": {
+  "slug": "cj-pet-mats",
+  "ko": "반려동물 매트",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Bedding"
+ },
+ "Pet Shower Products": {
+  "slug": "cj-pet-shower-products",
+  "ko": "반려동물 목욕용품",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Groomings"
+ },
+ "Nail Art Kits": {
+  "slug": "cj-nail-art-kits",
+  "ko": "네일아트",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Nail Art & Tools"
+ },
+ "Pet Muzzles": {
+  "slug": "cj-pet-muzzles",
+  "ko": "반려동물 입마개",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Collars, Harnesses & Accessories"
+ },
+ "Pet Furniture Tools": {
+  "slug": "cj-pet-furniture-tools",
+  "ko": "반려동물 용품",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Furnitures"
+ },
+ "Pet Collars": {
+  "slug": "cj-pet-collars",
+  "ko": "반려동물 목걸이",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Collars, Harnesses & Accessories"
+ },
+ "Pet Seat Belts": {
+  "slug": "cj-pet-seat-belts",
+  "ko": "반려동물 카시트벨트",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Outdoor Supplies"
+ },
+ "Pet Training and Educational Toys": {
+  "slug": "cj-pet-training-and-educational-toys",
+  "ko": "반려동물 교육 장난감",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Toys"
+ },
+ "Cat Scratching Posts": {
+  "slug": "cj-cat-scratching-posts",
+  "ko": "캣 스크래처",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Furnitures"
+ },
+ "Pet Nests": {
+  "slug": "cj-pet-nests",
+  "ko": "반려동물 방석",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Bedding"
+ },
+ "Action & Toy Figures": {
+  "slug": "cj-action-and-toy-figures",
+  "ko": "액션피규어",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Toys & Hobbies"
+ },
+ "Pet Feeding Tools": {
+  "slug": "cj-pet-feeding-tools",
+  "ko": "반려동물 급식기",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Drinking & Feeding"
+ },
+ "RC Helicopters": {
+  "slug": "cj-rc-helicopters",
+  "ko": "RC 헬기",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Toys & Hobbies"
+ },
+ "Power Bank": {
+  "slug": "cj-power-bank",
+  "ko": "보조배터리",
+  "dept": "digital",
+  "first": "Phones & Accessories",
+  "second": "Mobile Phone Accessories"
+ },
+ "Baby Accessories": {
+  "slug": "cj-baby-accessories",
+  "ko": "유아 액세서리",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Baby Clothing"
+ },
+ "Screen Protectors": {
+  "slug": "cj-screen-protectors",
+  "ko": "보호필름",
+  "dept": "digital",
+  "first": "Phones & Accessories",
+  "second": "Mobile Phone Accessories"
+ },
+ "Chargers": {
+  "slug": "cj-chargers",
+  "ko": "충전기·어댑터",
+  "dept": "digital",
+  "first": "Phones & Accessories",
+  "second": "Mobile Phone Accessories"
+ },
+ "Men's Jackets": {
+  "slug": "cj-mens-jackets",
+  "ko": "남성 재킷",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Outerwear & Jackets"
+ },
+ "Shorts": {
+  "slug": "cj-shorts",
+  "ko": "반바지",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Underwear & Loungewear"
+ },
+ "Boxers": {
+  "slug": "cj-boxers",
+  "ko": "복서 브리프",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Underwear & Loungewear"
+ },
+ "Camping & Hiking": {
+  "slug": "cj-camping-and-hiking",
+  "ko": "캠핑·하이킹",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Other Sports Equipment"
+ },
+ "Bicycles": {
+  "slug": "cj-bicycles",
+  "ko": "자전거",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Cycling"
+ },
+ "Electronic Pets": {
+  "slug": "cj-electronic-pets",
+  "ko": "전자 반려동물",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Toys & Hobbies"
+ },
+ "Home Electronic Accessories": {
+  "slug": "cj-home-electronic-accessories",
+  "ko": "생활 전자 액세서리",
+  "dept": "digital",
+  "first": "Consumer Electronics",
+  "second": "Accessories & Parts"
+ },
+ "Cleaning Appliances": {
+  "slug": "cj-cleaning-appliances",
+  "ko": "청소 가전",
+  "dept": "life",
+  "first": "Home Improvement",
+  "second": "Home Appliances"
+ },
+ "Kitchen Appliances": {
+  "slug": "cj-kitchen-appliances",
+  "ko": "주방가전",
+  "dept": "life",
+  "first": "Home Improvement",
+  "second": "Home Appliances"
+ },
+ "Personal Care Appliances": {
+  "slug": "cj-personal-care-appliances",
+  "ko": "퍼스널케어 기기",
+  "dept": "life",
+  "first": "Home Improvement",
+  "second": "Home Appliances"
+ },
+ "Smart Home Appliances": {
+  "slug": "cj-smart-home-appliances",
+  "ko": "스마트홈 가전",
+  "dept": "digital",
+  "first": "Consumer Electronics",
+  "second": "Smart Electronics"
+ },
+ "Audio Amplifiers": {
+  "slug": "cj-audio-amplifiers",
+  "ko": "오디오 앰프",
+  "dept": "digital",
+  "first": "Consumer Electronics",
+  "second": "Home Audio & Video"
+ },
+ "Home Appliance Parts": {
+  "slug": "cj-home-appliance-parts",
+  "ko": "생활가전 부품",
+  "dept": "life",
+  "first": "Home Improvement",
+  "second": "Home Appliances"
+ },
+ "Charger": {
+  "slug": "cj-charger",
+  "ko": "충전기",
+  "dept": "digital",
+  "first": "Consumer Electronics",
+  "second": "Accessories & Parts"
+ },
+ "Digital Cables": {
+  "slug": "cj-digital-cables",
+  "ko": "디지털 케이블",
+  "dept": "digital",
+  "first": "Consumer Electronics",
+  "second": "Accessories & Parts"
+ },
+ "Batteries": {
+  "slug": "cj-batteries",
+  "ko": "배터리",
+  "dept": "digital",
+  "first": "Consumer Electronics",
+  "second": "Accessories & Parts"
+ },
+ "Digital Gear Bags": {
+  "slug": "cj-digital-gear-bags",
+  "ko": "디지털 기어백",
+  "dept": "digital",
+  "first": "Consumer Electronics",
+  "second": "Accessories & Parts"
+ },
+ "Other Exterior Accessories": {
+  "slug": "cj-other-exterior-accessories",
+  "ko": "기타 외장 액세서리",
+  "dept": "auto",
+  "first": "Automobiles & Motorcycles",
+  "second": "Exterior Accessories"
+ },
+ "Motorcycle Seat Covers": {
+  "slug": "cj-motorcycle-seat-covers",
+  "ko": "오토바이 시트커버",
+  "dept": "auto",
+  "first": "Automobiles & Motorcycles",
+  "second": "Motorcycle Accessories & Parts"
+ },
+ "Car Brake System": {
+  "slug": "cj-car-brake-system",
+  "ko": "차량 브레이크",
+  "dept": "auto",
+  "first": "Automobiles & Motorcycles",
+  "second": "Auto Replacement Parts"
+ },
+ "Car Covers": {
+  "slug": "cj-car-covers",
+  "ko": "차량 커버",
+  "dept": "auto",
+  "first": "Automobiles & Motorcycles",
+  "second": "Exterior Accessories"
+ },
+ "Vehicle Camera": {
+  "slug": "cj-vehicle-camera",
+  "ko": "차량용 카메라",
+  "dept": "auto",
+  "first": "Automobiles & Motorcycles",
+  "second": "Car Electronics"
+ },
+ "Car Stickers": {
+  "slug": "cj-car-stickers",
+  "ko": "차량 스티커",
+  "dept": "auto",
+  "first": "Automobiles & Motorcycles",
+  "second": "Exterior Accessories"
+ },
+ "Decor Paintings": {
+  "slug": "cj-decor-paintings",
+  "ko": "인테리어 그림",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Arts, Crafts & Sewing"
+ },
+ "LED Spotlights": {
+  "slug": "cj-led-spotlights",
+  "ko": "LED 조명",
+  "dept": "life",
+  "first": "Home Improvement",
+  "second": "LED Lighting"
+ },
+ "Diamond Painting Cross Stitch": {
+  "slug": "cj-diamond-painting-cross-stitch",
+  "ko": "다이아몬드 페인팅",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Arts, Crafts & Sewing"
+ },
+ "Dog Training Pads & Diapers": {
+  "slug": "cj-dog-training-pads-and-diapers",
+  "ko": "배변패드·기저귀",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Outdoor Supplies"
+ },
+ "Pet Harnesses": {
+  "slug": "cj-pet-harnesses",
+  "ko": "반려동물 하네스",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Collars, Harnesses & Accessories"
+ },
+ "One-Piece Suits": {
+  "slug": "cj-one-piece-suits",
+  "ko": "원피스 수영복",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Swimming"
+ },
+ "Basic Jacket": {
+  "slug": "cj-basic-jacket",
+  "ko": "베이직 재킷",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Outerwear & Jackets"
+ },
+ "Suits & Blazer": {
+  "slug": "cj-suits-and-blazer",
+  "ko": "수트·블레이저",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Outerwear & Jackets"
+ },
+ "Wool & Blend": {
+  "slug": "cj-wool-and-blend",
+  "ko": "울·혼방",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Outerwear & Jackets"
+ },
+ "Comforters": {
+  "slug": "cj-comforters",
+  "ko": "이불",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Home Textiles"
+ },
+ "Engagement Rings": {
+  "slug": "cj-engagement-rings",
+  "ko": "약혼반지",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Wedding & Engagement"
+ },
+ "Headband & Hair Band & Hairpin": {
+  "slug": "cj-headband-and-hair-band-and-hairpin",
+  "ko": "헤어밴드·헤어핀",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Hair & Accessories"
+ },
+ "Christmas Decoration Supplies": {
+  "slug": "cj-christmas-decoration-supplies",
+  "ko": "크리스마스 장식",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Festive & Party Supplies"
+ },
+ "Pet Toy Set": {
+  "slug": "cj-pet-toy-set",
+  "ko": "반려동물 장난감 세트",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Toys"
+ },
+ "3D Pens": {
+  "slug": "cj-3d-pens",
+  "ko": "3D펜",
+  "dept": "digital",
+  "first": "Computer & Office",
+  "second": "Office Electronics"
+ },
+ "Pet Chew Toys": {
+  "slug": "cj-pet-chew-toys",
+  "ko": "반려동물 치석 장난감",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Toys"
+ },
+ "Robes": {
+  "slug": "cj-robes",
+  "ko": "로브·가운",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Underwear & Loungewear"
+ },
+ "Swimming Goggles": {
+  "slug": "cj-swimming-goggles",
+  "ko": "수경",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Swimming"
+ },
+ "Scarves & Wraps": {
+  "slug": "cj-scarves-and-wraps",
+  "ko": "스카프·랩",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Accessories"
+ },
+ "Facial Care": {
+  "slug": "cj-facial-care",
+  "ko": "페이셜케어",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Skin Care"
+ },
+ "Nail Gel": {
+  "slug": "cj-nail-gel",
+  "ko": "네일젤",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Nail Art & Tools"
+ },
+ "Cushion Covers": {
+  "slug": "cj-cushion-covers",
+  "ko": "쿠션커버",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Home Textiles"
+ },
+ "Storage Bottles & Jars": {
+  "slug": "cj-storage-bottles-and-jars",
+  "ko": "보관용기",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Home Storage"
+ },
+ "Kitchen Knives & Accessories": {
+  "slug": "cj-kitchen-knives-and-accessories",
+  "ko": "주방칼·도구",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Kitchen, Dining & Bar"
+ },
+ "Pet Plush Toys": {
+  "slug": "cj-pet-plush-toys",
+  "ko": "반려동물 봉제인형",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Toys"
+ },
+ "Floor Mats": {
+  "slug": "cj-floor-mats",
+  "ko": "발매트",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Home Textiles"
+ },
+ "Girl Clothing Sets": {
+  "slug": "cj-girl-clothing-sets",
+  "ko": "여아 의류세트",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Girls Clothing"
+ },
+ "Stuffed & Plush Animals": {
+  "slug": "cj-stuffed-and-plush-animals",
+  "ko": "봉제인형",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Toys & Hobbies"
+ },
+ "Human Hair Wigs": {
+  "slug": "cj-human-hair-wigs",
+  "ko": "인모 가발",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Wigs & Extensions"
+ },
+ "Long Johns": {
+  "slug": "cj-long-johns",
+  "ko": "내복",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Underwear & Loungewear"
+ },
+ "Massage & Relaxation": {
+  "slug": "cj-massage-and-relaxation",
+  "ko": "마사지·릴랙스",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Health Care"
+ },
+ "Other Maintenance Products": {
+  "slug": "cj-other-maintenance-products",
+  "ko": "기타 정비용품",
+  "dept": "auto",
+  "first": "Automobiles & Motorcycles",
+  "second": "Tools, Maintenance & Care"
+ },
+ "Other Replacement Parts": {
+  "slug": "cj-other-replacement-parts",
+  "ko": "기타 교체 부품",
+  "dept": "auto",
+  "first": "Automobiles & Motorcycles",
+  "second": "Auto Replacement Parts"
+ },
+ "Bathroom Storage": {
+  "slug": "cj-bathroom-storage",
+  "ko": "욕실 수납",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Home Storage"
+ },
+ "Party Masks": {
+  "slug": "cj-party-masks",
+  "ko": "파티 마스크",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Festive & Party Supplies"
+ },
+ "Audio & Video Cables": {
+  "slug": "cj-audio-and-video-cables",
+  "ko": "AV 케이블",
+  "dept": "digital",
+  "first": "Consumer Electronics",
+  "second": "Accessories & Parts"
+ },
+ "Nail Decorations": {
+  "slug": "cj-nail-decorations",
+  "ko": "네일 데코",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Nail Art & Tools"
+ },
+ "Night Lights": {
+  "slug": "cj-night-lights",
+  "ko": "무드등",
+  "dept": "life",
+  "first": "Home Improvement",
+  "second": "Indoor Lighting"
+ },
+ "Briefs": {
+  "slug": "cj-briefs",
+  "ko": "브리프",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Underwear & Loungewear"
+ },
+ "Stickers & Decals": {
+  "slug": "cj-stickers-and-decals",
+  "ko": "스티커·데칼",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Nail Art & Tools"
+ },
+ "Exterior Parts": {
+  "slug": "cj-exterior-parts",
+  "ko": "외장 부품",
+  "dept": "auto",
+  "first": "Automobiles & Motorcycles",
+  "second": "Auto Replacement Parts"
+ },
+ "Pet Hair Removers & Combs": {
+  "slug": "cj-pet-hair-removers-and-combs",
+  "ko": "반려동물 브러시",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Groomings"
+ },
+ "Printer Supplies": {
+  "slug": "cj-printer-supplies",
+  "ko": "프린터 소모품",
+  "dept": "digital",
+  "first": "Computer & Office",
+  "second": "Office Electronics"
+ },
+ "Waterptoof Cases": {
+  "slug": "cj-waterptoof-cases",
+  "ko": "방수 케이스",
+  "dept": "digital",
+  "first": "Phones & Accessories",
+  "second": "Cases & Covers"
+ },
+ "Cycling Gloves": {
+  "slug": "cj-cycling-gloves",
+  "ko": "사이클 장갑",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Cycling"
+ },
+ "Keychains": {
+  "slug": "cj-keychains",
+  "ko": "키링",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Fashion Jewelry"
+ },
+ "Nail Glitters": {
+  "slug": "cj-nail-glitters",
+  "ko": "네일 글리터",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Nail Art & Tools"
+ },
+ "Pet Sound Toys": {
+  "slug": "cj-pet-sound-toys",
+  "ko": "반려동물 소리 장난감",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Toys"
+ },
+ "Print": {
+  "slug": "cj-print",
+  "ko": "프린트",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "T-Shirts"
+ },
+ "Printers": {
+  "slug": "cj-printers",
+  "ko": "프린터",
+  "dept": "digital",
+  "first": "Computer & Office",
+  "second": "Office Electronics"
+ },
+ "Wedding & Engagement": {
+  "slug": "cj-wedding-and-engagement",
+  "ko": "웨딩·약혼",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Wedding & Engagement"
+ },
+ "Woman Gloves & Mittens": {
+  "slug": "cj-woman-gloves-and-mittens",
+  "ko": "여성 장갑",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Accessories"
+ },
+ "Storage Bags & Cases & Boxes": {
+  "slug": "cj-storage-bags-and-cases-and-boxes",
+  "ko": "수납백·박스",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Home Storage"
+ },
+ "Fashion Backpacks": {
+  "slug": "cj-fashion-backpacks",
+  "ko": "패션 백팩",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Women's Luggage & Bags"
+ },
+ "Pants & Capris": {
+  "slug": "cj-pants-and-capris",
+  "ko": "팬츠·카프리",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Bottoms"
+ },
+ "Pet Beds": {
+  "slug": "cj-pet-beds",
+  "ko": "반려동물 침대",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Bedding"
+ },
+ "Solid": {
+  "slug": "cj-solid",
+  "ko": "솔리드",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "T-Shirts"
+ },
+ "Towels": {
+  "slug": "cj-towels",
+  "ko": "타월",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Home Textiles"
+ },
+ "Woman Prescription Glasses": {
+  "slug": "cj-woman-prescription-glasses",
+  "ko": "여성 안경",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Accessories"
+ },
+ "Briefcases": {
+  "slug": "cj-briefcases",
+  "ko": "브리프케이스",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Men's Luggage & Bags"
+ },
+ "Girl Dresses": {
+  "slug": "cj-girl-dresses",
+  "ko": "여아 원피스",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Girls Clothing"
+ },
+ "Lenses": {
+  "slug": "cj-lenses",
+  "ko": "렌즈",
+  "dept": "digital",
+  "first": "Phones & Accessories",
+  "second": "Mobile Phone Accessories"
+ },
+ "Pet Tunnel Toys": {
+  "slug": "cj-pet-tunnel-toys",
+  "ko": "반려동물 터널 장난감",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Toys"
+ },
+ "Barking Control Equipments": {
+  "slug": "cj-barking-control-equipments",
+  "ko": "짖음 방지 용품",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Outdoor Supplies"
+ },
+ "Garden Tools": {
+  "slug": "cj-garden-tools",
+  "ko": "정원 도구",
+  "dept": "life",
+  "first": "Home Improvement",
+  "second": "Tools"
+ },
+ "Girls Bags": {
+  "slug": "cj-girls-bags",
+  "ko": "여아 가방",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Baby & Mother"
+ },
+ "Intimates": {
+  "slug": "cj-intimates",
+  "ko": "이너웨어",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Underwear"
+ },
+ "Power Tools": {
+  "slug": "cj-power-tools",
+  "ko": "전동공구",
+  "dept": "life",
+  "first": "Home Improvement",
+  "second": "Tools"
+ },
+ "Scanners": {
+  "slug": "cj-scanners",
+  "ko": "스캐너",
+  "dept": "digital",
+  "first": "Computer & Office",
+  "second": "Office Electronics"
+ },
+ "Silicone Cases": {
+  "slug": "cj-silicone-cases",
+  "ko": "실리콘 케이스",
+  "dept": "digital",
+  "first": "Phones & Accessories",
+  "second": "Cases & Covers"
+ },
+ "Speakers": {
+  "slug": "cj-speakers",
+  "ko": "스피커",
+  "dept": "digital",
+  "first": "Consumer Electronics",
+  "second": "Portable Audio & Video"
+ },
+ "Woman Jeans": {
+  "slug": "cj-woman-jeans",
+  "ko": "여성 청바지",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Bottoms"
+ },
+ "Cargo Pants": {
+  "slug": "cj-cargo-pants",
+  "ko": "카고팬츠",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Bottoms"
+ },
+ "Ceiling Lights": {
+  "slug": "cj-ceiling-lights",
+  "ko": "천장등",
+  "dept": "life",
+  "first": "Home Improvement",
+  "second": "Indoor Lighting"
+ },
+ "Dinnerware": {
+  "slug": "cj-dinnerware",
+  "ko": "식기",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Kitchen, Dining & Bar"
+ },
+ "Face Masks": {
+  "slug": "cj-face-masks",
+  "ko": "페이스 마스크",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Skin Care"
+ },
+ "General": {
+  "slug": "cj-general",
+  "ko": "기타",
+  "dept": "others",
+  "first": "General",
+  "second": "General"
+ },
+ "Pet Drinking Tools": {
+  "slug": "cj-pet-drinking-tools",
+  "ko": "반려동물 급수기",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Drinking & Feeding"
+ },
+ "Tools Storage": {
+  "slug": "cj-tools-storage",
+  "ko": "공구 수납",
+  "dept": "life",
+  "first": "Home Improvement",
+  "second": "Tools"
+ },
+ "Man Trench": {
+  "slug": "cj-man-trench",
+  "ko": "남성 트렌치",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Outerwear & Jackets"
+ },
+ "Men's Socks": {
+  "slug": "cj-mens-socks",
+  "ko": "남성 양말",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Underwear"
+ },
+ "Nail Dryers": {
+  "slug": "cj-nail-dryers",
+  "ko": "네일 드라이어",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Nail Art & Tools"
+ },
+ "Pants": {
+  "slug": "cj-pants",
+  "ko": "팬츠",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Sportswear"
+ },
+ "Pet Bowls": {
+  "slug": "cj-pet-bowls",
+  "ko": "반려동물 식기",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Drinking & Feeding"
+ },
+ "Pet Clothings": {
+  "slug": "cj-pet-clothings",
+  "ko": "반려동물 의류",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Apparels"
+ },
+ "Rod Combos": {
+  "slug": "cj-rod-combos",
+  "ko": "낚싯대 세트",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Fishing"
+ },
+ "School Bags": {
+  "slug": "cj-school-bags",
+  "ko": "책가방",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Shoes & Bags"
+ },
+ "Socks": {
+  "slug": "cj-socks",
+  "ko": "양말",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Accessories"
+ },
+ "Tool Sets": {
+  "slug": "cj-tool-sets",
+  "ko": "공구세트",
+  "dept": "life",
+  "first": "Home Improvement",
+  "second": "Tools"
+ },
+ "Woman Trench": {
+  "slug": "cj-woman-trench",
+  "ko": "여성 트렌치코트",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Outerwear & Jackets"
+ },
+ "Women Clothing": {
+  "slug": "cj-women-clothing",
+  "ko": "여성의류",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Women Clothing"
+ },
+ "Baby Care": {
+  "slug": "cj-baby-care",
+  "ko": "유아용품",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Baby & Mother"
+ },
+ "Baby Rompers": {
+  "slug": "cj-baby-rompers",
+  "ko": "아기 롬퍼",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Baby Clothing"
+ },
+ "Bag Accessories": {
+  "slug": "cj-bag-accessories",
+  "ko": "가방 액세서리",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Women's Luggage & Bags"
+ },
+ "Bakeware": {
+  "slug": "cj-bakeware",
+  "ko": "베이킹 도구",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Kitchen, Dining & Bar"
+ },
+ "Barware": {
+  "slug": "cj-barware",
+  "ko": "바웨어",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Kitchen, Dining & Bar"
+ },
+ "Boy Clothing Sets": {
+  "slug": "cj-boy-clothing-sets",
+  "ko": "남아 의류세트",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Boys Clothing"
+ },
+ "Cake Decorating Supplies": {
+  "slug": "cj-cake-decorating-supplies",
+  "ko": "케이크 데코용품",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Festive & Party Supplies"
+ },
+ "Chandeliers": {
+  "slug": "cj-chandeliers",
+  "ko": "샹들리에",
+  "dept": "life",
+  "first": "Home Improvement",
+  "second": "Indoor Lighting"
+ },
+ "Charms": {
+  "slug": "cj-charms",
+  "ko": "참·펜던트",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Fashion Jewelry"
+ },
+ "Cooking Tools": {
+  "slug": "cj-cooking-tools",
+  "ko": "조리도구",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Kitchen, Dining & Bar"
+ },
+ "Curtains": {
+  "slug": "cj-curtains",
+  "ko": "커튼",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Home Textiles"
+ },
+ "Cycling Eyewear": {
+  "slug": "cj-cycling-eyewear",
+  "ko": "사이클 안경",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Cycling"
+ },
+ "Down Jackets": {
+  "slug": "cj-down-jackets",
+  "ko": "다운재킷",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Outerwear & Jackets"
+ },
+ "Downlights": {
+  "slug": "cj-downlights",
+  "ko": "다운라이트",
+  "dept": "life",
+  "first": "Home Improvement",
+  "second": "Indoor Lighting"
+ },
+ "Essential Oil": {
+  "slug": "cj-essential-oil",
+  "ko": "에센셜 오일",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Skin Care"
+ },
+ "Synthetic Wigs": {
+  "slug": "cj-synthetic-wigs",
+  "ko": "합성 가발",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Wigs & Extensions"
+ },
+ "Tablet Accessories": {
+  "slug": "cj-tablet-accessories",
+  "ko": "태블릿 액세서리",
+  "dept": "digital",
+  "first": "Computer & Office",
+  "second": "Tablet & Laptop Accessories"
+ },
+ "Women's Blazers": {
+  "slug": "cj-womens-blazers",
+  "ko": "여성 블레이저",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Outerwear & Jackets"
+ },
+ "Women's Padded Jackets": {
+  "slug": "cj-womens-padded-jackets",
+  "ko": "여성 패딩재킷",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Outerwear & Jackets"
+ },
+ "Women's Three-Piece Sets": {
+  "slug": "cj-womens-three-piece-sets",
+  "ko": "여성 3피스 세트",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Tops & Sets"
+ },
+ "Furniture": {
+  "slug": "cj-furniture",
+  "ko": "가구",
+  "dept": "life",
+  "first": "Home, Garden & Furniture",
+  "second": "Home Storage"
+ },
+ "Office & School Supplies": {
+  "slug": "cj-office-and-school-supplies",
+  "ko": "사무·학용품",
+  "dept": "digital",
+  "first": "Computer & Office",
+  "second": "Office Electronics"
+ },
+ "Wedding Hair Jewelry": {
+  "slug": "cj-wedding-hair-jewelry",
+  "ko": "웨딩 헤어 주얼리",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Wedding & Engagement"
+ },
+ "Blocks": {
+  "slug": "cj-blocks",
+  "ko": "블록",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Toys & Hobbies"
+ },
+ "Body Care": {
+  "slug": "cj-body-care",
+  "ko": "바디케어",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Skin Care"
+ },
+ "Pet Chase Toys": {
+  "slug": "cj-pet-chase-toys",
+  "ko": "반려동물 추격 장난감",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Toys"
+ },
+ "Eyebrow Pencil": {
+  "slug": "cj-eyebrow-pencil",
+  "ko": "아이브로 펜슬",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Makeup"
+ },
+ "False Eyelashes": {
+  "slug": "cj-false-eyelashes",
+  "ko": "인조 속눈썹",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Makeup"
+ },
+ "Fedoras": {
+  "slug": "cj-fedoras",
+  "ko": "페도라",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Hats & Caps"
+ },
+ "Fine Earrings": {
+  "slug": "cj-fine-earrings",
+  "ko": "파인 귀걸이",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Fine Jewelry"
+ },
+ "Fishing Lines": {
+  "slug": "cj-fishing-lines",
+  "ko": "낚싯줄",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Fishing"
+ },
+ "Fitness & Bodybuilding": {
+  "slug": "cj-fitness-and-bodybuilding",
+  "ko": "피트니스·보디빌딩",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Other Sports Equipment"
+ },
+ "Hair Weaving": {
+  "slug": "cj-hair-weaving",
+  "ko": "헤어 위빙",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Hair Weaves"
+ },
+ "Interior Parts": {
+  "slug": "cj-interior-parts",
+  "ko": "차량 인테리어 부품",
+  "dept": "auto",
+  "first": "Automobiles & Motorcycles",
+  "second": "Auto Replacement Parts"
+ },
+ "Makeup Set": {
+  "slug": "cj-makeup-set",
+  "ko": "메이크업 세트",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Makeup"
+ },
+ "Man Prescription Glasses": {
+  "slug": "cj-man-prescription-glasses",
+  "ko": "남성 안경",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Accessories"
+ },
+ "Man Shorts": {
+  "slug": "cj-man-shorts",
+  "ko": "남성 반바지",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Bottoms"
+ },
+ "Man Slippers": {
+  "slug": "cj-man-slippers",
+  "ko": "남성 슬리퍼",
+  "dept": "fashion",
+  "first": "Bags & Shoes",
+  "second": "Men's Shoes"
+ },
+ "Memory Cards": {
+  "slug": "cj-memory-cards",
+  "ko": "메모리카드",
+  "dept": "digital",
+  "first": "Computer & Office",
+  "second": "Storage Devices"
+ },
+ "Men Sports Watches": {
+  "slug": "cj-men-sports-watches",
+  "ko": "남성 스포츠시계",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Men's Watches"
+ },
+ "Pet Car Mats": {
+  "slug": "cj-pet-car-mats",
+  "ko": "반려동물 차량 매트",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Outdoor Supplies"
+ },
+ "Pet Hammocks": {
+  "slug": "cj-pet-hammocks",
+  "ko": "반려동물 해먹",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Furnitures"
+ },
+ "Pet Headwears": {
+  "slug": "cj-pet-headwears",
+  "ko": "반려동물 모자",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Collars, Harnesses & Accessories"
+ },
+ "Pet Houses & Cages": {
+  "slug": "cj-pet-houses-and-cages",
+  "ko": "반려동물 집·케이지",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Furnitures"
+ },
+ "Pet Leashes": {
+  "slug": "cj-pet-leashes",
+  "ko": "반려동물 리드줄",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Collars, Harnesses & Accessories"
+ },
+ "Pet Nail Polishers": {
+  "slug": "cj-pet-nail-polishers",
+  "ko": "반려동물 발톱 연마기",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Groomings"
+ },
+ "Pet Tents": {
+  "slug": "cj-pet-tents",
+  "ko": "반려동물 텐트",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Furnitures"
+ },
+ "Pet Towels": {
+  "slug": "cj-pet-towels",
+  "ko": "반려동물 타월",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Groomings"
+ },
+ "Prom Dresses": {
+  "slug": "cj-prom-dresses",
+  "ko": "프롬 드레스",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Weddings & Events"
+ },
+ "Quartz Watches": {
+  "slug": "cj-quartz-watches",
+  "ko": "쿼츠 시계",
+  "dept": "fashion",
+  "first": "Jewelry & Watches",
+  "second": "Men's Watches"
+ },
+ "Sleep & Lounge": {
+  "slug": "cj-sleep-and-lounge",
+  "ko": "슬립·라운지웨어",
+  "dept": "fashion",
+  "first": "Women's Clothing",
+  "second": "Underwear"
+ },
+ "Striped": {
+  "slug": "cj-striped",
+  "ko": "스트라이프 의류",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "T-Shirts"
+ },
+ "Wall Lamps": {
+  "slug": "cj-wall-lamps",
+  "ko": "벽등",
+  "dept": "life",
+  "first": "Home Improvement",
+  "second": "Indoor Lighting"
+ },
+ "Baby Clothing Sets": {
+  "slug": "cj-baby-clothing-sets",
+  "ko": "유아 의류세트",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Baby Clothing"
+ },
+ "Baseball Caps": {
+  "slug": "cj-baseball-caps",
+  "ko": "야구모자",
+  "dept": "fashion",
+  "first": "Men's Clothing",
+  "second": "Hats & Caps"
+ },
+ "Boy Hoodies & Sweatshirts": {
+  "slug": "cj-boy-hoodies-and-sweatshirts",
+  "ko": "남아 후드·맨투맨",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Boys Clothing"
+ },
+ "Boy T-Shirts": {
+  "slug": "cj-boy-t-shirts",
+  "ko": "남아 티셔츠",
+  "dept": "kids",
+  "first": "Toys, Kids & Babies",
+  "second": "Boys Clothing"
+ },
+ "Cat Trees & Condos": {
+  "slug": "cj-cat-trees-and-condos",
+  "ko": "캣타워",
+  "dept": "life",
+  "first": "Pet Supplies",
+  "second": "Pet Furnitures"
+ },
+ "Cover-Ups": {
+  "slug": "cj-cover-ups",
+  "ko": "커버업",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Swimming"
+ },
+ "Diagnostic Tools": {
+  "slug": "cj-diagnostic-tools",
+  "ko": "진단 공구",
+  "dept": "auto",
+  "first": "Automobiles & Motorcycles",
+  "second": "Tools, Maintenance & Care"
+ },
+ "Hand Tools": {
+  "slug": "cj-hand-tools",
+  "ko": "수공구",
+  "dept": "life",
+  "first": "Home Improvement",
+  "second": "Tools"
+ },
+ "Inflatable Raft": {
+  "slug": "cj-inflatable-raft",
+  "ko": "인플레이터블 래프트",
+  "dept": "sports",
+  "first": "Sports & Outdoors",
+  "second": "Swimming"
+ },
+ "Lipstick": {
+  "slug": "cj-lipstick",
+  "ko": "립스틱",
+  "dept": "beauty",
+  "first": "Health, Beauty & Hair",
+  "second": "Makeup"
+ }
+}

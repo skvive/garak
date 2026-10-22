@@ -1,0 +1,15 @@
+{
+  "version": "sample3",
+  "slug": "retro-british-style-double-breasted-belted-trench-coat-2609150052561609700",
+  "brand": "LEXI",
+  "titleMarketing": "아이보리 레트로 트렌치 재킷",
+  "titleInternal": "Retro British Style Double-breasted Belted Trench Coat",
+  "amba": { "name": "Seo Arin", "nameKo": "서아린", "gender": "Female", "nationality": "Korean", "interests": ["Contemporary Fashion", "City Walking", "Photography"], "affiliation": "AMBA (AI Ambassador)" },
+  "hero": { "src": "/pdp/ivory-retro-belted-trench-jacket/s1-hero.webp", "alt": "Ivory retro belted trench jacket editorial" },
+  "gallery": [
+    { "src": "/pdp/ivory-retro-belted-trench-jacket/s2-detail.webp", "alt": "Trench lapel and shoulder-tab detail" },
+    { "src": "/pdp/ivory-retro-belted-trench-jacket/s3-desire.webp", "alt": "Trench jacket silhouette editorial" }
+  ],
+  "og": { "src": "/pdp/ivory-retro-belted-trench-jacket/og.webp", "title": "Ivory Retro Trench Jacket" },
+  "brandNote": { "title": "LEXI IS RPCOW.", "body": "Radiant Presence, Captivating Outfit for your Wardrobe." }
+}

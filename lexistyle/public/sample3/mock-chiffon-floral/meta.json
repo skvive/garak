@@ -1,0 +1,42 @@
+{
+  "mockId": "mock-chiffon-floral",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale",
+    "titleInternal": "CJ original in DETAILS table only",
+    "titleMarketing": "short regenerated external name"
+  },
+  "catalog": {
+    "externalId": "2608250908161601400",
+    "titleInternal": "Long-sleeved Chiffon Dress With A Small Floral Print",
+    "titleMarketing": {
+      "ko": "잔꽃 시폰 원피스",
+      "en": "Soft Petal Chiffon Dress"
+    },
+    "categoryPath": ["Lady Dresses"],
+    "costUsd": 7.29,
+    "sellUsd": 35.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0421",
+    "name": "한유나 · Han Yuna",
+    "gender": "여성",
+    "nationality": "대한민국",
+    "interests": ["뷰티 케어", "스킨 글로우", "매크로 디테일"],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0421_EA_KR_F_A1/face.webp",
+    "castFolder": "0421_EA_KR_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-chiffon-floral/"
+}

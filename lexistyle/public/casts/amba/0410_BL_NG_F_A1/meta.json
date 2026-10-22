@@ -1,0 +1,24 @@
+{
+  "id": "0410",
+  "name": "아마라 은와수 · Amara Nwosu",
+  "gender": "여성",
+  "nationality": "나이지리아",
+  "interests": [
+    "스트리트",
+    "스니커즈",
+    "시티 산책"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0410",
+    "eth": "BL",
+    "nat": "NG",
+    "sex": "F",
+    "age": "A1",
+    "style": "STR",
+    "file": "0410_BL_NG_F_A1_STR.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "version": "sample3",
+  "slug": "solid-turtleneck-long-sweater-winter-warm-women-sweater-dress-bb3f2d46",
+  "brand": "LEXI",
+  "titleMarketing": "소프트 리브 터틀넥 니트 드레스",
+  "titleInternal": "Solid Turtleneck Long Sweater Winter Warm Women Sweater Dress",
+  "amba": {
+    "name": "Seo Arin",
+    "nameKo": "서아린",
+    "gender": "Female",
+    "nationality": "Korean",
+    "interests": ["Contemporary Fashion", "Photography", "City Travel"],
+    "affiliation": "AMBA (AI Ambassador)"
+  },
+  "hero": { "src": "/pdp/solid-turtleneck-sweater-dress/hero-v1.webp" },
+  "gallery": [
+    "/pdp/solid-turtleneck-sweater-dress/detail-v1.webp",
+    "/pdp/solid-turtleneck-sweater-dress/silhouette-v1.webp"
+  ],
+  "og": { "src": "/pdp/solid-turtleneck-sweater-dress/og-v1.webp", "title": "SOFT RIB TURTLENECK KNIT DRESS" },
+  "brandNote": {
+    "title": "LEXI IS RPCOW.",
+    "body": "Radiant Presence, Captivating Outfit for your Wardrobe."
+  }
+}

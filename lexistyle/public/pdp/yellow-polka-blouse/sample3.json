@@ -1,0 +1,61 @@
+{
+  "styleId": "SAMPLE3",
+  "locale": "ko",
+  "titleInternal": "Yellow Polka-Dot Linen Blouse For Women Lace-Trimmed V-Neck Commuter-Style Designer Top",
+  "titleMarketing": {
+    "ko": "버터 도트 레이스 블라우스",
+    "en": "Butter Dot Lace Blouse"
+  },
+  "assets": {
+    "hero": "/pdp/yellow-polka-blouse/hero-v1.webp",
+    "macro": "/pdp/yellow-polka-blouse/macro-v1.webp",
+    "desire": "/pdp/yellow-polka-blouse/desire-v1.webp"
+  },
+  "modelCast": {
+    "name": "서아린 · Seo Arin",
+    "gender": "여성",
+    "nationality": "대한민국",
+    "interests": ["주말 카페 산책", "린넨 스타일링", "빈티지 북숍"],
+    "agency": "AMBA (AI Ambassador)"
+  },
+  "copy": {
+    "eyebrow": "LEXI CURATED · LIGHT LAYERS",
+    "subtitle": "가벼운 하루에 작은 도트를 더한, 부드러운 레이스 블라우스.",
+    "lead": "햇살이 드는 날 가장 먼저 손이 가는, 산뜻한 옐로 린넨 레이어입니다.",
+    "story": [
+      "잔잔한 블랙 도트와 레이스 트리밍이 담백한 표정에 리듬을 더합니다. V넥 라인을 따라 자연스럽게 이어지는 작은 디테일이 얼굴 주변을 부드럽게 밝혀 줍니다.",
+      "가볍게 흐르는 롱슬리브와 여유로운 실루엣은 출근길부터 늦은 오후의 약속까지 편안하게 어울립니다. 아이보리 팬츠와 매치하면 햇빛을 닮은 산뜻한 룩이 완성됩니다."
+    ],
+    "usps": [
+      "레이스 V넥과 미세 도트가 만드는 은은한 포인트",
+      "가벼운 린넨 터치와 자연스러운 볼륨 소매",
+      "데님부터 아이보리 팬츠까지 편안한 데일리 레이어"
+    ],
+    "styling": [
+      "아이보리 스트레이트 팬츠와 매치해 밝고 차분하게 연출하세요.",
+      "가벼운 가디건을 더하면 계절 사이의 온도차에도 자연스럽습니다.",
+      "작은 브라운 가방과 플랫 슈즈로 도트 컬러를 은근히 연결해 보세요."
+    ],
+    "faq": [
+      { "q": "어떤 하의와 잘 어울리나요?", "a": "밝은 데님, 아이보리 팬츠, 미디 스커트처럼 단정한 하의와 자연스럽게 어울립니다." },
+      { "q": "세탁할 때 주의할 점이 있나요?", "a": "레이스 트리밍과 원단 결을 위해 단독 손세탁 또는 세탁망 사용을 권장합니다. 정확한 관리 표기는 수령한 상품 라벨을 확인해 주세요." },
+      { "q": "배송과 통관은 어떻게 진행되나요?", "a": "LEXI 소싱 해외 직배송 상품입니다. 결제 전 표시되는 관세 포함 금액과 배송 안내를 확인해 주세요." }
+    ],
+    "cta": "LEXI 장바구니 담기"
+  },
+  "spec": {
+    "Brand": "LEXI",
+    "Product": "버터 도트 레이스 블라우스",
+    "Internal name": "Yellow Polka-Dot Linen Blouse For Women Lace-Trimmed V-Neck Commuter-Style Designer Top",
+    "Fit": "여유로운 실루엣 · V넥 · 롱슬리브",
+    "Color": "버터 옐로 · 블랙 도트",
+    "Season": "봄·여름 데일리",
+    "Material": "린넨 질감 소재",
+    "Care": "단독 손세탁 또는 세탁망 사용 권장"
+  },
+  "brandNote": "LEXI IS RPCOW.\nRadiant Presence, Captivating Outfit for your Wardrobe.",
+  "imageSafety": {
+    "heroAndDesire": "Full body composition with clear head and shoe margins; no face or body cropping.",
+    "macro": "No face shown."
+  }
+}

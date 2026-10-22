@@ -1,0 +1,49 @@
+{
+  "mockId": "mock-boned-corset-camisole-top-rset-top",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS table only",
+    "titleMarketing": "short regenerated external name"
+  },
+  "catalog": {
+    "externalId": "wc-corset-top",
+    "titleInternal": "Boned Corset Camisole Top",
+    "titleMarketing": {
+      "ko": "코르셋 캐미솔 탑",
+      "en": "Boned Corset Camisole Top"
+    },
+    "categoryPath": [
+      "women-clothing",
+      "women-clothing/dresses"
+    ],
+    "costUsd": 28,
+    "sellUsd": 62.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0528",
+    "name": "다니엘라 · Daniela",
+    "gender": "여성",
+    "nationality": "중국",
+    "interests": [
+      "액티브웨어",
+      "러닝",
+      "헬시 루틴"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0528_EA_CN_F_A1/face.webp",
+    "castFolder": "0528_EA_CN_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-boned-corset-camisole-top-rset-top/"
+}

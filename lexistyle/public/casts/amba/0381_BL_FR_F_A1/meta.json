@@ -1,0 +1,24 @@
+{
+  "id": "0381",
+  "name": "클라라 뒤부아 · Clara Dubois",
+  "gender": "여성",
+  "nationality": "프랑스",
+  "interests": [
+    "스튜디오 라이트",
+    "미니멀 스타일",
+    "필름"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0381",
+    "eth": "BL",
+    "nat": "FR",
+    "sex": "F",
+    "age": "A1",
+    "style": "STU",
+    "file": "0381_BL_FR_F_A1_STU.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

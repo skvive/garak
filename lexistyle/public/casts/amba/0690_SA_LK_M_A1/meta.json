@@ -1,0 +1,27 @@
+{
+  "id": "0690",
+  "name": "딜란 실바 · Dilan Silva",
+  "gender": "남성",
+  "nationality": "스리랑카",
+  "interests": [
+    "액티브웨어",
+    "러닝",
+    "헬시 루틴"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0690",
+    "eth": "SA",
+    "nat": "LK",
+    "sex": "M",
+    "age": "A1",
+    "style": "SPO",
+    "file": "generated/0690",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+    "generated": true
+  },
+  "replacedAt": "2026-09-04T23:24:19.983Z",
+  "replaceSource": "generated:0690.png"
+}

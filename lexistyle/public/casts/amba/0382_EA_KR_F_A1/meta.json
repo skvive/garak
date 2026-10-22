@@ -1,0 +1,24 @@
+{
+  "id": "0382",
+  "name": "김서윤 · Kim Seoyun",
+  "gender": "여성",
+  "nationality": "대한민국",
+  "interests": [
+    "하이패션",
+    "에디토리얼",
+    "런웨이"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0382",
+    "eth": "EA",
+    "nat": "KR",
+    "sex": "F",
+    "age": "A1",
+    "style": "HIG",
+    "file": "0382_EA_KR_F_A1_HIG.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

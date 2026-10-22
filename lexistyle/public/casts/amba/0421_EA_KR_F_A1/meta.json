@@ -1,0 +1,24 @@
+{
+  "id": "0421",
+  "name": "박지우 · Park Jiwoo",
+  "gender": "여성",
+  "nationality": "대한민국",
+  "interests": [
+    "뷰티 케어",
+    "스킨 글로우",
+    "매크로 디테일"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0421",
+    "eth": "EA",
+    "nat": "KR",
+    "sex": "F",
+    "age": "A1",
+    "style": "BTY",
+    "file": "0421_EA_KR_F_A1_BTY.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "externalRef": "16406130849",
+  "title": "LEXI 남성 기모 반집업 모크넥 스웨터",
+  "productSku": "CJWY3174788",
+  "variants": 15,
+  "sellPriceUsd": 50.9,
+  "salePriceKrw": 70690,
+  "status": "ID_GEN",
+  "displayCategoryCode": 79493,
+  "optionSample": [
+    {
+      "itemName": "블랙 / S",
+      "externalVendorSku": "2609171252221602800",
+      "salePrice": 70690,
+      "attributes": []
+    },
+    {
+      "itemName": "블랙 / M",
+      "externalVendorSku": "2609171252221602801",
+      "salePrice": 70690,
+      "attributes": []
+    },
+    {
+      "itemName": "블랙 / L",
+      "externalVendorSku": "2609171252221602802",
+      "salePrice": 70690,
+      "attributes": []
+    }
+  ],
+  "createdAt": "2026-10-07T03:46:04.150Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "0493",
+  "name": "나라 차이야 · Nara Chaiya",
+  "gender": "여성",
+  "nationality": "태국",
+  "interests": [
+    "뷰티 케어",
+    "스킨 글로우",
+    "매크로 디테일"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0493",
+    "eth": "SE",
+    "nat": "TH",
+    "sex": "F",
+    "age": "A1",
+    "style": "BTY",
+    "file": "0427_BL_US_F_A1_HIG.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+    "replacedFromLookbookId": "0427"
+  },
+  "replacedAt": "2026-09-04T23:18:28.792Z",
+  "replaceSource": "lookbook:0427_BL_US_F_A1_HIG.webp"
+}

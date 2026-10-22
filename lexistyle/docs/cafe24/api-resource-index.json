@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-07-17",
+  "apiVersion": "2026-03-01",
+  "mallId": "partnersc88",
+  "source": "Cafe24 Admin API document supplied by user",
+  "officialUrl": "https://developers.cafe24.com/docs/en/api/admin/",
+  "domains": [
+    {
+      "id": "store",
+      "ko": "상점",
+      "keywords": ["store", "setting", "dashboard", "payment", "operator", "users"],
+      "resources": [
+        "activitylogs",
+        "automessages arguments",
+        "automessages setting",
+        "benefits setting",
+        "boards setting",
+        "carts setting",
+        "categories properties setting",
+        "coupons setting",
+        "currency",
+        "customers setting",
+        "dashboard",
+        "financials paymentgateway",
+        "financials store",
+        "images setting",
+        "information",
+        "kakaoalimtalk profile",
+        "kakaoalimtalk setting",
+        "kakaopay setting",
+        "mains properties setting",
+        "menus",
+        "mobile setting",
+        "naverpay setting",
+        "orderform setting",
+        "orders setting",
+        "orders status",
+        "payment freeinstallments",
+        "payment setting",
+        "paymentgateway",
+        "paymentgateway paymentmethods",
+        "paymentmethods",
+        "paymentmethods paymentproviders",
+        "paymentservices",
+        "points setting",
+        "policy",
+        "privacy boards",
+        "privacy join",
+        "privacy orders",
+        "products display setting",
+        "products properties setting",
+        "products setting",
+        "redirects",
+        "restocknotification setting",
+        "seo setting",
+        "shippingmanager",
+        "shops",
+        "sms setting",
+        "socials apple",
+        "socials kakaosync",
+        "socials naverlogin",
+        "socials navershopping",
+        "store",
+        "store accounts",
+        "store dropshipping",
+        "store setting",
+        "subscription shipments setting",
+        "taxmanager",
+        "users"
+      ]
+    },
+    {
+      "id": "product",
+      "ko": "상품",
+      "keywords": ["product", "상품", "option", "variant", "inventory", "image", "seo"],
+      "resources": [
+        "bundleproducts",
+        "categories products",
+        "categories properties",
+        "mains products",
+        "mains properties",
+        "products",
+        "products additionalimages",
+        "products approve",
+        "products customproperties",
+        "products decorationimages",
+        "products discountprice",
+        "products hits",
+        "products icons",
+        "products images",
+        "products memos",
+        "products options",
+        "products properties",
+        "products seo",
+        "products tags",
+        "products variants",
+        "products variants inventories"
+      ]
+    },
+    {
+      "id": "order",
+      "ko": "주문",
+      "keywords": ["order", "주문", "payment", "shipment", "refund", "cancel", "return", "exchange"],
+      "resources": [
+        "cancellation",
+        "cancellationrequests",
+        "cashreceipt",
+        "cashreceipt cancellation",
+        "collectrequests",
+        "control",
+        "exchange",
+        "exchangerequests",
+        "fulfillments",
+        "labels",
+        "orderform properties",
+        "orders",
+        "orders autocalculation",
+        "orders benefits",
+        "orders buyer",
+        "orders buyer history",
+        "orders calculation",
+        "orders cancellation",
+        "orders changes",
+        "orders completions",
+        "orders coupons",
+        "orders dashboard",
+        "orders exchange",
+        "orders exchangerequests",
+        "orders inflowgroups",
+        "orders inflowgroups inflows",
+        "orders items",
+        "orders items history",
+        "orders items labels",
+        "orders items options",
+        "orders memos",
+        "orders migrations",
+        "orders paymentamount",
+        "orders payments",
+        "orders paymenttimeline",
+        "orders receivers",
+        "orders receivers history",
+        "orders refunds",
+        "orders return",
+        "orders saleschannels",
+        "orders shipments",
+        "orders shippingfeecancellation",
+        "orders shortagecancellation",
+        "payments",
+        "refunds",
+        "reservations",
+        "return",
+        "returnrequests",
+        "shipments",
+        "subscription shipments",
+        "subscription shipments items",
+        "unpaidorders"
+      ]
+    },
+    {
+      "id": "customer",
+      "ko": "회원",
+      "keywords": ["customer", "member", "회원", "group", "social"],
+      "resources": [
+        "customergroups",
+        "customergroups customers",
+        "customergroups setting",
+        "customers",
+        "customers autoupdate",
+        "customers memos",
+        "customers paymentinformation",
+        "customers plusapp",
+        "customers properties",
+        "customers social",
+        "social"
+      ]
+    },
+    {
+      "id": "community",
+      "ko": "게시판",
+      "keywords": ["community", "board", "article", "comment", "review", "inquiry"],
+      "resources": [
+        "boards",
+        "boards articles",
+        "boards articles comments",
+        "boards comments",
+        "boards seo",
+        "commenttemplates",
+        "financials monthlyreviews",
+        "urgentinquiry",
+        "urgentinquiry reply"
+      ]
+    },
+    {
+      "id": "design",
+      "ko": "디자인",
+      "keywords": ["design", "theme", "skin", "page", "icon"],
+      "resources": ["icons", "themes", "themes pages"]
+    },
+    {
+      "id": "promotion",
+      "ko": "프로모션",
+      "keywords": ["promotion", "benefit", "coupon", "discount", "event"],
+      "resources": [
+        "benefits",
+        "commonevents",
+        "coupons",
+        "coupons issuancecustomers",
+        "coupons issues",
+        "customerevents",
+        "customers coupons",
+        "discountcodes",
+        "serialcoupons",
+        "serialcoupons issues"
+      ]
+    },
+    {
+      "id": "application",
+      "ko": "앱",
+      "keywords": ["application", "app", "webhook", "scripttag", "recipe", "databridge"],
+      "resources": [
+        "apps",
+        "appstore orders",
+        "appstore payments",
+        "databridge logs",
+        "recipes",
+        "scripttags",
+        "webhooks logs",
+        "webhooks setting"
+      ]
+    },
+    {
+      "id": "category",
+      "ko": "상품분류",
+      "keywords": ["category", "분류", "main", "autodisplay"],
+      "resources": [
+        "autodisplay",
+        "categories",
+        "categories decorationimages",
+        "categories seo",
+        "mains"
+      ]
+    },
+    {
+      "id": "collection",
+      "ko": "판매분류",
+      "keywords": ["collection", "brand", "classification", "manufacturer", "origin", "trend"],
+      "resources": ["brands", "classifications", "manufacturers", "origin", "trends"]
+    },
+    {
+      "id": "supply",
+      "ko": "공급사 정보",
+      "keywords": ["supply", "supplier", "공급사", "supplier user"],
+      "resources": [
+        "shipping suppliers",
+        "shipping suppliers additionalfees",
+        "suppliers",
+        "suppliers users"
+      ]
+    },
+    {
+      "id": "shipping",
+      "ko": "배송",
+      "keywords": ["shipping", "carrier", "origin", "additional fee", "배송"],
+      "resources": [
+        "carriers",
+        "regionalsurcharges",
+        "shipping",
+        "shipping additionalfees",
+        "shippingorigins"
+      ]
+    },
+    {
+      "id": "salesreport",
+      "ko": "매출통계",
+      "keywords": ["sales", "report", "financial", "매출", "통계"],
+      "resources": [
+        "financials dailysales",
+        "financials monthlysales",
+        "reports hourlysales",
+        "reports productsales",
+        "reports salesvolume"
+      ]
+    },
+    {
+      "id": "personal",
+      "ko": "개인화정보",
+      "keywords": ["personal", "cart", "wishlist"],
+      "resources": ["carts", "customers wishlist", "products carts"]
+    },
+    {
+      "id": "privacy",
+      "ko": "개인정보",
+      "keywords": ["privacy", "personal data", "개인정보", "wishlist customer"],
+      "resources": ["customersprivacy", "products wishlist customers"]
+    },
+    {
+      "id": "mileage",
+      "ko": "적립금",
+      "keywords": ["mileage", "credit", "point", "적립금", "예치금"],
+      "resources": ["credits", "credits report", "points", "points autoexpiration", "points report"]
+    },
+    {
+      "id": "notification",
+      "ko": "알림",
+      "keywords": ["notification", "mail", "sms", "invitation"],
+      "resources": [
+        "automails",
+        "customers invitation",
+        "recipientgroups",
+        "sms",
+        "sms balance",
+        "sms receivers",
+        "sms senders"
+      ]
+    },
+    {
+      "id": "translation",
+      "ko": "번역",
+      "keywords": ["translation", "번역", "multilingual"],
+      "resources": [
+        "translations categories",
+        "translations products",
+        "translations store",
+        "translations themes"
+      ]
+    },
+    {
+      "id": "analytics",
+      "ko": "접속통계",
+      "keywords": ["analytics", "접속통계"],
+      "resources": []
+    }
+  ]
+}

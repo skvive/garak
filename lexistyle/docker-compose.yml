@@ -1,0 +1,21 @@
+# 로컬 개발용 Postgres — Neon 없이 `npm run db:local:up` 후 브라우저 개발
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: lexi-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: lexi
+      POSTGRES_PASSWORD: lexi
+      POSTGRES_DB: lexi
+    volumes:
+      - lexi_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lexi -d lexi"]
+      interval: 3s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  lexi_pg_data:

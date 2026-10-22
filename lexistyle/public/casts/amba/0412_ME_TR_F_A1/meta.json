@@ -1,0 +1,24 @@
+{
+  "id": "0412",
+  "name": "엘리프 일마즈 · Elif Yılmaz",
+  "gender": "여성",
+  "nationality": "TR",
+  "interests": [
+    "뷰티 케어",
+    "스킨 글로우",
+    "매크로 디테일"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0412",
+    "eth": "ME",
+    "nat": "TR",
+    "sex": "F",
+    "age": "A1",
+    "style": "BTY",
+    "file": "0412_ME_TR_F_A1_BTY.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "mockId": "mock-retro-belted-waist-defined-maxi-skir-21608600",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS only",
+    "titleMarketing": "short regenerated"
+  },
+  "catalog": {
+    "externalId": "2608250732221608600",
+    "titleInternal": "Retro Belted Waist-defined Maxi Skirt With A Flared Hem",
+    "titleMarketing": {
+      "ko": "벨트 포인트 맥시 스커트",
+      "en": "Retro Belted Waist-defined Maxi Skirt With A Flared Hem"
+    },
+    "categoryPath": [
+      "Lady Dresses"
+    ],
+    "costUsd": 13.72,
+    "sellUsd": 43.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0399",
+    "name": "징화 · Jinghua",
+    "gender": "여성",
+    "nationality": "사우디아라비아",
+    "interests": [
+      "스튜디오 라이트",
+      "미니멀 스타일",
+      "필름"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0399_ME_SA_F_A1/face.webp",
+    "castFolder": "0399_ME_SA_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-retro-belted-waist-defined-maxi-skir-21608600/"
+}

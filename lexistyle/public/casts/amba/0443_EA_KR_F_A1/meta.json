@@ -1,0 +1,27 @@
+{
+  "id": "0443",
+  "name": "강민서 · Kang Minseo",
+  "gender": "여성",
+  "nationality": "대한민국",
+  "interests": [
+    "스튜디오 라이트",
+    "미니멀 스타일",
+    "필름"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0443",
+    "eth": "EA",
+    "nat": "KR",
+    "sex": "F",
+    "age": "A1",
+    "style": "STU",
+    "file": "0415_SA_IN_F_A1_OUT.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+    "replacedFromLookbookId": "0415"
+  },
+  "replacedAt": "2026-09-04T23:18:28.299Z",
+  "replaceSource": "lookbook:0415_SA_IN_F_A1_OUT.webp"
+}

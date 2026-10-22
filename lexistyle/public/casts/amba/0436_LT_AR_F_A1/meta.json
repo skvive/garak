@@ -1,0 +1,24 @@
+{
+  "id": "0436",
+  "name": "소피아 알바레스 · Sofía Álvarez",
+  "gender": "여성",
+  "nationality": "아르헨티나",
+  "interests": [
+    "하이패션",
+    "에디토리얼",
+    "런웨이"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0436",
+    "eth": "LT",
+    "nat": "AR",
+    "sex": "F",
+    "age": "A1",
+    "style": "HIG",
+    "file": "0436_LT_AR_F_A1_HIG.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

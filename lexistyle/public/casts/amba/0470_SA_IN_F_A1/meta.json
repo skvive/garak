@@ -1,0 +1,27 @@
+{
+  "id": "0470",
+  "name": "이샤 메흐타 · Isha Mehta",
+  "gender": "여성",
+  "nationality": "인도",
+  "interests": [
+    "스튜디오 라이트",
+    "미니멀 스타일",
+    "필름"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0470",
+    "eth": "SA",
+    "nat": "IN",
+    "sex": "F",
+    "age": "A1",
+    "style": "STU",
+    "file": "generated/0470",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+    "generated": true
+  },
+  "replacedAt": "2026-09-04T23:24:18.450Z",
+  "replaceSource": "generated:0470.png"
+}

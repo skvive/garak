@@ -1,0 +1,25 @@
+{
+  "version": "sample3",
+  "slug": "womens-casual-sports-long-sleeve-suit-set-2603110716241638200",
+  "brand": "LEXI",
+  "titleMarketing": "모노 트랙 하프집업 투피스",
+  "titleInternal": "Women's Casual Sports Long Sleeve Suit Set, Comfortable Breathable Two-Piece Outfit",
+  "amba": {
+    "name": "Seo Arin",
+    "nameKo": "서아린",
+    "gender": "Female",
+    "nationality": "Korean",
+    "interests": ["Contemporary Fashion", "Photography", "City Travel"],
+    "affiliation": "AMBA (AI Ambassador)"
+  },
+  "hero": { "src": "/pdp/casual-sports-two-piece-set/hero-v1.webp" },
+  "gallery": [
+    "/pdp/casual-sports-two-piece-set/detail-v1.webp",
+    "/pdp/casual-sports-two-piece-set/silhouette-v1.webp"
+  ],
+  "og": { "src": "/pdp/casual-sports-two-piece-set/og-v1.webp", "title": "MONO TRACK HALF-ZIP SET" },
+  "brandNote": {
+    "title": "LEXI IS RPCOW.",
+    "body": "Radiant Presence, Captivating Outfit for your Wardrobe."
+  }
+}

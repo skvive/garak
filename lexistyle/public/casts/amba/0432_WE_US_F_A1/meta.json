@@ -1,0 +1,24 @@
+{
+  "id": "0432",
+  "name": "조이 파커 · Zoe Parker",
+  "gender": "여성",
+  "nationality": "미국",
+  "interests": [
+    "아웃도어",
+    "여행",
+    "자연광"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0432",
+    "eth": "WE",
+    "nat": "US",
+    "sex": "F",
+    "age": "A1",
+    "style": "OUT",
+    "file": "0432_WE_US_F_A1_OUT.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

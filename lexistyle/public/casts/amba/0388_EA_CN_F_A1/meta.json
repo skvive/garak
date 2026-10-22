@@ -1,0 +1,24 @@
+{
+  "id": "0388",
+  "name": "린웨이 · Lin Wei",
+  "gender": "여성",
+  "nationality": "중국",
+  "interests": [
+    "스튜디오 라이트",
+    "미니멀 스타일",
+    "필름"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0388",
+    "eth": "EA",
+    "nat": "CN",
+    "sex": "F",
+    "age": "A1",
+    "style": "STU",
+    "file": "0388_EA_CN_F_A1_STU.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

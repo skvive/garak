@@ -1,0 +1,49 @@
+{
+  "mockId": "mock-wrap-front-jersey-dress-ap-dress",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS table only",
+    "titleMarketing": "short regenerated external name"
+  },
+  "catalog": {
+    "externalId": "wc-wrap-dress",
+    "titleInternal": "Wrap Front Jersey Dress",
+    "titleMarketing": {
+      "ko": "랩 저지 원피스",
+      "en": "Wrap Front Jersey Dress"
+    },
+    "categoryPath": [
+      "women-clothing",
+      "women-clothing/dresses"
+    ],
+    "costUsd": 36.99,
+    "sellUsd": 74.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0464",
+    "name": "아이리스 · Iris",
+    "gender": "여성",
+    "nationality": "대한민국",
+    "interests": [
+      "스트리트",
+      "스니커즈",
+      "시티 산책"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0464_EA_KR_F_A1/face.webp",
+    "castFolder": "0464_EA_KR_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-wrap-front-jersey-dress-ap-dress/"
+}

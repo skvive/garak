@@ -1,0 +1,72 @@
+import "dotenv/config";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import path from "node:path";
+import { coupangRequest } from "../src/lib/channels/coupang/client";
+
+const SELLER_PRODUCT_ID = "16405322832";
+const ASSET_ROOT = path.resolve("public/pdp/cjls3061165-pink-tweed");
+const SHIPPING_BLOCK = `<div style="max-width:780px;margin:0 auto;font-family:Arial,'Noto Sans KR',sans-serif;color:#181816">
+<div style="padding:20px 28px;background:#efe8dc;text-align:center;font-size:15px;line-height:1.7"><b>해외배송 상품입니다</b><br>구매 전 배송·교환·반품 안내를 꼭 확인해 주세요.</div>
+<div style="padding:52px 28px;background:#faf9f6;text-align:center"><p style="font-size:12px;letter-spacing:3px;color:#746d63">SHIPPING & RETURNS</p><h2 style="font-size:32px;line-height:1.35">배송 · 교환 · 반품 안내</h2>
+<div style="margin:28px 0;padding:26px 20px;background:#252421;color:#fff"><b style="font-size:20px">필독 · 해외배송 왕복비용 48,000원</b><p style="margin:12px 0 0;line-height:1.75;color:#d8d3ca">이 상품은 해외배송 상품으로 단순 변심 교환·반품 시 해외택배 왕복비용이 공제됩니다. 제품 하자가 확인된 경우 판매자가 절반을 부담하여 24,000원이 공제됩니다.</p></div>
+<table style="width:100%;border-collapse:collapse;text-align:left;font-size:15px;line-height:1.7"><tr><th style="width:25%;padding:16px;background:#eee9df;border:1px solid #d8d1c5">배송</th><td style="padding:16px;border:1px solid #d8d1c5">LEXI 소싱 해외배송 · 결제 후 영업일 기준 7~14일 도착</td></tr><tr><th style="padding:16px;background:#eee9df;border:1px solid #d8d1c5">통관</th><td style="padding:16px;border:1px solid #d8d1c5">해외배송 상품으로 수령인 개인통관고유부호가 필요할 수 있습니다.</td></tr><tr><th style="padding:16px;background:#eee9df;border:1px solid #d8d1c5">교환·반품</th><td style="padding:16px;border:1px solid #d8d1c5">수령 후 7일 이내 접수 · 단순 변심 시 해외배송 왕복비용 48,000원 공제 · 제품 하자 확인 시 24,000원 공제</td></tr><tr><th style="padding:16px;background:#eee9df;border:1px solid #d8d1c5">접수 전 확인</th><td style="padding:16px;border:1px solid #d8d1c5">사용 흔적, 세탁, 택·라벨 훼손, 구성품 누락으로 상품 가치가 감소한 경우 교환·반품이 제한될 수 있습니다.</td></tr><tr><th style="padding:16px;background:#eee9df;border:1px solid #d8d1c5">유의</th><td style="padding:16px;border:1px solid #d8d1c5">모니터 환경과 촬영 조명에 따라 실제 색상이 다소 다를 수 있습니다.</td></tr></table>
+<p style="margin:24px 0 0;font-size:13px;line-height:1.8;color:#69645c">상품의 내용이 표시·광고와 다른 경우에는 관계 법령과 쿠팡 정책이 우선 적용됩니다. 택·라벨 훼손, 세탁·착용 흔적, 오염·향취, 구성품 누락 또는 고객 책임으로 상품 가치가 훼손된 경우 교환·반품이 제한될 수 있습니다.</p></div></div>`;
+
+function productHtml(u: Record<string, string>) {
+  const image = (name: string, alt: string) => `<img src="${u[name]}" alt="${alt}" style="display:block;width:100%;max-width:780px;margin:0 auto" />`;
+  return `<div style="width:100%;max-width:780px;margin:0 auto;font-family:Arial,'Noto Sans KR',sans-serif;color:#181816;text-align:center">
+${image("hero.jpg", "핑크 트위드 재킷과 드레스 모델 착용 AI 연출 이미지")}
+<div style="padding:48px 28px;background:#fbf7f4"><p style="font-size:13px;color:#c98a94">TWEED SET EDIT</p><h1 style="font-size:38px;line-height:1.35">부드러운 핑크 트위드로<br/>완성한 셋업</h1><p style="font-size:18px;line-height:1.8;color:#555">라운드 넥 재킷 · 골드 버튼 · 슬리브리스 드레스<br/>Top 또는 Dress 단품과 사이즈를 선택해 주문하세요.</p></div>
+${image("hero-detail.jpg", "핑크 트위드 셋업 AI 연출 디테일")}
+<div style="padding:44px 28px;background:#181816;color:#fff"><h2 style="font-size:30px;line-height:1.4">실제 상품 구성</h2><p style="font-size:15px;line-height:1.8;color:#ccc">Top(재킷 단품) 또는 Dress(드레스 단품)를 옵션에서 선택할 수 있습니다.<br/>세트 일괄 판매가 아니므로 옵션 선택 전 실제 상품 이미지를 확인하세요.</p></div>
+${image("jacket.jpg", "핑크 트위드 Top 재킷 단품 실제 상품")}
+${image("dress.jpg", "핑크 트위드 Dress 드레스 단품 실제 상품")}
+${image("trim-detail.jpg", "핑크 트위드 소매 트림 실제 디테일")}
+${image("texture-detail.jpg", "핑크 트위드 원단 실제 조직")}
+${image("size-chart.jpg", "Top과 Dress 사이즈 가이드")}
+<p style="font-size:14px;line-height:1.8;color:#666;padding:8px 24px 24px">측정 방법에 따라 2–3cm 차이가 있을 수 있습니다.<br/>평소 착용 의류의 실측과 비교해 선택해 주세요.</p>
+${SHIPPING_BLOCK}
+<div style="padding:48px 28px;background:#20201e;color:#fff"><b>LEXI IS RPCOW.</b><br/><span style="color:#bbb">Radiant Presence, Captivating Outfit for your Wardrobe.</span></div></div>`;
+}
+
+async function main() {
+  const path = `/v2/providers/seller_api/apis/api/v1/marketplace/seller-products/${SELLER_PRODUCT_ID}`;
+  const current = await coupangRequest("GET", path) as Record<string, any>;
+  const remote = JSON.parse(await readFile(`${ASSET_ROOT}/remote-assets.json`, "utf8")) as Record<string, string>;
+  const detailHtml = productHtml(remote);
+  const omitTop = new Set(["trackingId", "categoryId", "productId", "mdId", "mdName", "statusName", "codBaseDeliveryCharge", "installationCharge", "additionalDeliveryChargeEnabled", "additionalInstallationChargeEnabled", "bundlePackingDelivery", "exchangeType", "contributorType", "sellerUId", "extraInfoMessage", "manufacture", "productOrigin", "roleCode", "status", "bundleInfo", "multiShippingInfos", "multiReturnInfos", "confirmationToken"]);
+  const omitItem = new Set(["itemId", "supplyPrice", "freePriceType", "bestPriceGuaranteed3P", "saleAgentCommission", "autoPricingInfoView", "sameDayShipping", "isAutoGenerated", "subRegistrationType"]);
+  const body = Object.fromEntries(Object.entries(current).filter(([key]) => !omitTop.has(key)));
+  body.sellerProductName = "LEXI 여성 핑크 트위드 재킷 드레스 셋업";
+  body.displayProductName = "LEXI 여성 핑크 트위드 재킷 드레스 셋업";
+  body.requested = true;
+  body.items = (current.items ?? []).map((item: Record<string, any>) => {
+    const cleaned = Object.fromEntries(Object.entries(item).filter(([key]) => !omitItem.has(key)));
+    cleaned.images = (item.images ?? []).map((image: Record<string, any>) => ({ imageOrder: image.imageOrder, imageType: image.imageType, vendorPath: image.cdnPath ? `http://image1.coupangcdn.com/image/${image.cdnPath}` : image.vendorPath }));
+    const sku = String(item.externalVendorSku ?? "");
+    const isTop = Number(sku.slice(-1)) <= 4;
+    const size = ["S", "M", "L", "XL", "XXL"][Number(sku.slice(-1)) % 5];
+    const part = isTop ? "Top" : "Dress";
+    cleaned.sellerProductItemName = `${part} / ${size}`;
+    cleaned.vendorItemName = `LEXI 핑크 트위드 ${part} / ${size}`;
+    cleaned.attributes = (item.attributes ?? []).filter((attribute: Record<string, any>) => attribute.attributeValueName).map((attribute: Record<string, any>) => ({
+      attributeTypeName: attribute.attributeTypeName,
+      attributeValueName: attribute.attributeTypeName === "색상" ? part : attribute.attributeTypeName === "패션의류/잡화 사이즈" ? size : attribute.attributeValueName,
+    }));
+    cleaned.contents = (item.contents ?? []).map((content: Record<string, any>) => ({
+      contentsType: content.contentsType,
+      contentDetails: (content.contentDetails ?? []).map((detail: Record<string, any>) => ({
+        detailType: detail.detailType,
+        content: detailHtml,
+      })),
+    }));
+    return cleaned;
+  });
+  await mkdir("tmp/coupang", { recursive: true });
+  await writeFile("tmp/coupang/CJLS3061165-shipping-policy-request.json", JSON.stringify(body, null, 2));
+  const response = await coupangRequest("PUT", "/v2/providers/seller_api/apis/api/v1/marketplace/seller-products", "", body);
+  console.log(JSON.stringify({ sellerProductId: SELLER_PRODUCT_ID, response }, null, 2));
+  process.exit(0);
+}
+
+main().catch((error) => { console.error(error instanceof Error ? error.message : error); process.exit(1); });

@@ -1,0 +1,27 @@
+{
+  "id": "0489",
+  "name": "리마 알사우드 · Reema Alsaud",
+  "gender": "여성",
+  "nationality": "사우디아라비아",
+  "interests": [
+    "스튜디오 라이트",
+    "미니멀 스타일",
+    "필름"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0489",
+    "eth": "ME",
+    "nat": "SA",
+    "sex": "F",
+    "age": "A1",
+    "style": "STU",
+    "file": "generated/0489",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+    "generated": true
+  },
+  "replacedAt": "2026-09-04T23:24:19.357Z",
+  "replaceSource": "generated:0489.png"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "0391",
+  "name": "마야 존슨 · Maya Johnson",
+  "gender": "여성",
+  "nationality": "미국",
+  "interests": [
+    "하이패션",
+    "에디토리얼",
+    "런웨이"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0391",
+    "eth": "WE",
+    "nat": "US",
+    "sex": "F",
+    "age": "A1",
+    "style": "HIG",
+    "file": "0391_WE_US_F_A1_HIG.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

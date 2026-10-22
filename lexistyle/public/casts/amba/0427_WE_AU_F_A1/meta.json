@@ -1,0 +1,24 @@
+{
+  "id": "0427",
+  "name": "조지아 에번스 · Georgia Evans",
+  "gender": "여성",
+  "nationality": "호주",
+  "interests": [
+    "하이패션",
+    "에디토리얼",
+    "런웨이"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0427",
+    "eth": "WE",
+    "nat": "AU",
+    "sex": "F",
+    "age": "A1",
+    "style": "HIG",
+    "file": "0427_WE_AU_F_A1_HIG.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "0387",
+  "name": "아마라 완지쿠 · Amara Wanjiku",
+  "gender": "여성",
+  "nationality": "케냐",
+  "interests": [
+    "아웃도어",
+    "여행",
+    "자연광"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0387",
+    "eth": "BL",
+    "nat": "KE",
+    "sex": "F",
+    "age": "A1",
+    "style": "OUT",
+    "file": "0387_BL_KE_F_A1_OUT.webp",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site"
+  }
+}

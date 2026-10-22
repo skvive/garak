@@ -1,0 +1,49 @@
+{
+  "mockId": "mock-cropped-denim-jacket-vintage-wash-m-jacket",
+  "styleId": "SAMPLE3",
+  "status": "draft-mock",
+  "ruleset": {
+    "faceLock": "S1→S2→S3 same model face",
+    "onImageText": "en",
+    "bodyCopy": "locale ko",
+    "titleInternal": "CJ original in DETAILS table only",
+    "titleMarketing": "short regenerated external name"
+  },
+  "catalog": {
+    "externalId": "wc-denim-jacket",
+    "titleInternal": "Cropped Denim Jacket — Vintage Wash",
+    "titleMarketing": {
+      "ko": "데님 크롭 빈티지 워싱 자켓",
+      "en": "Cropped Denim Jacket — Vintage Wash"
+    },
+    "categoryPath": [
+      "women-clothing",
+      "women-clothing/dresses"
+    ],
+    "costUsd": 55,
+    "sellUsd": 97.9,
+    "sourceThumb": "./assets/source-thumb.jpg"
+  },
+  "modelCast": {
+    "id": "0382",
+    "name": "수아 · Sua",
+    "gender": "여성",
+    "nationality": "대한민국",
+    "interests": [
+      "하이패션",
+      "에디토리얼",
+      "런웨이"
+    ],
+    "agency": "AMBA",
+    "agencyFull": "AI Ambassador",
+    "faceSeed": "/casts/amba/0382_EA_KR_F_A1/face.webp",
+    "castFolder": "0382_EA_KR_F_A1"
+  },
+  "assets": {
+    "hero": "./assets/s1-hero-opt.webp",
+    "macro": "./assets/s2-detail-opt.webp",
+    "desire": "./assets/s3-desire-opt.webp",
+    "og": "./og-opt.webp"
+  },
+  "previewPath": "/sample3/mock-cropped-denim-jacket-vintage-wash-m-jacket/"
+}

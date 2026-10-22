@@ -1,0 +1,23 @@
+{
+  "externalRef": "16407326787",
+  "title": "LEXI 남성 9존 스마트 온열 자켓 방수 겨울 아우터",
+  "productSku": "CJFY3221007",
+  "variants": 24,
+  "sellPriceUsd": 72.9,
+  "status": "ID_GEN",
+  "displayCategoryCode": 81024,
+  "createdAt": "2026-10-08T01:58:49.041Z",
+  "verifiedAt": "2026-10-08T01:59:14.578Z",
+  "verifiedStatus": "APPROVED",
+  "verifiedItems": 24,
+  "verifiedFirstItem": {
+    "itemName": "블랙 / S",
+    "sku": "2106944924786159618",
+    "salePrice": 101250,
+    "originalPrice": 133900,
+    "attrs": [
+      "색상=블랙",
+      "패션의류/잡화 사이즈=S"
+    ]
+  }
+}

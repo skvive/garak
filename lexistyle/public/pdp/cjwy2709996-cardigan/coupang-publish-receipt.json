@@ -1,0 +1,31 @@
+{
+  "externalRef": "16406099751",
+  "title": "LEXI 여성 후드 니트 가디건",
+  "productSku": "CJWY2709996",
+  "variants": 48,
+  "sellPriceUsd": 33.9,
+  "salePriceKrw": 47080,
+  "status": "ID_GEN",
+  "displayCategoryCode": 79392,
+  "optionSample": [
+    {
+      "itemName": "핑크 / S",
+      "externalVendorSku": "2601020227251610800",
+      "salePrice": 47080,
+      "attributes": []
+    },
+    {
+      "itemName": "핑크 / M",
+      "externalVendorSku": "2601020227251611000",
+      "salePrice": 47080,
+      "attributes": []
+    },
+    {
+      "itemName": "핑크 / L",
+      "externalVendorSku": "2601020227251611100",
+      "salePrice": 47080,
+      "attributes": []
+    }
+  ],
+  "createdAt": "2026-10-07T03:05:56.644Z"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "0694",
+  "name": "오시온 · Oh Sion",
+  "gender": "남성",
+  "nationality": "대한민국",
+  "interests": [
+    "스튜디오 라이트",
+    "미니멀 스타일",
+    "필름"
+  ],
+  "agency": "AMBA",
+  "agencyFull": "AI Ambassador",
+  "faceSeed": "./face.webp",
+  "source": {
+    "lookbookId": "0694",
+    "eth": "EA",
+    "nat": "KR",
+    "sex": "M",
+    "age": "A1",
+    "style": "STU",
+    "file": "generated/0694",
+    "ambassadorRoot": "E:/cursor_HS/kcci/SITE/ambassador-ai-site",
+    "generated": true
+  },
+  "replacedAt": "2026-09-04T23:24:20.595Z",
+  "replaceSource": "generated:0694.png"
+}
