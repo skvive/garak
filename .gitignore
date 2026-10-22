@@ -6,6 +6,9 @@ lexistyle/dev-server*.log
 lexistyle/npm-install*.log
 docs/_docx_staging/
 docs/screenshots/verify-report.txt
+docs/screenshots/*.json
+docs/screenshots/*.txt
+docs/screenshots/mobile-audit/
 
 # ── 클론 원본의 에이전트·도구 폴더 (신규 저장소에서 제외) ──
 lexistyle/.cursor/
