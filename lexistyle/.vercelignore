@@ -1,0 +1,9 @@
+# Vercel 빌드에서 제외 — 클론 원본의 운영/리서치 자산 (가락한상 스토어프론트 불필요)
+services/
+outputs/
+ambas-site/
+pdp-site/
+cursor-grok-sample3-handoff/
+.data/
+pgdata/
+*.log

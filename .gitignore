@@ -22,15 +22,13 @@ lexistyle/skills-lock.json
 lexistyle/.mcp.json
 lexistyle/.tsc-out.txt
 
-# ── 클론 원본의 임시·스크랩 파일 ──
-lexistyle/_preview_fashion.html
-lexistyle/_prod_check.html
-lexistyle/_prod_fashion.html
-lexistyle/_prod_fashion2.html
-lexistyle/_cats.sql
-lexistyle/_neon_check.mjs
+# ── 클론 원본의 운영·리서치 자산 (스토어프론트 불필요) ──
+lexistyle/services/
 lexistyle/outputs/
 lexistyle/amba/
 lexistyle/ambas-site/
 lexistyle/pdp-site/
 lexistyle/cursor-grok-sample3-handoff/
+lexistyle/.data/
+lexistyle/pgdata/
+

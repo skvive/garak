@@ -1,0 +1,27 @@
+WITH classified AS (
+  SELECT
+    CASE
+      WHEN category_path[1] IN ('Earrings','Fine Earrings','Necklace & Pendants','Bracelets & Bangles','Rings','Anklets','Brooches','Charms','Fashion Jewelry Sets','925 Silver Jewelry','Body Jewelry','Belts','Belts & Cummerbunds','Scarves & Wraps','Keychains','Woman Hats & Caps','Baseball Caps','Fedoras','Woman Gloves & Mittens','Socks','Woman Socks','Eyewear & Accessories','Watch Accessories','Quartz Watches','Smart Watches','Dress Watches','Women''s Bracelet Watches','Man Prescription Glasses','Woman Prescription Glasses','Lovers'' Watches','Dual Display Watches') THEN 'fashion>accessories'
+      WHEN category_path[1] IN ('Lady Dresses','Evening Dresses','Wedding Dresses','Blouses & Shirts','Ladies Short Sleeve','Women''s Long-Sleeved Shirts','Women''s Short-Sleeved Shirts','Women''s Sleeveless Tops','Women''s Camis','Skirts','Rompers','Jumpsuits','Suits & Sets','Two-Piece Suits','Women''s Three-Piece Sets','Pajama Sets','Stage & Dance Wear','Wide Leg Pants','Woman Shorts','Woman Jeans','Casual Pants','Pants & Capris','Woman Hoodies & Sweatshirts','Sweaters','Women''s Flare Pants','Women''s Straight-Leg Pants','Women''s Cargo Pants','Women''s Suit Pants','Harem Pants','Women''s Knit Bottoms','Women''s Activewear Sets','Women''s Sweatsuit Sets','One-Piece Suits','Leather & Suede','Genuine Leather','Sweatpants') THEN 'fashion>womens'
+      WHEN category_path[1] IN ('Men''s Shirts','Men''s Long-Sleeved','Man Hoodies & Sweatshirts','Man Jeans','Man Shorts','Men''s Sweaters','Men''s Suits','Tops & Tees','Men''s Ties','Men''s Insoles') THEN 'fashion>mens'
+      WHEN category_path[1] IN ('Basic Jacket','Down Jackets','Outerwear & Coats','Women''s Casual Jackets','Women''s Coats','Women''s Outerwear','Women''s Padded Jackets','Women''s Wool Coats','Woman Trench','Wool & Blend','Women''s Blazers','Blazers','Women''s Vests','Women''s Cardigans','Women''s Zip-Up Hoodies','Men''s Jackets','Man Trench','Suits & Blazer') THEN 'fashion>outer'
+      WHEN category_path[1] IN ('Fashion Backpacks','Crossbody Bags','Shoulder Bags','Totes','Clutches','Evening Bags','Waist Bags','Luggage & Travel Bags','Women''s Crossbody Bags','Men''s Backpacks','Man Wallets') THEN 'fashion>bags'
+      WHEN category_path[1] IN ('Casual Shoes','Running Shoes','Formal Shoes','Flats','Woman Boots','Woman Sandals','Woman Slippers','Man Sandals','Man Slippers','Vulcanize Shoes','Pumps','Basketball Shoes','Hiking Shoes') THEN 'fashion>shoes'
+      WHEN category_path[1] IN ('Bras','Panties','Bikini Sets','Leggings','Boxers','Robes') THEN 'fashion>underwear'
+      WHEN category_path[1] IN ('Lipstick','Eyeshadow','Eyebrow Pencil','False Eyelashes','Makeup Brushes','Makeup Set','Nail Art Kits','Nail Gel','Synthetic Wigs') THEN 'beauty>makeup'
+      WHEN category_path[1] IN ('Facial Care','Face Masks','Face Skin Care Tools','Electric Face Cleanser','Essential Oil','Body Care','Bridal Jewelry Sets') THEN 'beauty>skincare'
+      WHEN category_path[1] IN ('Curling Iron','Straightening Irons','Headband & Hair Band & Hairpin') THEN 'beauty>haircare'
+      WHEN category_path[1] IN ('Baby Care','Baby Clothing Sets','Baby Dresses','Baby Rompers','Boy Clothing Sets','Boy Hoodies & Sweatshirts','Girl Accessories','Girl Clothing Sets','Girl Dresses','Girls'' Pants','Children''s Shoes','Children''s Watches','Couple&Parent-Child Sweatshirts','Action & Toy Figures','Blocks','Stuffed & Plush Animals','RC Helicopters','3D Pens') THEN 'kids'
+      WHEN category_path[1] IN ('Bedding Sets','Pillows','Cushion Covers','Curtains','Towels','Mirrors','Decor Paintings','Decorative Flowers & Wreaths','Furniture','Bathroom Storage','Clothing & Wardrobe Storage','Home Office Storage','Kitchen Storage','Storage Bags & Cases & Boxes','Storage Bottles & Jars','Dinnerware','Drinkware','Cooking Tools','Kitchen Knives & Accessories','Ceiling Lights','Chandeliers','Pendant Lights','Wall Lamps','Night Lights','LED Spotlights','Solar Lamps','Event & Party Supplies','Christmas Decoration Supplies') THEN 'life>home'
+      WHEN category_path[1] IN ('Earphones & Headphones','Speakers','Power Bank','Charger','Cables','Digital Cables','Smart Wearable Accessories','Holders & Stands','Tablet Accessories','Cases For iPhone 8 & 8 Plus','Silicone Cases','Leather Cases','Waterptoof Cases','Memory Cards','Microphones','Action Cameras','Camcorders','Gamepads','Chargers','Computer Tablet Accessories') THEN 'life>tech'
+      WHEN category_path[1] IN ('Pet Bags','Pet Bowls','Pet Chase Toys','Pet Chew Toys','Pet Clothing Sets','Pet Clothings','Pet Collars','Pet Drinking Tools','Pet Feeding Tools','Pet Functional Clothings','Pet Furniture Tools','Pet Hair Accessories','Pet Hair Removers & Combs','Pet Harnesses','Pet Houses & Cages','Pet Jumpsuits','Pet Leashes','Pet Mats','Pet Nail Polishers','Pet Nests','Pet Plush Toys','Pet Shower Products','Pet Snacks','Pet Sweaters','Pet Tops','Pet Toy Set','Pet Training and Educational Toys','Pet Tunnel Toys','Cat Scratching Posts','Dog Stairs & Steps','Dog Training Pads & Diapers','Barking Control Equipments') THEN 'life>pets'
+      WHEN category_path[1] IN ('Office & School Supplies','Other Exterior Accessories','Home Electronic Accessories','Car Stickers','Swimming Goggles','Wedding Hair Jewelry') THEN 'life>etc'
+      ELSE 'unmapped'
+    END AS lexi_key,
+    count(*) AS cnt
+  FROM catalog_index
+  WHERE source_status != 'gone'
+  GROUP BY lexi_key
+  ORDER BY count(*) DESC
+)
+SELECT * FROM classified;

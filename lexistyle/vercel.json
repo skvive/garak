@@ -1,10 +1,5 @@
 {
-  "regions": ["sin1"],
-  "crons": [
-    { "path": "/ko/api/cron/supplier-sync", "schedule": "0 18 * * *" },
-    { "path": "/ko/api/cron/publish-worker", "schedule": "30 18 * * *" },
-    { "path": "/ko/api/cron/catalog-crawl", "schedule": "0 */2 * * *" },
-    { "path": "/ko/api/cron/ledger-scan", "schedule": "15 * * * *" },
-    { "path": "/ko/api/cron/order-sync", "schedule": "0 0,8 * * *" }
-  ]
+  "framework": "nextjs",
+  "regions": ["icn1"]
 }
+
