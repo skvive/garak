@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MapPin, PackageCheck, Truck } from "lucide-react";
@@ -8,7 +8,7 @@ import { getAccountOrder } from "@/lib/account/orders";
 import { formatKrw, formatUsd, presentOrderStatus } from "@/lib/account/presentation";
 
 export const dynamic = "force-dynamic";
-export const metadata = { title: "주문 상세 | My LEXI" };
+export const metadata = { title: "주문 상세 | 마이" };
 const STEPS = ["결제 완료", "상품 준비", "배송 중", "배송 완료"];
 
 function trackingStatus(status: string) {

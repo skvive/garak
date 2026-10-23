@@ -1,4 +1,4 @@
-import { LexiMark } from "@/components/lexi-mark";
+﻿import { LexiMark } from "@/components/lexi-mark";
 import { authConfigured } from "@/lib/auth/server";
 
 export const dynamicParams = false;
@@ -27,7 +27,7 @@ export default async function AuthPage({
       <div className="mb-6 flex flex-col items-center gap-2">
         <LexiMark size={52} className="text-dim" />
         <p className="font-display text-[28px] font-semibold tracking-tight">
-          LEXI<span className="text-coral">.</span>
+          가락<span className="text-coral">.</span>
         </p>
       </div>
 

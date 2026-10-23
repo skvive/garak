@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { requireSession } from "@/lib/auth/admin";
 
 export const dynamic = "force-dynamic";
@@ -25,7 +25,7 @@ export default async function AccountSettingsPage() {
   return (
     <div className="mx-auto max-w-2xl px-4 py-8">
       <Link href="/account" className="text-[12px] font-semibold text-dim hover:text-ink">
-        ← My LEXI
+        ← 마이
       </Link>
       <h1 className="mt-2 font-display text-[28px] font-semibold">계정 설정</h1>
 

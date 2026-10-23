@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { Star } from "lucide-react";
 import { ReviewForm } from "@/components/review-form";
@@ -6,7 +6,7 @@ import { requireSession } from "@/lib/auth/admin";
 import { getAccountReviews } from "@/lib/account/orders";
 
 export const dynamic = "force-dynamic";
-export const metadata = { title: "내 리뷰 | My LEXI" };
+export const metadata = { title: "내 리뷰 | 마이" };
 
 export default async function AccountReviewsPage() {
   const session = await requireSession();
@@ -15,7 +15,7 @@ export default async function AccountReviewsPage() {
   const data = await getAccountReviews(email);
   return (
     <main className="mx-auto max-w-3xl px-4 py-8" style={{ wordBreak: "keep-all" }}>
-      <Link href="/account" className="text-[12px] font-semibold text-dim hover:text-ink">← My LEXI</Link>
+      <Link href="/account" className="text-[12px] font-semibold text-dim hover:text-ink">← 마이</Link>
       <h1 className="mt-2 font-display text-[30px] font-semibold [text-wrap:balance]">내 리뷰</h1>
       <p className="mt-1 text-[14px] leading-6 text-dim">배송 완료 상품의 후기를 작성하고 내가 남긴 리뷰를 확인하세요.</p>
       {data.eligible.length > 0 && <section className="mt-7"><h2 className="text-[15px] font-bold">작성 가능한 리뷰</h2><div className="mt-3 space-y-4">{data.eligible.map((product) => <article key={product.productId} className="rounded-3xl border border-line bg-paper p-4 sm:p-5"><div className="mb-4 flex items-center gap-3"><div className="relative size-16 shrink-0 overflow-hidden rounded-2xl bg-fog">{product.productImage ? <Image src={product.productImage} alt="" fill sizes="64px" className="object-cover" /> : null}</div><div className="min-w-0"><p className="line-clamp-2 text-[14px] font-semibold leading-6">{product.productName}</p><p className="mt-0.5 text-[12px] text-sage">배송 완료</p></div></div><ReviewForm slug={product.slug} /></article>)}</div></section>}

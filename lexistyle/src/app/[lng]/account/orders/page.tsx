@@ -10,7 +10,7 @@ import { listAccountOrders } from "@/lib/account/orders";
 import { formatUsd, presentOrderStatus } from "@/lib/account/presentation";
 
 export const dynamic = "force-dynamic";
-export const metadata = { title: "주문 · 배송 | My LEXI" };
+export const metadata = { title: "주문 · 배송 | 가락한상" };
 
 export default async function AccountOrdersPage({ params }: { params: Promise<{ lng: string }> }) {
   const { lng } = await params;
@@ -24,7 +24,7 @@ export default async function AccountOrdersPage({ params }: { params: Promise<{ 
   const coupangRows = isAdmin ? await listChannelOrderQueue("coupang") : [];
   return (
     <main className="mx-auto max-w-3xl px-4 py-8" style={{ wordBreak: "keep-all" }}>
-      <Link href="/account" className="text-[12px] font-semibold text-dim hover:text-ink">← My LEXI</Link>
+      <Link href="/account" className="text-[12px] font-semibold text-dim hover:text-ink">← 마이</Link>
       <div className="mt-2 flex items-end justify-between gap-4"><div><h1 className="font-display text-[30px] font-semibold text-ink [text-wrap:balance]">주문 · 배송</h1><p className="mt-1 text-[14px] leading-6 text-dim">결제부터 배송 완료까지 주문별 진행 상황을 확인하세요.</p></div><p className="shrink-0 text-[13px] font-semibold tabular-nums text-dim">총 {rows.length}건</p></div>
       <GuestCjTracking lng={lng} />
       {isAdmin && <div className="mt-6"><CoupangCjOrderPanel lng={lng} initialRows={coupangRows} /></div>}

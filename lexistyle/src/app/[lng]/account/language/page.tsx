@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export const metadata = { title: "언어 · 통화" };
 
@@ -6,7 +6,7 @@ export default function LanguagePage() {
   return (
     <div className="mx-auto max-w-2xl px-4 py-8">
       <Link href="/account" className="text-[12px] font-semibold text-dim hover:text-ink">
-        ← My LEXI
+        ← 마이
       </Link>
       <h1 className="mt-2 font-display text-[28px] font-semibold">언어 · 통화</h1>
       <p className="mt-1 text-[13px] text-dim">현재 스토어 기본값입니다. 계정별 저장은 다음 단계에서 연결됩니다.</p>
