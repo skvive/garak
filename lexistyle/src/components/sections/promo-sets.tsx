@@ -1,12 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 
+const U = (id: string, w: number) =>
+  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`;
+
 /** 기획전 4종 — 피쉬세일식 기획전 배너 (홈파티/회식/선물/김장) */
 const PROMOS = [
-  { title: "금요 사무실 회식", sub: "법인카드 OK · 데스크 직배송", href: "/category/fashion", kw: "party,food", seed: 131 },
-  { title: "주말 홈파티 한 상", sub: "회부터 디저트까지 원스톱", href: "/category/fashion", kw: "sashimi,set", seed: 132 },
-  { title: "명절 선물세트", sub: "갈비·과일·굴비 프리미엄", href: "/category/life", kw: "gift,korean", seed: 133 },
-  { title: "김장철 젓갈·반찬", sub: "가락시장 청과동 직송", href: "/category/others", kw: "kimchi,korean", seed: 134 },
+  { title: "금요 사무실 회식", sub: "법인카드 OK · 데스크 직배송", href: "/category/fashion", img: U("photo-1529543544282-ea669407fca3", 600) },
+  { title: "주말 홈파티 한 상", sub: "회부터 디저트까지 원스톱", href: "/category/fashion", img: U("photo-1579871494447-9811cf80d66c", 600) },
+  { title: "명절 선물세트", sub: "갈비·과일·굴비 프리미엄", href: "/category/life", img: U("photo-1546964124-0cce460f38ef", 600) },
+  { title: "김장철 젓갈·반찬", sub: "가락시장 청과동 직송", href: "/category/others", img: U("photo-1542838132-92c53300491e", 600) },
 ];
 
 export function PromoSets() {
@@ -24,7 +27,7 @@ export function PromoSets() {
             className="group relative aspect-[4/3] overflow-hidden rounded-xl"
           >
             <Image
-              src={`https://loremflickr.com/600/450/${encodeURIComponent(p.kw)}?lock=${p.seed}`}
+              src={p.img}
               alt=""
               fill
               sizes="(max-width: 768px) 50vw, 25vw"

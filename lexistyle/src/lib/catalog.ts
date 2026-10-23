@@ -538,6 +538,8 @@ async function collectAllProducts(filter?: ProductListFilter): Promise<Product[]
     const dbRows = await fromDb();
     if (dbRows?.length) return applyProductFilter(dbRows, filter);
   }
+  // GarakHansang: DB 없음 → 더미 상품을 최우선 반환 (구 로컬 JSON 카탈로그 우선순위 해제)
+  if (!hasDb()) return applyProductFilter(dummyProducts, filter);
   if (cafe24Mode() !== "off") {
     const cafe = await listCafe24Products(filter);
     if (cafe?.length) return cafe;

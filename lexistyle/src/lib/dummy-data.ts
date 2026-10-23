@@ -6,9 +6,49 @@
  *   beauty=수산 · women-clothing=한 상 · home-garden=축산 · kids=청과 · pet=초장집 · electronics=절임·청
  */
 
-/** 키워드 기반 실사 이미지 (loremflickr — 무료, 안정적) */
-const img = (kw: string, seed: number, w = 900) =>
-  `https://loremflickr.com/${w}/${w}/${encodeURIComponent(kw)}?lock=${seed}`;
+/** 키워드 기반 실사 이미지 — 검증된 Unsplash 사진 ID 풀 (loremflickr 장애 대체, 2026-10 검증) */
+const U = (id: string, w: number) =>
+  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`;
+
+const IMG_POOLS: { match: string[]; ids: string[] }[] = [
+  {
+    match: ["sashimi", "sushi", "tuna", "salmon", "omakase", "fish", "squid", "octopus", "clam", "seafood", "oyster", "uni", "seaurchin", "abalone", "scallop", "lobster", "colddish", "market"],
+    ids: ["photo-1559847844-5315695dadae", "photo-1579871494447-9811cf80d66c", "photo-1553621042-f6e147245754", "photo-1563379926898-05f4575a45d8"],
+  },
+  {
+    match: ["crab"],
+    ids: ["photo-1559737558-2f5a35f4523b", "photo-1544025162-d76694265947"],
+  },
+  {
+    match: ["shrimp"],
+    ids: ["photo-1615141982883-c7ad0e69fd62", "photo-1551218808-94e220e084d2"],
+  },
+  {
+    match: ["beef", "pork", "steak", "bbq", "ribs", "tartare", "brisket", "meat"],
+    ids: ["photo-1546964124-0cce460f38ef", "photo-1546833999-b9f581a1996d"],
+  },
+  {
+    match: ["vegetable", "lettuce", "radish", "fruit", "strawberry", "grape", "tangerine", "citrus", "plum", "seaweed", "cooking", "kimchi", "produce"],
+    ids: ["photo-1542838132-92c53300491e", "photo-1464965911861-746a04b4bca6"],
+  },
+  {
+    match: ["party", "table", "dinner", "koreanfood", "food", "set"],
+    ids: ["photo-1529543544282-ea669407fca3"],
+  },
+  {
+    match: ["drink", "cocktail", "wine", "syrup"],
+    ids: ["photo-1510812431401-41d2bd2722f3", "photo-1536935338788-846bb9981813"],
+  },
+  {
+    match: ["sauce", "dip", "spicy", "wasabi", "cheese", "corn", "gift", "korean"],
+    ids: ["photo-1547592180-85f173990554"],
+  },
+];
+
+const img = (kw: string, seed: number, w = 900) => {
+  const pool = IMG_POOLS.find((p) => p.match.some((m) => kw.includes(m))) ?? IMG_POOLS[0];
+  return U(pool.ids[seed % pool.ids.length], w);
+};
 
 /** 기존 LEXI CJ 카테고리 유니온 유지 (departments.ts 타입 호환) */
 export type CjCategory =

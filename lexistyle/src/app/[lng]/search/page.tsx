@@ -40,7 +40,7 @@ export default async function SearchPage({
   const sort = parseSort(sortRaw);
   const { priceMin, priceMax } = parsePriceRange(pmin, pmax);
   // 실제로 진열 중인 카테고리 기준 추천 검색어
-  const trending = ["원피스", "목걸이", "크로스백", "블라우스", "팔찌", "레깅스"];
+  const trending = ["대방어", "킹크랩", "한우 육회", "샤인머스캣", "매운탕 거리", "초밥 팩"];
 
   const result = q
     ? await searchProductsPage(q, { page, pageSize: STOREFRONT_PAGE_SIZE, sort, priceMin, priceMax, saleOnly: sale === "1" })
@@ -56,7 +56,7 @@ export default async function SearchPage({
             type="search"
             name="q"
             defaultValue={q}
-            placeholder="브랜드, 상품, #LEXILOOK 검색"
+            placeholder="대방어, 킹크랩, 한우 육회 검색"
             className="w-full bg-transparent text-[15px] outline-none placeholder:text-dim"
           />
         </label>
