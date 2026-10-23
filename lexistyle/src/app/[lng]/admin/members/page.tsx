@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
@@ -125,7 +125,7 @@ export default function MembersConsolePage() {
         <div className="mb-6">
           <h1 className="text-3xl font-bold text-gray-900">회원 관리</h1>
           <p className="mt-2 text-sm text-gray-600">
-            LEXI 회원 목록을 확인하고 관리할 수 있습니다.
+            가락한상 회원 목록을 확인하고 관리할 수 있습니다.
           </p>
         </div>
 

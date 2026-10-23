@@ -8,7 +8,7 @@ import { CartBadge } from "./cart-badge";
 /** 가락한상 5탭 — 홈/오늘시세/한 상/장바구니/마이 (Thumb Zone 내 모든 1차 내비게이션 완결). */
 const TABS = [
   { label: "홈", href: "/", icon: Home },
-  { label: "시세", href: "/best", icon: TrendingUp, match: "/best" },
+  { label: "시세", href: "/prices", icon: TrendingUp, match: "/prices" },
   { label: "한 상", href: "/category/fashion", icon: LayoutGrid, match: "/category" },
   { label: "장바구니", href: "/cart", icon: ShoppingCart },
   { label: "마이", href: "/account", icon: User },

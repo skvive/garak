@@ -1,11 +1,11 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { ArrowRight, CheckCircle2, CircleAlert, Database, ShoppingBag } from "lucide-react";
 import { StudioPageHeader } from "@/components/studio/studio-shell";
 import { studioDashboard } from "@/lib/studio/store";
 import { cafe24Connected } from "@/lib/cafe24/oauth";
 import { cafe24StatusPayload } from "@/lib/cafe24/config";
 
-export const metadata = { title: "LEXI Studio" };
+export const metadata = { title: "가락한상 스튜디오" };
 
 export default async function StudioPage() {
   const [dashboard, connected] = await Promise.all([studioDashboard(), cafe24Connected()]);
@@ -22,7 +22,7 @@ export default async function StudioPage() {
     <>
       <StudioPageHeader
         title="Design & Creator Control Room"
-        description="Cafe24가 상품·주문·결제를 운영하고, LEXI Studio는 디자인·이미지·동영상·상세페이지를 제작해 Cafe24로 배포합니다."
+        description="Cafe24가 상품·주문·결제를 운영하고, 가락한상 스튜디오는 디자인·이미지·동영상·상세페이지를 제작해 Cafe24로 배포합니다."
       />
       <div className="grid gap-3 md:grid-cols-3">
         <BoundaryCard
@@ -34,7 +34,7 @@ export default async function StudioPage() {
         />
         <BoundaryCard
           title="Design & Content System"
-          owner="LEXI Studio"
+          owner="가락한상 스튜디오"
           description="테마 · 홈 섹션 · PDP · 이미지 · 영상 · 버전 · 승인"
           icon={<Database className="size-5" />}
           tone="ink"

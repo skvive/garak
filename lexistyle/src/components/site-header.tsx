@@ -10,7 +10,7 @@ import { LanguageSwitcher } from "./language-switcher";
 import { CoupangSyncButton } from "./coupang-sync-button";
 
 const GNB = [
-  { label: "오늘시세", href: "/best" },
+  { label: "오늘시세", href: "/prices" },
   { label: "수산", href: "/category/beauty" },
   { label: "한 상", href: "/category/fashion" },
   { label: "축산", href: "/category/life" },

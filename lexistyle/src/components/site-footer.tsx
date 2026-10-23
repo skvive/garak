@@ -29,9 +29,10 @@ export function SiteFooter() {
             가락<span className="text-coral">한상</span>
           </p>
           <nav className="flex gap-4">
-            <Link href="/support">고객센터</Link>
+            <Link href="/prices">오늘시세</Link>
+            <Link href="/reservation">초장집 예약</Link>
+            <Link href="/subscription">홈마카세</Link>
             <Link href="/support">배송·반품 안내</Link>
-            <Link href="/brands">점포관</Link>
             <Link href="/legal/terms">이용약관</Link>
             <Link href="/legal/privacy" className="font-semibold">개인정보처리방침</Link>
           </nav>

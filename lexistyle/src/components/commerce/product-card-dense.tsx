@@ -8,7 +8,7 @@
  */
 import Image from "next/image";
 import Link from "next/link";
-import type { Product } from "@/lib/dummy-data";
+import { productMeta, type Product } from "@/lib/dummy-data";
 import { Badge, DeliveryBadge, PriceBlock, QuickAddButton, Rating } from "@/components/ui/commerce";
 import { sample3CardImage } from "@/lib/pdp/sample3-helper";
 
@@ -32,15 +32,16 @@ export function ProductCardDense({
   extras?: DenseCardExtras;
   rank?: number;
 }) {
+  const meta = productMeta[product.slug];
   return (
     <Link href={`/product/${product.slug}`} className="group block">
-      <div className="relative aspect-square overflow-hidden rounded-lg bg-fog">
+      <div className={`relative aspect-square overflow-hidden rounded-lg bg-fog ${meta?.soldout ? "opacity-70" : ""}`}>
         <Image
           src={sample3CardImage(product.image, product.slug)}
           alt={product.name}
           fill
           sizes="(max-width: 768px) 50vw, 25vw"
-          className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+          className={`object-cover transition-transform duration-500 group-hover:scale-[1.03] ${meta?.soldout ? "grayscale" : ""}`}
         />
         {rank !== undefined && (
           <span className="price absolute left-1.5 top-1.5 grid size-6 place-items-center rounded bg-ink/85 text-[12px] font-bold text-white">
@@ -50,6 +51,17 @@ export function ProductCardDense({
         {extras?.flag && (
           <span className="absolute left-1.5 top-1.5">
             <Badge tone={extras.flag.tone ?? "sale"}>{extras.flag.label}</Badge>
+          </span>
+        )}
+        {/* 신선도 뱃지 — 살수율 등급 (우상단, 편집 카드와 동일 톤) */}
+        {meta?.fatGrade && (
+          <span className="badge-grade-a absolute right-1.5 top-1.5 rounded-full px-1.5 py-0.5 text-[9px] font-bold">
+            {meta.fatGrade}
+          </span>
+        )}
+        {meta?.soldout && (
+          <span className="absolute inset-0 grid place-items-center">
+            <span className="rounded-md bg-ink/80 px-2.5 py-1 text-[12px] font-bold text-white">SOLDOUT</span>
           </span>
         )}
         <QuickAddButton />
@@ -65,6 +77,10 @@ export function ProductCardDense({
         />
 
         {product.reviewCount > 0 && <Rating value={product.rating} count={product.reviewCount} />}
+
+        {meta?.origin && (
+          <p className="text-[10px] font-medium text-sage">원산지 {meta.origin}</p>
+        )}
 
         <div className="flex flex-wrap items-center gap-1 pt-0.5">
           {extras?.delivery && <DeliveryBadge grade={extras.delivery} />}

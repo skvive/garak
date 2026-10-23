@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { listAmbaCasts } from "@/lib/pdp/amba-casts";
 
 export const metadata: Metadata = {
   title: "AMBA Models",
-  description: "AMBA (AI Ambassador) — LEXI Style lookbook cast profiles",
+  description: "AMBA (AI Ambassador) — 가락한상 lookbook cast profiles",
 };
 
 const STYLE_LABEL: Record<string, string> = {
@@ -59,7 +59,7 @@ export default async function AmbaModelsPage({
           AMBA · AI Ambassador
         </p>
         <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight md:text-4xl">
-          LEXI Style 화보 모델
+          가락한상 화보 모델
         </h1>
         <p className="mt-3 text-[15px] leading-relaxed text-dim">
           AMBA(Ai-Ambassdor Agency) 소속된 AI 모델들입니다. 본 모델들의 프로필 및 가상 데이터는
