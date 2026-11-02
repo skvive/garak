@@ -48,6 +48,7 @@ export default async function RootLayout({
     <html lang={lng} suppressHydrationWarning>
       <head>
         <meta name="naver-site-verification" content="c597983cd76eac883d1a652104eef17bccf19c9b" />
+        <meta name="naver-site-verification" content="ca9e3017e7f49af58f8c6aec697d3a949674e155" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
