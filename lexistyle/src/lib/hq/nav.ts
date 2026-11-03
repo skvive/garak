@@ -50,6 +50,7 @@ export const HQ_NAV: HqNavSection[] = [
     section: "커머스 원장",
     items: [
       { label: "상품", href: "/hq/products" },
+      { label: "광양수산 입점대기", href: "/hq/partners/gwangyang" },
       { label: "주문", href: "/hq/orders" },
       { label: "배너", href: "/hq/banners" },
       { label: "분산원장", href: "/hq/ledger" },
