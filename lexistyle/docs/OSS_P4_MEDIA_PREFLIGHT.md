@@ -9,3 +9,9 @@ On the worker, `SHORTS_REQUIRE_RIGHTS_APPROVAL=1` additionally requires `mediaRi
 DNS-rebinding and all upstream external-media fetches must be controlled by allowlisted network egress; URL validation alone is not an SSRF boundary. Actual rendering, subtitles and MP4 playback need the Remotion/Chromium/FFmpeg runtime and a controlled test job.
 
 Tests: `node --test services/remotion/preflight.test.mjs`. Existing `worker.mjs` remains the renderer and uploader; failed preflights use the existing worker failure-report endpoint.
+
+## Optional media domain allowlist
+
+Set `SHORTS_ALLOWED_MEDIA_HOSTS=cdn.yourdomain.tld,images.yourdomain.tld` in the **Remotion worker** environment to allow only those exact image and video hostnames; no wildcards or suffix matching. Existing `SHORTS_REQUIRE_RIGHTS_APPROVAL=1` separately demands explicit media-rights review. The preflight also rejects IP literals, local domains, embedded credentials and custom HTTPS ports.
+
+This is a static URL filter and **does not** resolve DNS or follow redirects before rendering. Production requires independently enforced egress allowlists, DNS/rebinding and redirect policy; do not claim SSRF is fully eliminated. Check provider media rights before actual rendering. Automated test: `node --test lexistyle/services/remotion/preflight.test.mjs`.
