@@ -1,0 +1,12 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import {forecastDemand} from '../src/lib/catalog/demand-forecast.ts';
+const sample=(n,quantity=3)=>Array.from({length:n},(_,i)=>({date:new Date(Date.UTC(2026,0,1+i)).toISOString().slice(0,10),quantity}));
+test('insufficient history',()=>{const r=forecastDemand(sample(12));assert.equal(r.status,'insufficient_data');assert.equal(r.reorderSuggestion,null);});
+test('constant demand',()=>{const r=forecastDemand(sample(28,4),{horizonDays:7});assert.equal(r.forecastUnits,28);assert.equal(r.backtestWape,0);});
+test('verified stock gate',()=>{assert.equal(forecastDemand(sample(28,4)).reorderSuggestion,null);assert.equal(forecastDemand(sample(28,4),{verifiedOnHand:2,leadDays:3,safetyDays:2}).reorderSuggestion,18);});
+test('missing days rejected',()=>{const x=sample(20);x.splice(3,1);assert.throws(()=>forecastDemand(x),/continuous/);});
+test('negative or duplicate rejected',()=>{const x=sample(14);x[2].quantity=-1;assert.throws(()=>forecastDemand(x),/non-negative/);const y=sample(14);y[5]=y[4];assert.throws(()=>forecastDemand(y),/continuous/);});
+test('calendar and bounds',()=>{assert.throws(()=>forecastDemand([{date:'2026-02-30',quantity:1}]),/calendar/);assert.throws(()=>forecastDemand(sample(20),{horizonDays:31}),/horizon/);});
+test('does not mutate source',()=>{const x=Object.freeze(sample(28,2).map(Object.freeze));assert.equal(forecastDemand(x).forecastUnits,14);});
+test('zero sales is zero without WAPE claim',()=>{const r=forecastDemand(sample(28,0),{verifiedOnHand:0});assert.equal(r.forecastUnits,0);assert.equal(r.backtestWape,null);});
