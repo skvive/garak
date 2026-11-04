@@ -46,8 +46,8 @@ export async function generateMetadata({
   const label = sub ? `${sub.name} · ${dept.label}` : dept.label;
   const canonical = `${siteUrl()}/${lng}/category/${cat}${sub ? `?leaf=${encodeURIComponent(sub.slug)}` : ""}`;
   const description = sub
-    ? `${sub.name} ${sub.count}개 — LEXI가 고른 ${dept.label} 셀렉션. 관세 포함 가격으로 해외에서 바로 배송합니다.`
-    : `${dept.label}(${dept.en}) 셀렉션 — LEXI가 고른 상품을 관세 포함 가격으로 해외에서 바로 배송합니다.`;
+    ? `${sub.name} — 가락한상 ${dept.label}의 상품 정보를 확인 중입니다. 검수 완료 상품만 공개합니다.`
+    : `${dept.label} — 가락한상에서 입점·상품 정보를 확인하고 있습니다.`;
   return { title: label, description, alternates: { canonical }, openGraph: { title: label, description, url: canonical } };
 }
 
@@ -109,9 +109,10 @@ export default async function CategoryPage({
   // 로컬 스토어 모드: categoryBrowse/catalog(로컬 JSON)
   // DB 모드: category_cj_leaves(이식 원장) + catalog_index 라이브 카운트
   const browseMode = !hasDb();
-  const leafDefs = browseMode ? leafDefsForDeptWithCount(cat) : await dbLeafDefsForDept(cat, bucketFilter);
+  const allowLocalDemo = process.env.NODE_ENV !== "production";
+  const leafDefs = browseMode ? (allowLocalDemo ? leafDefsForDeptWithCount(cat) : []) : await dbLeafDefsForDept(cat, bucketFilter);
   const activeLeaf = leaf && leafDefs.some((d) => d.leaf === leaf) ? leaf : undefined;
-  const localItems: LocalCatalogRow[] = browseMode
+  const localItems: LocalCatalogRow[] = browseMode && allowLocalDemo
     ? activeLeaf
       ? productsForLeaf(activeLeaf)
       : productsForDept(cat)
@@ -128,7 +129,7 @@ export default async function CategoryPage({
     sports: ["sports"],
     auto: ["auto"],
   };
-  const dummyDeptItems = dummyProducts.filter((p) =>
+  const dummyDeptItems = (allowLocalDemo ? dummyProducts : []).filter((p) =>
     (DEPT_TO_DUMMY[cat] ?? []).includes(p.category as string),
   );
   const browseTotalPages = Math.max(1, Math.ceil(dummyDeptItems.length / STOREFRONT_PAGE_SIZE));
@@ -191,7 +192,7 @@ export default async function CategoryPage({
         </div>
         <h1 className="mt-1 font-display text-[24px] font-semibold">
           {titleLabel}
-          <span className="ml-2 text-[13px] font-normal text-dim">{result.total.toLocaleString()}개 · 관세 포함가</span>
+          <span className="ml-2 text-[13px] font-normal text-dim">{result.total.toLocaleString()}개 · 검수된 상품 기준</span>
         </h1>
         {leafDefs.length > 0 ? (
           <p className="mt-1 text-[12px] leading-relaxed text-dim">
@@ -270,7 +271,7 @@ export default async function CategoryPage({
             ))}
           </div>
         ) : localItems.length === 0 ? (
-          <p className="mt-16 px-4 text-center text-dim">곧 새로운 셀렉션이 도착합니다.</p>
+          <p className="mt-16 px-4 text-center text-dim">현재 공개 가능한 입점 승인 상품이 없습니다. 점포·사진·가격·재고를 확인하고 있습니다.</p>
         ) : (
           <div className="mt-1 grid grid-cols-2 gap-x-3 gap-y-6 px-4 md:grid-cols-4">
             {localItems.map((p, i) => (
@@ -280,7 +281,7 @@ export default async function CategoryPage({
         )
       ) : items.length === 0 ? (
         <p className="mt-16 px-4 text-center text-dim">
-          {q || pmin || pmax || sale ? "조건에 맞는 상품이 없어요. 검색어나 필터를 바꿔 보세요." : "곧 새로운 셀렉션이 도착합니다."}
+          {q || pmin || pmax || sale ? "조건에 맞는 상품이 없어요. 검색어나 필터를 바꿔 보세요." : "현재 공개 가능한 입점 승인 상품이 없습니다. 점포·사진·가격·재고 검수 중입니다."}
         </p>
       ) : (
         <div className="mt-1 grid grid-cols-2 gap-x-3 gap-y-6 px-4 md:grid-cols-4">
