@@ -14,3 +14,25 @@ test('strict rights approval is opt-in',()=>{
 });
 test('unsafe wan video URL rejected',()=>assert.equal(inspectShortsJob({...job,strategy:'wan_i2v',wanVideoUrl:'https://localhost/video.mp4'}).ok,false));
 test('error reports are actionable',()=>assert.throws(()=>assertShortsJob(null),/missing job/));
+
+
+test('public IP literal and hexadecimal localhost addresses rejected', () => {
+  for (const host of ['172.17.0.1','100.100.100.200','192.168.0.2','0x7f000001']) {
+    const candidate={...job,product:{imageUrls:[`https://${host}/a.jpg`]}};
+    assert.equal(inspectShortsJob(candidate).ok,false,host);
+  }
+});
+test('embedded credential, non-standard HTTPS ports and intranet-only hostname rejected',()=>{
+  for (const url of ['https://user:pass@cdn.example.com/a','https://cdn.example.com:8443/a','https://privatebox/a']) {
+    assert.equal(inspectShortsJob({...job,product:{imageUrls:[url]}}).ok,false,url);
+  }
+});
+test('media allowlist uses exact host not suffix',()=>{
+  assert.equal(inspectShortsJob(job,{allowMediaHosts:['cdn.example.com']}).ok,true);
+  assert.equal(inspectShortsJob(job,{allowMediaHosts:['example.com']}).ok,false);
+  assert.equal(inspectShortsJob({...job,product:{imageUrls:['https://cdn.example.com.evil.test/a']}},{allowMediaHosts:['cdn.example.com']}).ok,false);
+});
+test('wan video host must be present in same allowlist',()=>{
+  const wan={...job,strategy:'wan_i2v',wanVideoUrl:'https://video.example.com/v.mp4'};
+  assert.equal(inspectShortsJob(wan,{allowMediaHosts:['cdn.example.com']}).ok,false);
+});
