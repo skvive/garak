@@ -74,3 +74,36 @@ export async function submitGwangyangEvidence(form: FormData): Promise<void> {
   revalidatePath("/hq/partners/gwangyang");
   redirect("/hq/partners/gwangyang?evidence=submitted");
 }
+
+/**
+ * Independent manual review. The submitter cannot verify their own evidence.
+ * Approval is a claim made by another authenticated admin after document
+ * inspection, NOT an automatic conversion from submitted to verified.
+ */
+export async function reviewGwangyangEvidence(form: FormData): Promise<void> {
+  const session = await requireVerifiedNeonAdmin();
+  const email = session?.user?.email?.trim();
+  if (!email || !hasDb()) redirect("/auth/sign-in?next=/hq/partners/gwangyang");
+  const id = Number(form.get("evidenceId"));
+  const decision = String(form.get("decision") ?? "");
+  const reviewNote = String(form.get("reviewNote") ?? "").trim();
+  const acknowledged = String(form.get("acknowledged") ?? "") === "yes";
+  if (!Number.isSafeInteger(id) || id <= 0 || !["verified", "rejected"].includes(decision) ||
+      reviewNote.length < 10 || reviewNote.length > 600 || !acknowledged) {
+    redirect("/hq/partners/gwangyang?review=invalid");
+  }
+
+  const result = await db().execute(sql`
+    UPDATE public.garak_partner_evidence
+      SET status = ${decision}, reviewed_by = ${email},
+          reviewed_at = NOW(), review_note = ${reviewNote}
+    WHERE id = ${id}
+      AND merchant_slug = 'gwangyang-fisheries'
+      AND status = 'submitted'
+      AND lower(submitted_by) <> lower(${email})
+    RETURNING id
+  `);
+  if (result.rows.length !== 1) redirect("/hq/partners/gwangyang?review=blocked");
+  revalidatePath("/hq/partners/gwangyang");
+  redirect("/hq/partners/gwangyang?review=recorded");
+}
