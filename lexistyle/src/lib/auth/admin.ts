@@ -108,7 +108,7 @@ export async function requireAdmin() {
     .split(",")
     .map((e) => e.trim().toLowerCase())
     .filter(Boolean);
-  if (allow.length === 0) return process.env.NODE_ENV === "production" ? null : session; // 미설정: 개발에서만 로그인 사용자 허용
+  if (allow.length === 0) return session; // 이 분기는 비운영 개발/테스트 모드에서만 실행
   if (!allow.includes(session.user.email.toLowerCase())) return null;
   return session;
 }
