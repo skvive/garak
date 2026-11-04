@@ -55,7 +55,12 @@ async function api(route, body) {
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function renderJob(serveUrl, job) {
-  assertShortsJob(job, { strictRights: process.env.SHORTS_REQUIRE_RIGHTS_APPROVAL === "1" });
+  assertShortsJob(job, {
+    strictRights: process.env.SHORTS_REQUIRE_RIGHTS_APPROVAL === "1",
+    allowMediaHosts: process.env.SHORTS_ALLOWED_MEDIA_HOSTS
+      ? process.env.SHORTS_ALLOWED_MEDIA_HOSTS.split(",").map(x => x.trim()).filter(Boolean)
+      : undefined,
+  });
   const inputProps = {
     hookText: job.script.hookText,
     cta: job.script.cta,
