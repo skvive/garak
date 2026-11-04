@@ -1,0 +1,18 @@
+name: OSS P4 Garak Forecast and Shorts Preflight Verify
+on:
+  push:
+    branches: [chatgpt/p4-demand-forecast-20261104]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --experimental-strip-types --test lexistyle/tests/test-demand-forecast.mjs
+      - run: node --test lexistyle/services/remotion/preflight.test.mjs

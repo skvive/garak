@@ -11,6 +11,7 @@ import { fileURLToPath } from "node:url";
 import { bundle } from "@remotion/bundler";
 import { renderMedia, selectComposition } from "@remotion/renderer";
 import { put } from "@vercel/blob";
+import { assertShortsJob } from "./preflight.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 // Windows: 사용자 Temp에서는 FFmpeg 출력이 막히는 경우가 있어 작업 폴더를 고정
@@ -54,6 +55,12 @@ async function api(route, body) {
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function renderJob(serveUrl, job) {
+  assertShortsJob(job, {
+    strictRights: process.env.SHORTS_REQUIRE_RIGHTS_APPROVAL === "1",
+    allowMediaHosts: process.env.SHORTS_ALLOWED_MEDIA_HOSTS
+      ? process.env.SHORTS_ALLOWED_MEDIA_HOSTS.split(",").map(x => x.trim()).filter(Boolean)
+      : undefined,
+  });
   const inputProps = {
     hookText: job.script.hookText,
     cta: job.script.cta,
