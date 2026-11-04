@@ -10,7 +10,7 @@ import { LanguageSwitcher } from "./language-switcher";
 import { CoupangSyncButton } from "./coupang-sync-button";
 
 const GNB = [
-  { label: "오늘시세", href: "/prices" },
+  { label: "시세·점포안내", href: "/prices" },
   { label: "수산", href: "/category/beauty" },
   { label: "한 상", href: "/category/fashion" },
   { label: "축산", href: "/category/life" },
@@ -35,7 +35,7 @@ export function SiteHeader() {
                 key={m.label}
                 href={m.href}
                 className={`text-[15px] font-medium transition-colors hover:text-coral ${
-                  m.label === "오늘시세" ? "text-coral" : "text-ink"
+                  m.label === "시세·점포안내" ? "text-coral" : "text-ink"
                 }`}
               >
                 {m.label}
@@ -67,7 +67,7 @@ export function SiteHeader() {
             <input
               type="search"
               name="q"
-              placeholder="브랜드, 상품, #LEXILOOK 검색"
+              placeholder="수산물·점포 검색"
               className="w-full min-w-0 bg-transparent text-[13px] text-ink outline-none placeholder:text-dim"
             />
           </label>
