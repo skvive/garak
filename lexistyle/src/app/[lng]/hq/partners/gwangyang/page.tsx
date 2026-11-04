@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { sql } from "drizzle-orm";
 import { requireVerifiedNeonAdmin } from "@/lib/auth/admin";
 import { db, hasDb } from "@/db";
+import { submitGwangyangEvidence } from "./actions";
 
 export const dynamic = "force-dynamic";
 export const metadata = { title: "광양수산 입점대기 상품 | 가락한상 HQ" };
@@ -22,6 +23,30 @@ type DraftRow = {
   qa_notes: string | null;
 };
 type CategoryRow = { name: string; total: number; sort_order: number };
+type EvidenceRow = {
+  id: number;
+  sku: string | null;
+  evidence_type: string;
+  evidence_url: string;
+  details: string;
+  status: string;
+  submitted_at: Date;
+};
+const EVIDENCE_TYPES = [
+  { code: "business_registration", label: "점포 사업자 증명" },
+  { code: "signed_merchant_contract", label: "입점 계약서 서명본" },
+  { code: "photo_usage_rights", label: "현장·상품 사진 사용 동의" },
+  { code: "cold_chain_plan", label: "저온 유통·보관 계획" },
+  { code: "shipping_fee_policy", label: "배송 지역·요금·기준" },
+  { code: "returns_refund_policy", label: "교환·환불 운영 규정" },
+  { code: "pg_settlement_reconciliation", label: "결제 정산 대조 시험" },
+  { code: "pg_refund_rehearsal", label: "PG 환불 시나리오 검증" },
+  { code: "product_real_photo", label: "상품별 실제 사진" },
+  { code: "product_origin_weight", label: "상품 원산지·중량 증빙" },
+  { code: "product_price_agreement", label: "상품 공급가격·판매가 확인" },
+  { code: "product_stock_confirmation", label: "상품 재고 확인" },
+] as const;
+const evidenceLabel = (code: string) => EVIDENCE_TYPES.find((x) => x.code === code)?.label ?? code;
 const fmt = (value: number | string) => Number(value).toLocaleString("ko-KR");
 
 async function requireVerifiedPartnerAdmin() {
@@ -40,7 +65,7 @@ export default async function GwangyangPendingCatalogPage() {
 
   // Separate pending-only tables: never join with storefront products,
   // inventory, checkout, public categories or indexers.
-  const [productsResult, categoriesResult] = await Promise.all([
+  const [productsResult, categoriesResult, evidenceResult, releaseResult] = await Promise.all([
     db().execute(sql`
       SELECT p.sku, p.source_no, c.name AS category_name, p.name, p.description,
              p.price_krw, p.stock, p.status, p.visible, p.purchasable,
@@ -58,10 +83,26 @@ export default async function GwangyangPendingCatalogPage() {
       GROUP BY c.name, c.sort_order
       ORDER BY c.sort_order
     `),
+    db().execute(sql`
+      SELECT id, sku, evidence_type, evidence_url, details, status, submitted_at
+      FROM public.garak_partner_evidence
+      WHERE merchant_slug = 'gwangyang-fisheries'
+      ORDER BY submitted_at DESC
+      LIMIT 75
+    `),
+    db().execute(sql`
+      SELECT COUNT(*)::int AS total,
+             COUNT(*) FILTER (WHERE release_ready IS TRUE)::int AS ready
+      FROM public.garak_partner_release_ready
+      WHERE merchant_slug = 'gwangyang-fisheries'
+    `),
   ]);
 
   const products = productsResult.rows as unknown as DraftRow[];
   const categories = categoriesResult.rows as unknown as CategoryRow[];
+  const evidence = evidenceResult.rows as unknown as EvidenceRow[];
+  const release = releaseResult.rows[0] as unknown as { total: number; ready: number } | undefined;
+  const reviewed = evidence.filter((e) => e.status === "verified").length;
   const safeCount = products.filter(
     (p) => p.status === "pending" && !p.visible && !p.purchasable && !p.image_verified && p.stock === 0,
   ).length;
@@ -97,6 +138,70 @@ export default async function GwangyangPendingCatalogPage() {
           ? `주의: ${unsafeCount}개 상품이 입점대기 안전조건에서 벗어났습니다. 공개 상태 및 승인 기록을 확인하세요.`
           : "전 상품 입점대기 / 재고 0 / 미공개 / 구매 불가. 사진·원산지·구성·제철·재고 승인 전에는 판매하지 않습니다."}
       </div>
+
+
+      <section aria-label="상품 판매 승인 증빙 상태" className="rounded-2xl border border-line bg-paper p-5">
+        <h2 className="text-lg font-semibold text-ink">판매 승인 증빙 · 관리자 접수</h2>
+        <p className="mt-2 text-sm leading-6 text-dim">
+          자료 접수는 검증 완료가 아닙니다. 별도의 검수 담당자가 문서 진위, 서명, 사진 저작권,
+          원산지·중량, 배송 및 결제·환불 증빙을 직접 확인해야 승인됩니다.
+        </p>
+        <div className="mt-4 grid gap-3 sm:grid-cols-3">
+          <div className="rounded-xl bg-fog p-4"><p className="text-xs text-dim">증빙 접수</p><p className="mt-1 text-2xl font-bold">{evidence.length}건</p></div>
+          <div className="rounded-xl bg-fog p-4"><p className="text-xs text-dim">검증된 증빙 (최근 75건)</p><p className="mt-1 text-2xl font-bold">{reviewed}건</p></div>
+          <div className="rounded-xl bg-fog p-4"><p className="text-xs text-dim">최종 공개 가능한 상품</p><p className="mt-1 text-2xl font-bold">{Number(release?.ready ?? 0)} / {Number(release?.total ?? 0)}</p></div>
+        </div>
+        <form action={submitGwangyangEvidence} className="mt-6 grid gap-4 border-t border-line pt-6 sm:grid-cols-2">
+          <label className="block text-sm font-semibold">증빙 종류
+            <select name="evidenceType" required className="mt-2 w-full rounded-lg border border-line bg-white p-3 text-sm">
+              {EVIDENCE_TYPES.map((e) => <option key={e.code} value={e.code}>{e.label}</option>)}
+            </select>
+          </label>
+          <label className="block text-sm font-semibold">상품 SKU (상품별 증빙에서만)
+            <select name="sku" className="mt-2 w-full rounded-lg border border-line bg-white p-3 text-sm">
+              <option value="">점포 공통 증빙</option>
+              {products.map((p) => <option key={p.sku} value={p.sku}>{p.sku} · {p.name}</option>)}
+            </select>
+          </label>
+          <label className="block text-sm font-semibold sm:col-span-2">Google Drive 증빙 문서 링크
+            <input name="sourceUrl" type="url" required maxLength={1000} placeholder="https://drive.google.com/file/d/…/view"
+              className="mt-2 w-full rounded-lg border border-line bg-white p-3 text-sm" />
+          </label>
+          <label className="block text-sm font-semibold sm:col-span-2">검수 메모 (원산지·가격 기준일·사진 허락 범위 등)
+            <textarea name="details" rows={3} maxLength={1000}
+              className="mt-2 w-full rounded-lg border border-line bg-white p-3 text-sm" />
+          </label>
+          <div className="sm:col-span-2">
+            <button type="submit" className="rounded-full bg-ink px-6 py-3 text-sm font-bold text-white">
+              미검증 증빙으로 접수
+            </button>
+            <p className="mt-2 text-xs leading-relaxed text-dim">
+              입력한 링크는 관리자에게만 표시되며, 자동으로 상품 판매·결제 기능을 열지 않습니다.
+              상품별 증빙을 접수하려면 SKU와 상품 증빙 종류를 모두 선택하세요.
+            </p>
+          </div>
+        </form>
+        <h3 className="mt-7 text-base font-semibold">최근 증빙 접수 내역</h3>
+        {evidence.length === 0 ? (
+          <p className="mt-3 rounded-xl bg-fog p-4 text-sm text-dim">실제 서명·원산지·재고 검증 증빙이 아직 접수되지 않았습니다.</p>
+        ) : (
+          <div className="mt-3 overflow-x-auto">
+            <table className="min-w-[650px] w-full text-left text-sm">
+              <thead><tr className="border-b border-line text-xs text-dim"><th className="p-2">증빙</th><th className="p-2">상품</th><th className="p-2">상태</th><th className="p-2">자료</th></tr></thead>
+              <tbody>
+                {evidence.map((e) => (
+                  <tr key={e.id} className="border-b border-line/60">
+                    <td className="p-2">{evidenceLabel(e.evidence_type)}</td>
+                    <td className="p-2">{e.sku ?? "점포 공통"}</td>
+                    <td className="p-2">{e.status === "submitted" ? "접수·미검수" : e.status === "verified" ? "증빙 확인" : "반려"}</td>
+                    <td className="p-2"><a href={e.evidence_url} rel="noopener noreferrer" target="_blank" className="text-sage underline">증빙 열기</a></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </section>
 
       <section aria-label="광양수산 카테고리">
         <h2 className="mb-3 text-lg font-semibold text-ink">카테고리별 등록 수</h2>
