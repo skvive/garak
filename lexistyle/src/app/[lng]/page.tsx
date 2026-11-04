@@ -15,8 +15,9 @@ type ApprovedSeafood = {
 };
 
 // Never render demo fixtures or unpublished merchant catalog products.
-// A product needs explicit merchant-category approval, verified photo,
-// positive stock and sale flags before it can appear on the homepage.
+// A product needs verified merchant contract, original photo rights, origin/weight,
+// current price/stock, shipping/returns, PG refund and settlement evidence;
+// the DB release view enforces all 12 independent compliance categories.
 async function listApprovedSeafood(): Promise<ApprovedSeafood[]> {
   if (!hasDb()) return [];
   try {
@@ -25,6 +26,8 @@ async function listApprovedSeafood(): Promise<ApprovedSeafood[]> {
              p.image_ref, c.name AS category_name
       FROM public.garak_partner_products p
       INNER JOIN public.garak_partner_categories c ON c.code = p.category_code
+      INNER JOIN public.garak_partner_release_ready r
+        ON r.sku = p.sku AND r.release_ready IS TRUE
       WHERE p.status = 'approved'
         AND c.status = 'approved'
         AND p.visible IS TRUE

@@ -91,6 +91,9 @@ export const requireVerifiedNeonAdmin = cache(async () => {
 export async function requireAdmin() {
   const verified = await requireVerifiedNeonAdmin();
   if (verified) return verified;
+  // HQ writes must never authorize demo cookies, unsigned legacy sessions,
+  // or email allowlists in production.
+  if (process.env.NODE_ENV === "production") return null;
   const session = await requireSession();
   if (!session?.user?.email) return null;
   // 데모 세션은 ADMIN_EMAILS 화이트리스트와 무관하게 HQ 허용
@@ -105,13 +108,13 @@ export async function requireAdmin() {
     .split(",")
     .map((e) => e.trim().toLowerCase())
     .filter(Boolean);
-  if (allow.length === 0) return process.env.NODE_ENV === "production" ? null : session; // 미설정: 개발에서만 로그인 사용자 허용
+  if (allow.length === 0) return session; // 이 분기는 비운영 개발/테스트 모드에서만 실행
   if (!allow.includes(session.user.email.toLowerCase())) return null;
   return session;
 }
 
 export function isAdminEmail(email: string | null | undefined) {
-  if (!email) return false;
+  if (!email || process.env.NODE_ENV === "production") return false;
   if (email === "demo@lexi.local") return true;
   const allow = (process.env.ADMIN_EMAILS ?? "")
     .split(",")
