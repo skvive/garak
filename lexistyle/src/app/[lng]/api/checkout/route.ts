@@ -7,6 +7,14 @@ import type { CheckoutInput } from "@/lib/checkout";
 import { needsCustomsCode, validateCustomsCode } from "@/lib/customs";
 
 export async function GET(req: Request) {
+  if (process.env.NODE_ENV === "production") {
+    return NextResponse.json({
+      providers: [],
+      recommended: null,
+      checkoutEnabled: false,
+      reason: "입점·상품·결제 검수 전에는 신규 결제를 제공하지 않습니다.",
+    });
+  }
   const country = new URL(req.url).searchParams.get("country") ?? undefined;
   return NextResponse.json({
     providers: availableProviders(),
@@ -16,6 +24,14 @@ export async function GET(req: Request) {
 }
 
 export async function POST(req: Request) {
+  // Release gate: never capture money for demo products or unapproved merchants.
+  // Requires a verified SKU-to-merchant mapping, stock, KRW totals and tested PG
+  // settlement/refund flow before production checkout is enabled.
+  if (process.env.NODE_ENV === "production") {
+    return NextResponse.json({
+      error: "운영 상품 검증 및 결제 연동이 완료되지 않아 신규 주문·결제를 접수하지 않습니다.",
+    }, { status: 503 });
+  }
   try {
     const body = (await req.json()) as CheckoutInput & { provider?: PaymentProvider };
     if (!body.email || !body.name || !body.address1 || !body.country) {

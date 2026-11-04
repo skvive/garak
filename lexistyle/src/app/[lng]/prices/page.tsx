@@ -1,116 +1,54 @@
 import Link from "next/link";
-import { products, productMeta, type Product } from "@/lib/dummy-data";
-import { departmentBySlug } from "@/lib/departments";
 
-export const metadata = { title: "오늘의 시세 | 가락한상" };
+export const metadata = { title: "수산 시세·점포 안내 | 가락한상" };
 export const dynamic = "force-dynamic";
 
-/** 결정적 전일 시세 유도 — 할인율이 있으면 역산, 없으면 slug 해시 기반 소폭 등락 */
-const prevPrice = (p: Product) => {
-  if (p.discountRate > 0) return Math.round(p.price / (1 - p.discountRate / 100) / 100) * 100;
-  let h = 0;
-  for (const c of p.slug) h = (h * 31 + c.charCodeAt(0)) % 997;
-  const pct = 1 + ((h % 5) + 1) / 100; // +1~5%
-  return Math.round((p.price * pct) / 100) * 100;
-};
+const CHECKS = [
+  { title: "실제 시세", description: "실제 시장 경매 자료와 점포 판매가를 구분하여 확인한 후 등록합니다." },
+  { title: "구성·중량", description: "회·활어의 어종, 손질 방식, 중량, 포함 구성을 점포별로 검증합니다." },
+  { title: "판매 가능 여부", description: "사업자·입점 승인, 촬영 사진, 당일 재고와 배송 조건을 확인합니다." },
+] as const;
 
-/** 상품명에서 중량 추출 → 100g당 단가 */
-const per100g = (p: Product) => {
-  const m = p.name.match(/(\d+(?:\.\d+)?)\s*(kg|g)/i);
-  if (!m) return null;
-  const grams = m[2].toLowerCase() === "kg" ? Number(m[1]) * 1000 : Number(m[1]);
-  if (grams <= 0) return null;
-  return Math.round((p.price / grams) * 100);
-};
-
-export default async function PricesPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ cat?: string }>;
-}) {
-  const { cat } = await searchParams;
-  const depts = ["beauty", "fashion", "life", "kids", "others", "digital", "sports"];
-  const active = depts.includes(cat ?? "") ? cat : undefined;
-
-  const rows = products
-    .filter((p) => (active ? (active === "beauty" ? p.category === "beauty" : p.category === active || p.category === (active === "fashion" ? "women-clothing" : active === "life" ? "home-garden" : active === "others" ? "pet" : active === "digital" ? "electronics" : "")) : true))
-    .sort((a, b) => b.reviewCount - a.reviewCount)
-    .map((p) => {
-      const prev = prevPrice(p);
-      const diff = p.price - prev;
-      const diffPct = Math.round((diff / prev) * 100);
-      return { p, meta: productMeta[p.slug], prev, diff, diffPct, per100: per100g(p) };
-    });
-
+export default function PricesPage() {
   return (
-    <div className="mx-auto max-w-6xl px-4 py-6 pb-14">
-      <h1 className="font-display text-[24px] font-semibold">오늘의 시세</h1>
-      <p className="mt-1 text-[12px] text-dim">
-        매일 새벽 가락시장 경매 시세 기준 · 살수율 등급과 100g당 단가를 투명 공개
+    <main className="mx-auto max-w-6xl px-4 py-10 sm:py-16">
+      <p className="text-xs font-bold tracking-[.16em] text-sage">GARAK HANSANG · MARKET INFORMATION</p>
+      <h1 className="mt-3 text-3xl font-bold tracking-tight text-ink sm:text-4xl">수산 시세·점포 안내</h1>
+      <p className="mt-4 max-w-2xl text-[15px] leading-7 text-dim">
+        시세는 실제 수집·확인된 자료만 제공합니다. 현재 가락한상숍에는 검증된 당일 경매 시세 피드가
+        연결되어 있지 않아, 임의 계산한 가격·전일 대비 변동률은 표시하지 않습니다.
       </p>
-
-      <div className="no-scrollbar mt-4 flex gap-2 overflow-x-auto">
-        <Link
-          href="/prices"
-          className={`shrink-0 rounded-full px-3.5 py-1.5 text-[13px] font-bold ${!active ? "bg-ink text-white" : "border border-line bg-paper text-dim"}`}
-        >
-          전체
+      <section className="mt-9 rounded-2xl border border-line bg-fog p-6 sm:p-8" aria-label="시세 제공 상태">
+        <span className="rounded-full border border-line bg-paper px-3 py-1 text-xs font-bold text-dim">시세 데이터 검증 중</span>
+        <h2 className="mt-4 text-xl font-bold">오늘의 실시간 시세는 아직 제공되지 않습니다.</h2>
+        <p className="mt-3 text-sm leading-7 text-dim">
+          점포 판매가와 시장 경매가는 서로 다를 수 있습니다. 출처·기준 시각·규격이 확인된 뒤 품목별로 공개합니다.
+        </p>
+        <Link href="/#verified-products" className="mt-5 inline-block rounded-full bg-ink px-5 py-3 text-sm font-bold text-white">
+          승인된 상품 확인하기
         </Link>
-        {depts.map((d) => {
-          const dept = departmentBySlug(d);
-          return (
-            <Link
-              key={d}
-              href={`/prices?cat=${d}`}
-              className={`shrink-0 rounded-full px-3.5 py-1.5 text-[13px] font-bold ${active === d ? "bg-ink text-white" : "border border-line bg-paper text-dim"}`}
-            >
-              {dept?.label ?? d}
-            </Link>
-          );
-        })}
-      </div>
-
-      <div className="mt-4 overflow-hidden rounded-xl border border-line">
-        <div className="grid grid-cols-[1fr_auto] items-center gap-2 border-b border-line bg-fog px-3.5 py-2 text-[11px] font-bold text-dim sm:grid-cols-[1.6fr_1fr_1fr_1fr]">
-          <span>품목 · 점포</span>
-          <span className="hidden sm:block">오늘 시세</span>
-          <span className="hidden sm:block">전일 대비</span>
-          <span className="text-right sm:hidden">시세</span>
-          <span className="hidden sm:block">100g당</span>
-        </div>
-        {rows.map(({ p, meta, prev, diff, diffPct, per100 }) => (
-          <Link
-            key={p.slug}
-            href={`/product/${p.slug}`}
-            className="grid grid-cols-[1fr_auto] items-center gap-2 border-b border-line/60 px-3.5 py-2.5 transition-colors last:border-b-0 hover:bg-fog/60 sm:grid-cols-[1.6fr_1fr_1fr_1fr]"
-          >
-            <span className="min-w-0">
-              <span className="block truncate text-[13px] font-semibold text-ink">{p.name}</span>
-              <span className="mt-0.5 flex items-center gap-1.5 text-[11px] text-dim">
-                {p.brand}
-                {meta?.fatGrade && (
-                  <span className="badge-grade-a rounded px-1 py-px text-[9px] font-bold">{meta.fatGrade}</span>
-                )}
-              </span>
-            </span>
-            <span className="hidden text-[13px] font-bold tabular-nums sm:block">{p.price.toLocaleString("ko-KR")}원</span>
-            <span className={`hidden text-[12px] font-bold tabular-nums sm:block ${diff < 0 ? "text-fresh" : "text-coral"}`}>
-              {diff < 0 ? `▼ ${Math.abs(diffPct)}%` : `▲ ${diffPct}%`}
-            </span>
-            <span className="text-right">
-              <span className="block text-[13px] font-bold tabular-nums text-ink sm:hidden">{p.price.toLocaleString("ko-KR")}원</span>
-              <span className={`block text-[11px] font-bold tabular-nums ${diff < 0 ? "text-fresh" : "text-coral"}`}>
-                {diff < 0 ? `▼${Math.abs(diff).toLocaleString("ko-KR")}` : `▲${diff.toLocaleString("ko-KR")}`}
-              </span>
-              <span className="hidden text-[11px] text-dim sm:block">{per100 ? `${per100.toLocaleString("ko-KR")}원` : "—"}</span>
-            </span>
-          </Link>
+      </section>
+      <div className="mt-10 grid gap-4 md:grid-cols-3">
+        {CHECKS.map((item, i) => (
+          <article key={item.title} className="rounded-xl border border-line bg-paper p-5">
+            <span className="text-xs font-bold text-coral">0{i + 1}</span>
+            <h3 className="mt-2 text-lg font-bold">{item.title}</h3>
+            <p className="mt-2 text-sm leading-6 text-dim">{item.description}</p>
+          </article>
         ))}
       </div>
-
-      <p className="mt-4 text-[11px] leading-relaxed text-dim">
-        시세는 매일 오전 9시 갱신됩니다. 살수율 등급은 당일 자체 검수 기준이며, 실제 결제 금액은 상품 페이지에서 확인하세요.
-      </p>
-    </div>
+      <section className="mt-12 border-t border-line pt-8" aria-label="광양수산 현장 확인 내용">
+        <h2 className="text-xl font-bold">광양수산 현장 조사 기록</h2>
+        <p className="mt-3 text-sm leading-7 text-dim">
+          가락몰 현장 사진 조사 원장(2026년 11월 1일 등록)에 따르면 광양수산의 명함 및 매장 사진에서
+          판매동 1층 수산부 54호, 엘리베이터 10호기 앞 위치를 확인했습니다.
+          자료에는 회·수산물 사진 메뉴와 수조도 기록되어 있습니다.
+        </p>
+        <p className="mt-3 rounded-lg bg-fog p-4 text-xs leading-6 text-dim">
+          촬영일과 현재 영업 상태, 입점계약, 실제 메뉴·가격·재고는 별도 확인 전입니다.
+          현장 사진상 상호 확인이 온라인 판매 승인이나 주문 가능 상태를 의미하지 않습니다.
+        </p>
+      </section>
+    </main>
   );
 }
