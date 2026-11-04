@@ -2,7 +2,7 @@ import { redirect } from "next/navigation";
 import { sql } from "drizzle-orm";
 import { requireVerifiedNeonAdmin } from "@/lib/auth/admin";
 import { db, hasDb } from "@/db";
-import { submitGwangyangEvidence } from "./actions";
+import { submitGwangyangEvidence, reviewGwangyangEvidence } from "./actions";
 
 export const dynamic = "force-dynamic";
 export const metadata = { title: "광양수산 입점대기 상품 | 가락한상 HQ" };
@@ -31,6 +31,7 @@ type EvidenceRow = {
   details: string;
   status: string;
   submitted_at: Date;
+  submitted_by: string;
 };
 const EVIDENCE_TYPES = [
   { code: "business_registration", label: "점포 사업자 증명" },
@@ -54,10 +55,12 @@ async function requireVerifiedPartnerAdmin() {
   // No demo, legacy cookie or anonymous HQ override is accepted.
   const session = await requireVerifiedNeonAdmin();
   if (!session) redirect("/auth/sign-in?next=/hq/partners/gwangyang");
+  return session;
 }
 
 export default async function GwangyangPendingCatalogPage() {
-  await requireVerifiedPartnerAdmin();
+  const viewerSession = await requireVerifiedPartnerAdmin();
+  const reviewerEmail = viewerSession.user?.email?.toLowerCase() ?? "";
 
   if (!hasDb()) {
     return <p role="alert">DB 연결이 없어 광양수산 입점대기 원장을 확인할 수 없습니다.</p>;
@@ -84,7 +87,7 @@ export default async function GwangyangPendingCatalogPage() {
       ORDER BY c.sort_order
     `),
     db().execute(sql`
-      SELECT id, sku, evidence_type, evidence_url, details, status, submitted_at
+      SELECT id, sku, evidence_type, evidence_url, details, status, submitted_at, submitted_by
       FROM public.garak_partner_evidence
       WHERE merchant_slug = 'gwangyang-fisheries'
       ORDER BY submitted_at DESC
@@ -187,7 +190,7 @@ export default async function GwangyangPendingCatalogPage() {
         ) : (
           <div className="mt-3 overflow-x-auto">
             <table className="min-w-[650px] w-full text-left text-sm">
-              <thead><tr className="border-b border-line text-xs text-dim"><th className="p-2">증빙</th><th className="p-2">상품</th><th className="p-2">상태</th><th className="p-2">자료</th></tr></thead>
+              <thead><tr className="border-b border-line text-xs text-dim"><th className="p-2">증빙</th><th className="p-2">상품</th><th className="p-2">상태</th><th className="p-2">자료</th><th className="p-2">이중 검수</th></tr></thead>
               <tbody>
                 {evidence.map((e) => (
                   <tr key={e.id} className="border-b border-line/60">
@@ -195,6 +198,28 @@ export default async function GwangyangPendingCatalogPage() {
                     <td className="p-2">{e.sku ?? "점포 공통"}</td>
                     <td className="p-2">{e.status === "submitted" ? "접수·미검수" : e.status === "verified" ? "증빙 확인" : "반려"}</td>
                     <td className="p-2"><a href={e.evidence_url} rel="noopener noreferrer" target="_blank" className="text-sage underline">증빙 열기</a></td>
+                    <td className="p-2">
+                      {e.status === "submitted" && e.submitted_by.toLowerCase() !== reviewerEmail ? (
+                        <form action={reviewGwangyangEvidence} className="flex min-w-[270px] flex-col gap-2">
+                          <input type="hidden" name="evidenceId" value={e.id} />
+                          <select name="decision" className="rounded-lg border border-line p-2 text-xs" required>
+                            <option value="rejected">증빙 반려</option>
+                            <option value="verified">진위·사용권·정보 대조 후 검증</option>
+                          </select>
+                          <input name="reviewNote" required minLength={10} maxLength={600}
+                            placeholder="문서 확인일·근거·서명·사용권 범위" className="rounded-lg border border-line p-2 text-xs" />
+                          <label className="flex gap-1 text-xs text-dim">
+                            <input name="acknowledged" value="yes" type="checkbox" required />
+                            실제 증빙을 열어 검토했습니다.
+                          </label>
+                          <button type="submit" className="rounded-lg bg-ink px-3 py-2 text-xs font-semibold text-white">검수 결정 기록</button>
+                        </form>
+                      ) : e.status === "submitted" ? (
+                        <span className="text-xs text-dim">접수자 본인 검수 불가</span>
+                      ) : (
+                        <span className="text-xs text-dim">결정 기록됨</span>
+                      )}
+                    </td>
                   </tr>
                 ))}
               </tbody>
