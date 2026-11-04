@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 import { sql } from "drizzle-orm";
-import { auth, authConfigured } from "@/lib/auth/server";
+import { requireVerifiedNeonAdmin } from "@/lib/auth/admin";
 import { db, hasDb } from "@/db";
 
 export const dynamic = "force-dynamic";
@@ -25,30 +25,10 @@ type CategoryRow = { name: string; total: number; sort_order: number };
 const fmt = (value: number | string) => Number(value).toLocaleString("ko-KR");
 
 async function requireVerifiedPartnerAdmin() {
-  // Do not use HQ_ALLOW_ANON, demo cookies or legacy unsigned developer sessions
-  // for this sensitive merchant draft register.
-  if (!authConfigured) redirect("/auth/sign-in?next=/hq/partners/gwangyang");
-
-  let session: Awaited<ReturnType<typeof auth.getSession>>["data"] | null = null;
-  try {
-    const result = await auth.getSession();
-    session = result.data;
-  } catch {
-    redirect("/auth/sign-in?next=/hq/partners/gwangyang");
-  }
-  const user = session?.user as { email?: string; role?: string } | undefined;
-  if (!user?.email) redirect("/auth/sign-in?next=/hq/partners/gwangyang");
-  if (user.role === "admin") return;
-
-  // Only a Neon-authenticated, explicitly active admin can read drafts.
-  if (!hasDb()) redirect("/account");
-  const verified = await db().execute(sql`
-    SELECT id FROM public.users
-    WHERE lower(email) = lower(${user.email}) AND role = 'admin'
-      AND status = 'active' AND deleted_at IS NULL
-    LIMIT 1
-  `);
-  if (verified.rows.length === 0) redirect("/account");
+  // Only verified Neon Auth admins can view the unapproved supplier register.
+  // No demo, legacy cookie or anonymous HQ override is accepted.
+  const session = await requireVerifiedNeonAdmin();
+  if (!session) redirect("/auth/sign-in?next=/hq/partners/gwangyang");
 }
 
 export default async function GwangyangPendingCatalogPage() {
