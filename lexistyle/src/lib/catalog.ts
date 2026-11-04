@@ -60,6 +60,9 @@ import {
 } from "@/lib/catalog/pagination";
 import { sample3CardImage } from "@/lib/pdp/sample3-helper";
 
+// Demo products/reviews/prices are never a fallback on production storefronts.
+const allowDemoFallback = process.env.NODE_ENV !== "production";
+
 export type { ProductListPage, ProductSort };
 export { STOREFRONT_PAGE_SIZE, parsePageParam, pageHref } from "@/lib/catalog/pagination";
 
@@ -389,9 +392,11 @@ export async function listHomeProducts(limit = 40): Promise<Product[]> {
   }
   // GarakHansang: no DB -> dummy products (review order)
   if (!hasDb()) {
-    return sortProducts([...dummyProducts], "review").slice(0, limit);
+    return allowDemoFallback ? sortProducts([...dummyProducts], "review").slice(0, limit) : [];
   }
 
+
+  if (!allowDemoFallback) return [];
 
   // 2) 로컬스트어 폴백 — women 카탈로그
   const all = await collectAllProducts();
@@ -487,6 +492,8 @@ export async function listProductsPage(opts?: ProductListFilter & {
     }
   }
 
+  if (!allowDemoFallback) return { items: [], total: 0, page: 1, pageSize, totalPages: 1 };
+
   // 로컬스토어 CJ
   const ls = localStore() as { catalog?: unknown[] };
   const cjRows = ((ls.catalog ?? []) as Array<Record<string, unknown>>).filter(
@@ -503,7 +510,7 @@ export async function listProductsPage(opts?: ProductListFilter & {
 
   // Dummy fallback
   const mode = await getDataMode().catch(() => ({ mode: "dummy" as const }));
-  if (mode.mode === "dummy") {
+  if (mode.mode === "dummy" && allowDemoFallback) {
     const list = applyProductFilter(dummyProducts, filter);
     const sorted = sortProducts(list, sort);
     return paginateSlice(sorted, page, pageSize);
@@ -539,7 +546,9 @@ async function collectAllProducts(filter?: ProductListFilter): Promise<Product[]
     if (dbRows?.length) return applyProductFilter(dbRows, filter);
   }
   // GarakHansang: DB 없음 → 더미 상품을 최우선 반환 (구 로컬 JSON 카탈로그 우선순위 해제)
-  if (!hasDb()) return applyProductFilter(dummyProducts, filter);
+  if (!hasDb()) return allowDemoFallback ? applyProductFilter(dummyProducts, filter) : [];
+  if (!allowDemoFallback) return [];
+
   if (cafe24Mode() !== "off") {
     const cafe = await listCafe24Products(filter);
     if (cafe?.length) return cafe;
@@ -556,7 +565,7 @@ async function collectAllProducts(filter?: ProductListFilter): Promise<Product[]
     if (list.length > 0) return list;
   }
   const mode = await getDataMode().catch(() => ({ mode: "dummy" as const }));
-  if (mode.mode === "dummy") return applyProductFilter(dummyProducts, filter);
+  if (mode.mode === "dummy" && allowDemoFallback) return applyProductFilter(dummyProducts, filter);
   return [];
 }
 
@@ -594,6 +603,8 @@ async function getProductBySlugUncached(slug: string): Promise<Product | undefin
     }
   }
 
+  if (!allowDemoFallback) return undefined;
+
   // Cafe24
   if (cafe24Mode() !== "off") {
     const cafe = await getCafe24ProductBySlug(slug);
@@ -612,7 +623,7 @@ async function getProductBySlugUncached(slug: string): Promise<Product | undefin
 
   // Dummy fallback (개발참조용)
   const mode = await getDataMode().catch(() => ({ mode: "dummy" as const }));
-  if (mode.mode === "dummy") {
+  if (mode.mode === "dummy" && allowDemoFallback) {
     return dummyProducts.find((p) => p.slug === slug) ?? dummyBySlug(slug);
   }
   return undefined;
@@ -741,7 +752,7 @@ export async function listBestProductsPage(opts?: {
 
   // GarakHansang: no DB -> dummy products (review order)
   if (!hasDb()) {
-    const list = sortProducts([...dummyProducts], "review");
+    const list = allowDemoFallback ? sortProducts([...dummyProducts], "review") : [];
     return paginateSlice(list, page, pageSize);
   }
 
@@ -761,7 +772,7 @@ export async function listBestProductsPage(opts?: {
 
   // Dummy BEST 뱃지 폴백
   const mode = await getDataMode().catch(() => ({ mode: "dummy" as const }));
-  if (mode.mode === "dummy") {
+  if (mode.mode === "dummy" && allowDemoFallback) {
     const list = dummyProducts.filter((p) => p.badge === "BEST");
     return paginateSlice(sortProducts(list, "review"), page, pageSize);
   }
