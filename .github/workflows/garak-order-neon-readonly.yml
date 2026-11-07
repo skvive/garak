@@ -1,0 +1,51 @@
+name: GARAK Order Neon Read-only Product and Quote APIs
+
+on:
+  push:
+    branches:
+      - chatgpt/garak-order-neon-readonly-catalog-20261107
+    paths:
+      - 'lexistyle/src/lib/garak-order/**'
+      - 'lexistyle/src/app/api/garak-order/**'
+      - '.github/workflows/garak-order-neon-readonly.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  typescript-and-gates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    defaults:
+      run:
+        working-directory: lexistyle
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: lexistyle/package-lock.json
+      - name: Install exact dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Typecheck Next.js GARAK integration and existing site
+        run: npx tsc --noEmit --pretty false
+      - name: Verify no uncontrolled checkout path was enabled
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const dir='src/app/api/garak-order';
+          const product=fs.readFileSync(dir+'/products/route.ts','utf8');
+          const quote=fs.readFileSync(dir+'/quote/route.ts','utf8');
+          const catalog=fs.readFileSync('src/lib/garak-order/ready-catalog.ts','utf8');
+          for(const src of [product,quote]) {
+            if(!src.includes('checkout_enabled: false')) throw Error('checkout release gate missing');
+            if(!src.includes('no-store')) throw Error('cache control missing');
+          }
+          if(!catalog.includes("r.release_ready IS TRUE")||
+             !catalog.includes("p.purchasable IS TRUE")||
+             !catalog.includes("p.image_verified IS TRUE")) throw Error('Neon release gates missing');
+          if(/stripe\.checkout|confirmTossPayment|INSERT\s+INTO|UPDATE\s+/i.test(catalog+product+quote)) throw Error('read-only route performs writes or PG checkout');
+          console.log('Garak order: read-only gates PASS');
+          NODE
