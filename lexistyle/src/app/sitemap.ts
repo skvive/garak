@@ -2,7 +2,6 @@
 import type { MetadataRoute } from "next";
 import { sql } from "drizzle-orm";
 import { db, hasDb } from "@/db";
-import { siteUrl } from "@/lib/site-url";
 import { getCategoryTree } from "@/lib/catalog/category-tree";
 
 export const dynamic = "force-dynamic";
@@ -16,7 +15,7 @@ const LNG = "ko";
  * 상품·브랜드는 DB 에서 필요한 컬럼만 읽는다(전체 상품 객체 로딩 금지).
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const base = `${siteUrl()}/${LNG}`;
+  const base = `https://garak.lexid.site/${LNG}`;
   const now = new Date();
 
   const staticPaths: Array<{ path: string; priority: number; freq: MetadataRoute.Sitemap[number]["changeFrequency"] }> = [
