@@ -1,6 +1,5 @@
 // filepath: src/app/robots.ts
 import type { MetadataRoute } from "next";
-import { siteUrl } from "@/lib/site-url";
 
 /**
  * /robots.txt — 공개 상점 경로는 허용, 운영/개인화 경로는 크롤 차단.
@@ -10,7 +9,7 @@ import { siteUrl } from "@/lib/site-url";
 const PRIVATE = ["admin", "hq", "studio", "seller-studio", "account", "auth", "cart", "checkout"];
 
 export default function robots(): MetadataRoute.Robots {
-  const base = siteUrl();
+  const base = "https://garak.lexid.site";
   const langs = ["ko", "en", "ja", "zh", "ms", "th", "vi"];
   const disallow = [
     "/api/",
